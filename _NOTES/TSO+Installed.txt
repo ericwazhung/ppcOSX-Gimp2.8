@@ -1,0 +1,1539 @@
+
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ grep -r "Input Methods" gimpWork_quitHere/*
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port depends Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port depends"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port depend Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+gimp2 has no dependents.
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port rdepend Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+gimp2 has no dependents.
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port rdependof Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port rdependof"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port dependof Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port dependof"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ man port
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port depof Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port depof"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port rdepof Gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port rdepof"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ man port
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port echo depof:gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+aalib                           
+atk                             
+autoconf                        
+automake                        
+babl                            
+bzip2                           
+curl                            
+dbus-glib                       
+desktop-file-utils              
+fontconfig                      
+freetype                        
+gegl                            
+ghostscript                     
+gimp-help-en                    
+gtk2                            
+intltool                        
+iso-codes                       
+jasper                          
+jpeg                            
+lcms                            
+libexif                         
+libmng                          
+libpng                          
+librsvg                         
+libtool                         
+libwmf                          
+libxml2                         
+libxslt                         
+pkgconfig                       
+poppler                         
+py27-pygtk                      
+tiff                            
+webkit-gtk                      
+xorg-libXcursor                 
+xorg-libXext                    
+xorg-libXfixes                  
+xorg-libXmu                     
+xpm                             
+zlib                            
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port echo rdepof:gtk2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+atk                             
+autoconf                        
+automake                        
+bzip2                           
+cairo                           
+cmake                           
+db46                            
+db_select                       
+expat                           
+fontconfig                      
+freetype                        
+gdbm                            
+gdk-pixbuf2                     
+gettext                         
+glib2                           
+gnome-common                    
+gobject-introspection           
+gperf                           
+graphite2                       
+harfbuzz                        
+help2man                        
+hicolor-icon-theme              
+intltool                        
+jasper                          
+jpeg                            
+libedit                         
+libffi                          
+libiconv                        
+libidn                          
+libpixman                       
+libpng                          
+libtool                         
+libxml2                         
+lzo2                            
+m4                              
+ncurses                         
+openssl                         
+p5.12-getopt-long               
+p5.12-locale-gettext            
+p5.12-pathtools                 
+p5.12-scalar-list-utils         
+p5.12-xml-parser                
+pango                           
+perl5                           
+perl5.12                        
+pkgconfig                       
+python27                        
+python_select                   
+shared-mime-info                
+sqlite3                         
+tiff                            
+unzip                           
+Xft2                            
+xorg-bigreqsproto               
+xorg-compositeproto             
+xorg-damageproto                
+xorg-fixesproto                 
+xorg-inputproto                 
+xorg-kbproto                    
+xorg-libpthread-stubs           
+xorg-libX11                     
+xorg-libXau                     
+xorg-libxcb                     
+xorg-libXcomposite              
+xorg-libXcursor                 
+xorg-libXdamage                 
+xorg-libXdmcp                   
+xorg-libXext                    
+xorg-libXfixes                  
+xorg-libXi                      
+xorg-libXinerama                
+xorg-libXrandr                  
+xorg-randrproto                 
+xorg-renderproto                
+xorg-util-macros                
+xorg-xcb-proto                  
+xorg-xcb-util                   
+xorg-xcmiscproto                
+xorg-xextproto                  
+xorg-xf86bigfontproto           
+xorg-xineramaproto              
+xorg-xproto                     
+xorg-xtrans                     
+xrender                         
+xz                              
+zlib                            
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port echo depends:gtk2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+aewm                            
+AfterStep                       
+alacarte                        
+archway                         
+at-spi                          
+basiliskii-devel                
+bibledit                        
+birdfont                        
+blib                            
+bluefish                        
+bluefish-devel                  
+cannonsmash                     
+chemtool                        
+chmsee                          
+claws-mail                      
+crack-attack                    
+cssed                           
+darktable                       
+dia                             
+dlume                           
+dopewars                        
+dvdisaster                      
+dvdrip                          
+easytag                         
+easytag-devel                   
+eboard                          
+eiffelstudio70                  
+eiffelstudio71                  
+eiffelstudio72                  
+epdfview                        
+exo                             
+falcon                          
+file-roller                     
+firefox-x11                     
+firefox-x11-devel               
+free42                          
+freeciv-x11                     
+fyre                            
+g3data                          
+gajim                           
+gajim-devel                     
+gauche-gtk                      
+gaw                             
+gcalctool                       
+gcin                            
+gconf                           
+gdash                           
+gdl                             
+gdmap                           
+geany                           
+gecko-sharp2                    
+geda-gaf                        
+gegl                            
+geoclue                         
+gerbv                           
+gfm                             
+gftp                            
+ggobi                           
+ghemical                        
+gimp2                           
+gkrellm                         
+gksu                            
+glabels                         
+glade3                          
+gnokii                          
+gnome-bindings-perl5            
+gnome-control-center            
+gnome-games                     
+gnome-keyring                   
+gnome-platform-suite            
+gnome-session                   
+gnome-settings-daemon           
+gnome-terminal                  
+gnome-themes                    
+gnome-themes-standard           
+gnome-utils                     
+gnopernicus                     
+gnubg                           
+gobby                           
+goocanvas                       
+gpsim                           
+gq                              
+gqview                          
+grisbi                          
+gsmartcontrol                   
+gst                             
+gtk-chtheme                     
+gtk-engines2                    
+gtk-gnutella                    
+gtk-nodoka-engine               
+gtk-osx-tiger                   
+gtk-quartz-engine               
+gtk-sharp2                      
+gtk-theme-switch                
+gtk-thinice-engine              
+gtk-xfce-engine                 
+gtk2-aurora                     
+gtk2-extra                      
+gtk2-industrial                 
+gtk2-murrine                    
+gtk2hs                          
+gtkdatabox                      
+gtkglarea2                      
+gtkglext                        
+gtkimageview                    
+gtkmm                           
+gtksourceview                   
+gtksourceview2                  
+gtkspell2                       
+gtkwave                         
+GTorrentViewer                  
+gwenhywfar4-gtk                 
+gwyddion                        
+gxmessage                       
+hdhomerun_gui                   
+homebank                        
+jigdo                           
+jpilot                          
+kaffe                           
+kanatest                        
+keybinder                       
+lablgtk2                        
+leafpad                         
+libcanberra                     
+libchamplain                    
+libdivecomputer                 
+libgksu12                       
+libgksuui10                     
+libglade2                       
+libgnomecanvas                  
+libgnomekbd                     
+libgnomeprintui                 
+libgtkhtml                      
+libinfinity                     
+libiodbc                        
+libnotify                       
+libsexy                         
+libunique                       
+libwnck                         
+libxfce4menu                    
+liferea                         
+log2timeline                    
+logjam                          
+metacity                        
+metasploit3                     
+midori                          
+mindless                        
+minimumprofit                   
+mjpegtools                      
+mldonkey                        
+mlt                             
+mlterm                          
+monotone-viz                    
+mp3splt-gtk                     
+mtpaint                         
+nabi                            
+nessus-core                     
+nip2                            
+nonpareil                       
+openvas-client                  
+osm-gps-map                     
+p5-gtk2                         
+p5-gtk2-gladexml                
+p5-gtk2-sourceview              
+p5.8-gimp                       
+p5.8-gnome2-canvas              
+p5.8-gnome2-print               
+p5.8-gnome2-wnck                
+p5.8-gtk2                       
+p5.8-gtk2-gladexml              
+p5.8-gtk2-sourceview            
+p5.10-gimp                      
+p5.10-gnome2-canvas             
+p5.10-gnome2-print              
+p5.10-gnome2-wnck               
+p5.10-gtk2                      
+p5.10-gtk2-gladexml             
+p5.10-gtk2-sourceview           
+p5.12-gimp                      
+p5.12-gnome2-canvas             
+p5.12-gnome2-print              
+p5.12-gnome2-wnck               
+p5.12-gtk2                      
+p5.12-gtk2-gladexml             
+p5.12-gtk2-sourceview           
+p5.14-gimp                      
+p5.14-gnome2-canvas             
+p5.14-gnome2-print              
+p5.14-gnome2-wnck               
+p5.14-gtk2                      
+p5.14-gtk2-gladexml             
+p5.14-gtk2-sourceview           
+p5.16-gimp                      
+p5.16-gnome2-canvas             
+p5.16-gnome2-print              
+p5.16-gnome2-wnck               
+p5.16-gtk2                      
+p5.16-gtk2-gladexml             
+p5.16-gtk2-sourceview           
+pan2                            
+pcb                             
+pdf2svg                         
+pdfpc                           
+pear-Gtk2_ExceptionDump         
+pear-PEAR_Frontend_Gtk2         
+pear-Structures_Form_Gtk2       
+php5-gtk                        
+php53-gtk                       
+php54-gtk                       
+pioneers                        
+planner                         
+playerstage-player              
+pspp                            
+pure-gtk                        
+putty                           
+py25-keybinder                  
+py25-pygtk                      
+py26-goocanvas                  
+py26-keybinder                  
+py26-pygtk                      
+py27-goocanvas                  
+py27-keybinder                  
+py27-pygtk                      
+qiv                             
+rawstudio                       
+rb-gnome                        
+rb-gnomecanvas                  
+rb-gnomeprintui                 
+rb-gtk2                         
+rb-gtkglext                     
+rb-gtkhtml                      
+rb-gtksourceview2               
+rb-libglade2                    
+rb-libgnome                     
+rb-poppler                      
+rb-rabbit                       
+rb-rsvg                         
+rb-vte                          
+rep-gtk                         
+ristretto                       
+rox-filer                       
+salasaga                        
+scite                           
+seahorse                        
+sheepshaver                     
+squeeze                         
+stardict                        
+subsurface                      
+sylpheed                        
+sylpheed-devel                  
+tagtool                         
+taxbird                         
+Terminal                        
+thunderbird-x11                 
+tiemu3                          
+tilp2                           
+tinyca2                         
+totem                           
+tsclient                        
+uzbl                            
+viking                          
+vino                            
+vte                             
+wcalc                           
+webkit-gtk                      
+wireshark                       
+wireshark-devel                 
+wxgtk-2.8                       
+wxWidgets-python                
+xarchiver                       
+xchat2                          
+xdialog                         
+xfconf                          
+xfwm4                           
+xmedcon                         
+xmj                             
+xmlroff                         
+xnee                            
+xqf                             
+xsane                           
+xscorch                         
+xscreensaver                    
+xulrunner                       
+xulrunner-devel                 
+zenity                          
+zim                             
+auto-multiple-choice            
+gtk2-murrine-configurator       
+mtn-browse                      
+qalculate-gtk                   
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ man port
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed depends:gtk2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  geda-gaf @1.6.2_1 (active)
+  gegl @0.2.0_7+python27 (active)
+  gerbv @2.6.0_0 (active)
+  gimp2 @2.8.6_2+no_python+quartz (active)
+  gtkglext @1.2.0_6
+  gtkglext @1.2.0_7 (active)
+  libglade2 @2.6.4_7+quartz (active)
+  pcb @20110918_0
+  pcb @20110918_0+disableGL (active)
+  py27-pygtk @2.24.0_1+quartz (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ pcb
+dyld: Library not loaded: /opt/local/lib/libjpeg.8.dylib
+  Referenced from: /opt/local/bin/pcb
+  Reason: Incompatible library version: pcb requires version 13.0.0 or later, but libjpeg.8.dylib provides version 12.0.0
+Trace/BPT trap
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed jpeg
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  jpeg @8c_0
+  jpeg @8d_0
+  jpeg @9_1 (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port activate jpeg @8d_0
+Password:
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Deactivating jpeg @9_1
+--->  Cleaning jpeg
+--->  Activating jpeg @8d_0
+--->  Cleaning jpeg
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ pcb
+(pcb:1229): Gtk-CRITICAL **: gtk_window_set_default_icon: assertion `GDK_IS_PIXBUF (icon)' failed
+
+(process:1229): GLib-GObject-WARNING **: g_object_set_valist: object class `GHidCellRendererVisibility' has no property named `mode'
+pcb(1229) malloc: *** error for object 0x1d39200: non-page-aligned, non-allocated pointer being freed
+*** set a breakpoint in malloc_error_break to debug
+
+(process:1229): GLib-GObject-WARNING **: gsignal.c:2475: signal `button_press_event' is invalid for instance `0x2014c00' of type `GHidLayerSelector'
+
+(process:1229): GLib-GObject-WARNING **: gsignal.c:2475: signal `changed' is invalid for instance `0x1d3b6a0' of type `(null)'
+Bus error
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed gtk2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  gtk2 @2.24.10_2+x11
+  gtk2 @2.24.13_0+x11
+  gtk2 @2.24.20_0+quartz (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port variants pcb
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+pcb has the variants:
+   universal: Build for multiple architectures
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port activate jpeg @9_1
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Deactivating jpeg @8d_0
+--->  Cleaning jpeg
+--->  Activating jpeg @9_1
+--->  Cleaning jpeg
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed depends:jpeg
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  ffmpeg @0.7.8_0
+  ffmpeg @0.7.8_0+no_mmx+nonfree (active)
+  gd2 @2.0.35_12
+  gd2 @2.0.35_13 (active)
+  gdk-pixbuf2 @2.26.1_2
+  gdk-pixbuf2 @2.26.5_0
+  gdk-pixbuf2 @2.28.2_0 (active)
+  gdk-pixbuf2 @2.28.2_0+x11
+  gegl @0.2.0_7+python27 (active)
+  ghostscript @9.06_1 (active)
+  gimp2 @2.8.6_2+no_python+quartz (active)
+  graphviz @2.28.0_8 (active)
+  jasper @1.900.1_9
+  jasper @1.900.1_10 (active)
+  lcms @1.19_2 (active)
+  lcms2 @2.2_0 (active)
+  leptonica @1.67_1
+  leptonica @1.69_3 (active)
+  libmng @1.0.10_2 (active)
+  libopenraw @0.0.9_3 (active)
+  libwmf @0.2.8.4_7 (active)
+  netpbm @10.60.01_0 (active)
+  poppler @0.20.5_0+docs (active)
+  qt4-mac @4.8.3_1+quartz
+  qt4-mac @4.8.4_3 (active)
+  simage @1.7.0_2 (active)
+  tesseract @3.01_0
+  tesseract @3.01_1 (active)
+  tiff @3.9.5_0
+  tiff @3.9.7_0
+  tiff @4.0.3_1 (active)
+  transcode @1.1.7_0+a52dec+debug+freetype+no_x11+ppc+xvid (active)
+  transcode @1.1.7_0+a52dec+freetype+no_x11+ppc
+  transcode @1.1.7_0+a52dec+freetype+no_x11+ppc+xvid
+  transcode @1.1.7_0+a52dec+freetype+no_x11+xvid
+  transcode @1.1.7_0+freetype+no_x11
+  webp @0.2.1_0 (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed rdepends:jpeg
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Can't map the URL 'rdepends:jpeg' to a port description file ("Can't parse url rdepends:jpeg").
+Please verify that the directory and portfile syntax are correct.
+Error: Can't open URL 'rdepends:jpeg' as a port
+Error: Improper expression syntax while processing parameters
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port activate jpeg @8d_0
+Password:
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Deactivating jpeg @9_1
+--->  Cleaning jpeg
+--->  Activating jpeg @8d_0
+--->  Cleaning jpeg
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port activate tiff @3.9.7_0
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for tiff
+--->  Deactivating tiff @4.0.3_1
+--->  Cleaning tiff
+--->  Activating tiff @3.9.7_0
+--->  Cleaning tiff
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port activate jasper @1.900.1_9
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for jasper
+--->  Deactivating jasper @1.900.1_10
+--->  Cleaning jasper
+--->  Activating jasper @1.900.1_9
+--->  Cleaning jasper
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install libwmf
+Password:
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for libwmf
+--->  Cleaning libwmf
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed libwmf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  libwmf @0.2.8.4_7 (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port variants libwmf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+libwmf has the variants:
+   universal: Build for multiple architectures
+   x11: Enable X11 support
+   xml2: Use libxml2 not expat
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port portfile libwmf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unrecognized action "port portfile"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port file libwmf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+/opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libwmf/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libwmf/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install libwmf+mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Port libwmf+mine not found
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install libwmf +mine
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for libwmf
+--->  Fetching archive for libwmf
+--->  Attempting to fetch libwmf-0.2.8.4_7+mine.darwin_9.ppc.tbz2 from http://packages.macports.org/libwmf
+--->  Attempting to fetch libwmf-0.2.8.4_7+mine.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/libwmf
+--->  Attempting to fetch libwmf-0.2.8.4_7+mine.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/libwmf
+--->  Fetching distfiles for libwmf
+--->  Verifying checksums for libwmf
+--->  Extracting libwmf
+--->  Applying patches to libwmf
+--->  Configuring libwmf
+--->  Building libwmf
+--->  Staging libwmf into destroot
+--->  Installing libwmf @0.2.8.4_7+mine
+--->  Deactivating libwmf @0.2.8.4_7
+--->  Cleaning libwmf
+--->  Activating libwmf @0.2.8.4_7+mine
+--->  Cleaning libwmf
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port installed libwmf
+Password:
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  libwmf @0.2.8.4_7
+  libwmf @0.2.8.4_7+mine (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed tiff
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  tiff @3.9.5_0
+  tiff @3.9.7_0 (active)
+  tiff @4.0.3_1
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed libmng
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  libmng @1.0.10_2 (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port file libmng
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+/opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libmng/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libmng/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install libmng +mine
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to open port: wrong # args: should be "proc name args body"
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libwmf/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/libmng/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install libmng +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for libmng
+--->  Fetching archive for libmng
+--->  Attempting to fetch libmng-1.0.10_3+mine.darwin_9.ppc.tbz2 from http://packages.macports.org/libmng
+--->  Attempting to fetch libmng-1.0.10_3+mine.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/libmng
+--->  Attempting to fetch libmng-1.0.10_3+mine.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/libmng
+--->  Fetching distfiles for libmng
+--->  Verifying checksums for libmng
+--->  Extracting libmng
+--->  Applying patches to libmng
+--->  Configuring libmng
+--->  Building libmng
+--->  Staging libmng into destroot
+--->  Installing libmng @1.0.10_3+mine
+--->  Deactivating libmng @1.0.10_2
+--->  Cleaning libmng
+--->  Activating libmng @1.0.10_3+mine
+--->  Cleaning libmng
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed tiffWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  tiff @3.9.5_0
+  tiff @3.9.7_0 (active)
+  tiff @4.0.3_1
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed pdf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+None of the specified ports are installed.
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed libpdf
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+None of the specified ports are installed.
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port file gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+/opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+Password:
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to open port: extra characters after close-brace
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install gimp2 +no_python +quartz +mine1Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to open port: extra characters after close-brace
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install gimp2 +no_python +quartz +mine1Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to execute port: couldn't open "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state": permission denied
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install gimp2 +no_python +quartz +mine
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to execute port: couldn't open "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state": permission denied
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo rm /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state
+rm: /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state: No such file or directory
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+Error: Unable to execute port: couldn't open "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state": permission denied
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ man port
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mine
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+couldn't open "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/work/.macports.gimp2.state": permission denied
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ view /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port clean gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Cleaning gimp2
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+--->  Configuring gimp2
+Error: org.macports.configure for port gimp2 returned: autoreconf failure: command execution failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ view /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port file gimp2
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+/opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+Password:
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port clean gimp2Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Cleaning gimp2
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+--->  Configuring gimp2
+Error: org.macports.configure for port gimp2 returned: autoreconf failure: command execution failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ view /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ view /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ view /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/
+.home/                 .tmp/                  
+.macports.gimp2.state  gimp-2.8.6/            
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/
+AUTHORS            README             data/              libgimpwidgets/
+COPYING            README.i18n        depcomp            ltmain.sh
+ChangeLog          acinclude.m4       desktop/           m4macros/
+ChangeLog.pre-1-0  aclocal.m4         devel-docs/        menus/
+ChangeLog.pre-1-2  app/               docs/              missing
+ChangeLog.pre-2-0  authors.dtd        etc/               modules/
+ChangeLog.pre-2-2  authors.xml        gimp-zip.in        plug-ins/
+ChangeLog.pre-2-4  authors.xsl        gimp.pc.in         po/
+ChangeLog.pre-2-6  autom4te.cache/    gimpthumb.pc.in    po-libgimp/
+HACKING            build/             gimpui.pc.in       po-plug-ins/
+INSTALL            compile            gtk-doc.make       po-python/
+LICENSE            config.guess       install-sh         po-script-fu/
+Makefile.am        config.h.in        libgimp/           po-tips/
+Makefile.in        config.h.in~       libgimpbase/       py-compile
+NEWS               config.h.win32     libgimpcolor/      test-driver
+NEWS.pre-2-0       config.sub         libgimpconfig/     themes/
+NEWS.pre-2-2       configure          libgimpmath/       tools/
+NEWS.pre-2-4       configure.ac       libgimpmodule/     
+NEWS.pre-2-6       cursors/           libgimpthumb/      
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.am 
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+Password:
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.am 
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.am 
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port clean gimp2Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Cleaning gimp2
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: org.macports.patch for port gimp2 returned: can't read "(shrext)": no such variable
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "$(shrext) \|$(shrext)|g": invalid command code (
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+Password:
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s|$(shrext) \|$(shrext)|g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.am 
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+
+bash-3.2# exit
+exit
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +minePassword:
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s|$(shrext) \|$(shrext)|g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mine
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+--->  Applying patches to gimp2
+Error: org.macports.patch for port gimp2 returned: command execution failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s|shrext) \|shrext)|g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+
+bash-3.2# exit
+exit
+
+bash-3.2# exit
+exit
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s|shrext) \|shrext)|g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s/shrext) \/shrext)/g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+Error: reinplace: sed: 1: "s/shrext) \/shrext)/g": unterminated substitute in regular expression
+Error: org.macports.patch for port gimp2 returned: reinplace sed(1) failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+Portfile changed since last build; discarding previous state.
+--->  Fetching archive for gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://packages.macports.org/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://jog.id.packages.macports.org/macports/packages/gimp2
+--->  Attempting to fetch gimp2-2.8.6_2+mine+no_python+quartz.darwin_9.ppc.tbz2 from http://mse.uk.packages.macports.org/sites/packages.macports.org/gimp2
+--->  Fetching distfiles for gimp2
+--->  Verifying checksums for gimp2
+--->  Extracting gimp2
+--->  Applying patches to gimp2
+--->  Configuring gimp2
+Error: org.macports.configure for port gimp2 returned: autoreconf failure: command execution failed
+Please see the log file for port gimp2 for details:
+    /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_gimp2/gimp2/main.log
+To report a bug, follow the instructions in the guide:
+    http://guide.macports.org/#project.tickets
+Error: Processing of port gimp2 failed
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.am 
+Password:
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo vim /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.in 
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ sudo port -n -f install gimp2 +no_python +quartz +mineWarning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+--->  Computing dependencies for gimp2
+--->  Configuring gimp2
+--->  Building gimp2
+  --->  Staging gimp2 into destroot
+--->  Installing gimp2 @2.8.6_2+mine+no_python+quartz
+--->  Deactivating gimp2 @2.8.6_2+no_python+quartz
+--->  Cleaning gimp2
+--->  Activating gimp2 @2.8.6_2+mine+no_python+quartz
+--->  Cleaning gimp2
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ mcp /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.* /Volumes/BiggyPart/BigStuff/GimpBuildCrap/TakeTwo 
+
+DON'T GET COCKY! cp -i set in .bash_profile, this is NOT default. 
+  Default is to overwrite WITHOUT PROMPTING
+
+cp: /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/work/gimp-2.8.6/plug-ins/pygimp/Makefile.*: No such file or directory
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ mcp /opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/graphics/gimp2/Portfile /Volumes/BiggyPart/BigStuff/GimpBuildCrap/TakeTwo 
+DON'T GET COCKY! cp -i set in .bash_profile, this is NOT default. 
+  Default is to overwrite WITHOUT PROMPTING
+
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ port installed
+Warning: port definitions are more than two weeks old, consider updating them by running 'port selfupdate'.
+The following ports are currently installed:
+  a52dec @0.7.4_0 (active)
+  aalib @1.4rc5_4 (active)
+  apr @1.4.6_1
+  apr @1.4.8_0 (active)
+  apr-util @1.4.1_0
+  apr-util @1.5.2_1 (active)
+  atk @2.2.0_2
+  atk @2.8.0_0 (active)
+  audiofile @0.3.3_1 (active)
+  autoconf @2.68_2
+  autoconf @2.69_0
+  autoconf @2.69_1 (active)
+  automake @1.11.1_0
+  automake @1.12.2_0
+  automake @1.12.5_0
+  automake @1.14_0 (active)
+  avrdude @5.11.1_0 (active)
+  babl @0.1.10_0 (active)
+  bdftopcf @1.0.3_0 (active)
+  bison @2.6.5_0 (active)
+  boehmgc @7.2d_0 (active)
+  boost @1.52.0_1+no_single+no_static+python27 (active)
+  bootstrap_cmds @84_0 (active)
+  bzip2 @1.0.6_0 (active)
+  cabextract @1.4_0 (active)
+  cairo @1.10.2_4+x11
+  cairo @1.12.8_2+x11
+  cairo @1.12.14_0+quartz+x11 (active)
+  cctools @806_2+llvm33 (active)
+  cctools-headers @839_0 (active)
+  clang-3.3 @3.3_1+analyzer+python27 (active)
+  clang_select @0.1_0 (active)
+  cloog @0.18.0_0 (active)
+  cmake @2.8.9_1
+  cmake @2.8.10_1 (active)
+  Coin @3.1.3_2
+  Coin @3.1.3_2+aqua+devel+manpages+threadsafe
+  Coin @3.1.3_2+myNoDynamic
+  Coin @3.1.3_2+myWithMesa
+  Coin @3.1.3_2+myNoDynamicGlu
+  Coin @3.1.3_2+aqua (active)
+  CoreOSMakefiles @73_0
+  coreutils @8.19_0 (active)
+  cppunit @1.12.1_0 (active)
+  ctags @5.8_0
+  cups-pdf @2.6.1_0 (active)
+  curl @7.24.0_0+ssl
+  curl @7.28.0_0+ssl (active)
+  curl-ca-bundle @7.24.0_1
+  curl-ca-bundle @7.28.0_1
+  curl-ca-bundle @7.32.0_0 (active)
+  cyrus-sasl2 @2.1.25_3+kerberos
+  cyrus-sasl2 @2.1.25_4+kerberos (active)
+  darwinbuild-legacy @0.8.0_654
+  db46 @4.6.21_6+java
+  db46 @4.6.21_7+java
+  db46 @4.6.21_8+java (active)
+  db_select @0.1_2 (active)
+  dbus @1.4.20_1+startupitem
+  dbus @1.6.8_0+startupitem (active)
+  dbus-glib @0.100.2_0 (active)
+  desktop-file-utils @0.15_1 (active)
+  detex @2.8_1 (active)
+  developer_cmds @58_0 (active)
+  diffutils @3.2_0 (active)
+  dirac @1.0.2_1 (active)
+  docbook-xml @5.0_2 (active)
+  docbook-xml-4.1.2 @5.0_1 (active)
+  docbook-xml-4.2 @5.0_1 (active)
+  docbook-xml-4.3 @5.0_1 (active)
+  docbook-xml-4.4 @5.0_1 (active)
+  docbook-xml-4.5 @5.0_1 (active)
+  docbook-xml-5.0 @5.0_1 (active)
+  docbook-xsl @1.76.1_1 (active)
+  doxygen @1.8.3_2 (active)
+  dvipng @1.14_4 (active)
+  dyld-headers @210.2.3_0 (active)
+  eigen3 @3.1.2_0+cmake (active)
+  esound @0.2.41_3 (active)
+  exiv2 @0.23_0 (active)
+  expat @2.0.1_1
+  expat @2.1.0_0 (active)
+  f2c @20110816_0 (active)
+  faac @1.28_2 (active)
+  ffmpeg @0.7.8_0
+  ffmpeg @0.7.8_0+no_mmx+nonfree (active)
+  fftw @2.1.5_3 (active)
+  fftw-3 @3.3.1_0 (active)
+  file @5.09_0
+  file @5.14_1 (active)
+  findutils @4.4.2_1 (active)
+  flac @1.2.1_1 (active)
+  flex @2.5.37_1 (active)
+  font-adobe-75dpi @1.0.3_0 (active)
+  font-adobe-100dpi @1.0.3_0 (active)
+  font-adobe-utopia-75dpi @1.0.4_0 (active)
+  font-adobe-utopia-100dpi @1.0.4_0 (active)
+  font-adobe-utopia-type1 @1.0.4_0 (active)
+  font-alias @1.0.3_0 (active)
+  font-arabic-misc @1.0.3_0 (active)
+  font-bh-75dpi @1.0.3_0 (active)
+  font-bh-100dpi @1.0.3_0 (active)
+  font-bh-lucidatypewriter-75dpi @1.0.3_0 (active)
+  font-bh-lucidatypewriter-100dpi @1.0.3_0 (active)
+  font-bh-ttf @1.0.3_0 (active)
+  font-bh-type1 @1.0.3_0 (active)
+  font-bitstream-75dpi @1.0.3_0 (active)
+  font-bitstream-100dpi @1.0.3_0 (active)
+  font-bitstream-speedo @1.0.2_0 (active)
+  font-bitstream-type1 @1.0.3_0 (active)
+  font-cronyx-cyrillic @1.0.3_0 (active)
+  font-cursor-misc @1.0.3_0 (active)
+  font-daewoo-misc @1.0.3_0 (active)
+  font-dec-misc @1.0.3_0 (active)
+  font-ibm-type1 @1.0.3_0 (active)
+  font-isas-misc @1.0.3_0 (active)
+  font-jis-misc @1.0.3_0 (active)
+  font-micro-misc @1.0.3_0 (active)
+  font-misc-cyrillic @1.0.3_0 (active)
+  font-misc-ethiopic @1.0.3_0 (active)
+  font-misc-meltho @1.0.3_0 (active)
+  font-misc-misc @1.1.2_0 (active)
+  font-mutt-misc @1.0.3_0 (active)
+  font-schumacher-misc @1.1.2_0 (active)
+  font-screen-cyrillic @1.0.4_0 (active)
+  font-sony-misc @1.0.3_0 (active)
+  font-sun-misc @1.0.3_0 (active)
+  font-winitzki-cyrillic @1.0.3_0 (active)
+  font-xfree86-type1 @1.0.4_0 (active)
+  fontconfig @2.9.0_0
+  fontconfig @2.9.0_1
+  fontconfig @2.10.1_0
+  fontconfig @2.10.93_0
+  fontconfig @2.10.95_0 (active)
+  fop @1.0_1 (active)
+  freetype @2.4.8_0
+  freetype @2.4.9_1
+  freetype @2.4.10_0
+  freetype @2.5.0_1 (active)
+  ftgl @2.1.3-rc5_0 (active)
+  fuse4x @0.9.1_0 (active)
+  fuse4x-kext @0.9.1_0 (active)
+  gawk @4.0.2_0 (active)
+  gcc48 @4.8.1_2 (active)
+  gcc_select @0.1_8 (active)
+  gccmakedep @1.0.2_3 (active)
+  gd2 @2.0.35_12
+  gd2 @2.0.35_13 (active)
+  gdbm @1.10_0
+  gdbm @1.10_1
+  gdbm @1.10_2 (active)
+  gdk-pixbuf2 @2.26.1_2
+  gdk-pixbuf2 @2.26.5_0
+  gdk-pixbuf2 @2.28.2_0+x11
+  gdk-pixbuf2 @2.28.2_0 (active)
+  geda-gaf @1.6.2_1 (active)
+  gegl @0.2.0_7+python27 (active)
+  gerbv @2.6.0_0 (active)
+  getopt @1.1.4_1 (active)
+  gettext @0.18.1.1_2
+  gettext @0.18.2_2
+  gettext @0.18.3.1_0 (active)
+  ghostscript @9.06_1 (active)
+  giflib @4.1.6_1 (active)
+  gimp-help-en @2.8.0_0+python27 (active)
+  gimp2 @2.8.6_2+no_python+quartz
+  gimp2 @2.8.6_2+mine+no_python+quartz (active)
+  git-core @1.8.0_0+credential_osxkeychain+doc+pcre+python27 (active)
+  glib2 @2.30.2_2
+  glib2 @2.30.3_0
+  glib2 @2.32.4_0
+  glib2 @2.34.2_0
+  glib2 @2.36.4_0 (active)
+  gmake @3.82_0 (active)
+  gmp @5.0.5_0
+  gmp @5.1.2_0 (active)
+  gnome-common @2.28.0_0
+  gnome-common @3.6.0_1 (active)
+  gnome-doc-utils @0.20.10_0+python27 (active)
+  gobject-introspection @1.32.1_3
+  gobject-introspection @1.34.1.1_0
+  gobject-introspection @1.36.0_1 (active)
+  gperf @3.0.4_2 (active)
+  graphite2 @1.2.3_0 (active)
+  graphviz @2.28.0_8 (active)
+  groff @1.21_3 (active)
+  gsed @4.2.2_0 (active)
+  gtk-doc @1.18_0+python27 (active)
+  gtk2 @2.24.10_2+x11
+  gtk2 @2.24.13_0+x11
+  gtk2 @2.24.20_0+quartz (active)
+  gtkglext @1.2.0_6
+  gtkglext @1.2.0_7 (active)
+  gts @0.7.6_2 (active)
+  guile @1.8.8_0 (active)
+  handbrake @0.9.5_0 (active)
+  harfbuzz @0.9.19_0
+  harfbuzz @0.9.20_0 (active)
+  help2man @1.40.4_1
+  help2man @1.40.10_0
+  help2man @1.43.3_0 (active)
+  hicolor-icon-theme @0.12_0 (active)
+  icu @49.1.2_1
+  icu @51.2_1 (active)
+  ilmbase @1.0.2_0 (active)
+  intltool @0.50.2_0
+  intltool @0.50.2_2+perl5_12 (active)
+  isl @0.12_0 (active)
+  iso-codes @3.40_0
+  iso-codes @3.43_0 (active)
+  jack @0.121.3_0 (active)
+  jasper @1.900.1_9 (active)
+  jasper @1.900.1_10
+  jbig2dec @0.11_1 (active)
+  jbigkit @2.0_2 (active)
+  jpeg @8c_0
+  jpeg @8d_0 (active)
+  jpeg @9_1
+  kerberos5 @1.7.2_0
+  kerberos5 @1.11.3_0 (active)
+  lame @3.99_1 (active)
+  latexdiff @0.5_1 (active)
+  latexmk @4.33c_0 (active)
+  lcms @1.19_2 (active)
+  lcms2 @2.2_0 (active)
+  ld64 @97.17_2+llvm33 (active)
+  lensfun @0.2.6_0 (active)
+  leptonica @1.67_1
+  leptonica @1.69_3 (active)
+  libao @1.1.0_0 (active)
+  libart_lgpl @2.3.21_0 (active)
+  libcddb @1.3.2_1 (active)
+  libcdio @0.90_0 (active)
+  libcomerr @1.42.7_2 (active)
+  libcroco @0.6.8_0 (active)
+  libdvdcss @1.2.11_0 (active)
+  libdvdread @4.1.3_2+libdvdcss (active)
+  libedit @20110802-3.0_0
+  libedit @20120601-3.0_0
+  libedit @20121213-3.0_0 (active)
+  libexif @0.6.21_0 (active)
+  libf2c @20110801_0 (active)
+  libffi @3.0.10_2
+  libffi @3.0.11_0
+  libffi @3.0.11_1
+  libffi @3.0.13_0 (active)
+  libgcc @4.8.1_2 (active)
+  libglade2 @2.6.4_7+quartz (active)
+  libgsf @1.14.28_0 (active)
+  libiconv @1.14_0 (active)
+  libid3tag @0.15.1b_2 (active)
+  libidn @1.22_0
+  libidn @1.25_0 (active)
+  libLASi @1.1.1_0 (active)
+  libmad @0.15.1b_2 (active)
+  libmagic @5.14_1 (active)
+  libmng @1.0.10_2
+  libmng @1.0.10_3+mine (active)
+  libmpc @1.0.1_0 (active)
+  libmpeg2 @0.5.1_2+no_x11
+  libmpeg2 @0.5.1_2+no_sdl+no_x11
+  libmpeg2 @0.5.1_2+no_accel+no_sdl+no_x11 (active)
+  libogg @1.3.0_1
+  libogg @1.3.1_0 (active)
+  libopenraw @0.0.9_3 (active)
+  libpaper @1.1.24_0 (active)
+  libpixman @0.24.4_0
+  libpixman @0.28.0_0
+  libpixman @0.30.2_0 (active)
+  libpng @1.4.8_0
+  libpng @1.4.10_0
+  libpng @1.4.12_0
+  libpng @1.5.13_0
+  libpng @1.5.17_0 (active)
+  librsvg @2.36.4_2+quartz (active)
+  libsamplerate @0.1.8_0 (active)
+  libsdl @1.2.14_9+no_x11
+  libsdl @1.2.15_3 (active)
+  libsdl_net @1.2.8_0 (active)
+  libsndfile @1.0.25_0 (active)
+  libspiro @20071029_0 (active)
+  libtheora @1.1.1_1 (active)
+  libtool @2.4.2_0
+  libtool @2.4.2_2
+  libtool @2.4.2_3 (active)
+  libunwind-headers @35.1_1 (active)
+  libusb @1.0.9_0 (active)
+  libusb-compat @0.1.4_0 (active)
+  libvorbis @1.3.2_1
+  libvorbis @1.3.3_0 (active)
+  libvpx @0.9.7-p1_0 (active)
+  libwmf @0.2.8.4_7
+  libwmf @0.2.8.4_7+mine (active)
+  libxml2 @2.7.8_0
+  libxml2 @2.8.0_0
+  libxml2 @2.9.1_0 (active)
+  libxslt @1.1.26_0
+  libxslt @1.1.27_0 (active)
+  libzzip @0.13.62_0 (active)
+  llvm-3.3 @3.3_1 (active)
+  llvm_select @0.2_0 (active)
+  lua @5.2.2_1 (active)
+  lzo2 @2.06_0 (active)
+  m4 @1.4.16_0 (active)
+  madplay @0.15.2b_4 (active)
+  makedepend @1.0.4_0 (active)
+  mednafen @0.8.D.3_1 (active)
+  mesa @8.0.4_0+python27
+  mesa @8.0.4_1+python27
+  mesa @8.0.4_2+python27 (active)
+  mkfontdir @1.0.7_0 (active)
+  mkfontscale @1.1.0_0 (active)
+  mp3_check @1.98_0 (active)
+  mp3info @0.8.5a_0 (active)
+  mpfr @3.1.1-p2_0 (active)
+  ncurses @5.9_1
+  ncurses @5.9_2 (active)
+  neon @0.29.6_1 (active)
+  netpbm @10.60.01_0 (active)
+  normalize @0.7.7_3 (active)
+  nosetests_select @0.1_0 (active)
+  opencore-amr @0.1.3_0 (active)
+  openexr @1.7.0_0 (active)
+  openjpeg @1.4-r697_1
+  openjpeg @1.5.0_3 (active)
+  openssl @1.0.0e_1
+  openssl @1.0.1_2
+  openssl @1.0.1c_0
+  openssl @1.0.1e_1 (active)
+  orc @0.4.16_0 (active)
+  ossp-uuid @1.6.2_0 (active)
+  p5.12-error @0.170.160_4 (active)
+  p5.12-getopt-long @2.380.0_3
+  p5.12-getopt-long @2.400.0_0 (active)
+  p5.12-locale-gettext @1.50.0_6
+  p5.12-locale-gettext @1.50.0_7 (active)
+  p5.12-pathtools @3.330.0_3 (active)
+  p5.12-scalar-list-utils @1.230.0_3
+  p5.12-scalar-list-utils @1.270.0_3 (active)
+  p5.12-term-readkey @2.300.0_3 (active)
+  p5.12-xml-parser @2.400.0_4 (active)
+  pango @1.30.1_1+x11
+  pango @1.30.1_2+x11
+  pango @1.34.1_1+quartz+x11 (active)
+  pcb @20110918_0
+  pcb @20110918_0+disableGL (active)
+  pcre @8.31_0 (active)
+  pdfjam @2.08_0 (active)
+  perl5 @5.12.3_1+perl5_12
+  perl5 @5.12.4_0+perl5_12 (active)
+  perl5.12 @5.12.3_2
+  perl5.12 @5.12.3_3
+  perl5.12 @5.12.4_1
+  perl5.12 @5.12.4_2 (active)
+  pgf @2.10_0 (active)
+  pkgconfig @0.26_1
+  pkgconfig @0.27_0
+  pkgconfig @0.27.1_1
+  pkgconfig @0.27.1_2
+  pkgconfig @0.28_0 (active)
+  pngcrush @1.7.67_0 (active)
+  poppler @0.20.5_0+docs (active)
+  poppler-data @0.4.6_0 (active)
+  popt @1.16_0 (active)
+  portaudio @19.20111121_4 (active)
+  psutils @p17_1 (active)
+  py27-cairo @1.10.0_2+x11 (active)
+  py27-eyeD3 @0.6.18_0 (active)
+  py27-gobject @2.28.6_0 (active)
+  py27-libxml2 @2.7.8_0
+  py27-libxml2 @2.8.0_0
+  py27-libxml2 @2.9.1_0 (active)
+  py27-mutagen @1.20_0 (active)
+  py27-nose @1.2.1_1 (active)
+  py27-numpy @1.7.1_0 (active)
+  py27-pygtk @2.24.0_1+quartz (active)
+  py27-pyqt4 @4.9.6_1 (active)
+  py27-setuptools @1.1_0 (active)
+  py27-sip @4.14.1_0
+  py27-sip @4.14.2_0 (active)
+  python26 @2.6.7_3
+  python26 @2.6.8_0 (active)
+  python27 @2.7.2_4
+  python27 @2.7.3_0
+  python27 @2.7.3_1
+  python27 @2.7.5_1 (active)
+  python_select @0.3_1
+  python_select @0.3_2 (active)
+  qrencode @3.1.1_2 (active)
+  qt4-mac @4.8.3_1+quartz
+  qt4-mac @4.8.4_3 (active)
+  quartz-wm @1.3.1_1 (active)
+  rarian @0.8.1_0 (active)
+  readline @6.2.000_0 (active)
+  rsync @3.0.9_2 (active)
+  schroedinger @1.0.10_1 (active)
+  scons @2.3.0_0 (active)
+  serf1 @1.1.1_0
+  serf1 @1.3.1_1 (active)
+  shared-mime-info @1.0_0
+  shared-mime-info @1.1_0 (active)
+  simage @1.7.0_2 (active)
+  smartmontools @6.0_0+attributelog+savestates (active)
+  sox @14.4.0_0
+  sox @14.4.0_2 (active)
+  speex @1.2rc1_0 (active)
+  sqlite3 @3.7.9_0
+  sqlite3 @3.7.11_0
+  sqlite3 @3.7.13_0
+  sqlite3 @3.7.14.1_0
+  sqlite3 @3.7.15.2_0
+  sqlite3 @3.8.0_0 (active)
+  subversion @1.7.7_0
+  subversion @1.8.3_2 (active)
+  t1lib @5.1.2_2 (active)
+  tcl @8.5.12_0
+  tcl @8.5.13_0+corefoundation
+  tcl @8.6.0_1+corefoundation+threads (active)
+  tesseract @3.01_0
+  tesseract @3.01_1 (active)
+  tesseract-eng @3.01_0 (active)
+  texi2html @5.0_0 (active)
+  texinfo @4.13_2 (active)
+  texlive-basic @26926_0+doc (active)
+  texlive-bin @2012_4+x11 (active)
+  texlive-bin-extra @26926_0+doc (active)
+  texlive-common @2012_0 (active)
+  texlive-documentation-base @26923_0+doc (active)
+  texlive-latex @26725_0+doc (active)
+  texlive-latex-recommended @26788_0+doc (active)
+  texlive-pictures @26791_0+doc (active)
+  tftp-hpa @0.48_2 (active)
+  tiff @3.9.5_0
+  tiff @3.9.7_0 (active)
+  tiff @4.0.3_1
+  transcode @1.1.7_0+freetype+no_x11
+  transcode @1.1.7_0+a52dec+freetype+no_x11+xvid
+  transcode @1.1.7_0+a52dec+freetype+no_x11+ppc
+  transcode @1.1.7_0+a52dec+freetype+no_x11+ppc+xvid
+  transcode @1.1.7_0+a52dec+debug+freetype+no_x11+ppc+xvid (active)
+  twolame @0.3.13_1 (active)
+  urw-fonts @1.0.7pre44_0 (active)
+  vorbis-tools @1.4.0_1 (active)
+  w3m @0.5.3_2 (active)
+  wavpack @4.60.1_0 (active)
+  webp @0.2.1_0 (active)
+  x264 @20111023_0 (active)
+  xauth @1.0.7_0 (active)
+  xercesc @2.8.0_2 (active)
+  Xft2 @2.3.1_0 (active)
+  xinit @1.3.2_4
+  xkbcomp @1.2.4_0 (active)
+  xkeyboard-config @2.4.1_0 (active)
+  xmlcatmgr @2.2_1 (active)
+  xmlto @0.0.25_0 (active)
+  xorg-applewmproto @1.4.2_0 (active)
+  xorg-bigreqsproto @1.1.2_0 (active)
+  xorg-compositeproto @0.4.2_0 (active)
+  xorg-damageproto @1.2.1_0 (active)
+  xorg-dri2proto @2.8_0 (active)
+  xorg-encodings @1.0.4_0 (active)
+  xorg-fixesproto @5.0_0 (active)
+  xorg-font-util @1.3.0_0 (active)
+  xorg-fontcacheproto @0.1.3_0 (active)
+  xorg-fonts @20090102_1 (active)
+  xorg-fontsproto @2.1.2_0 (active)
+  xorg-glproto @1.4.16_0 (active)
+  xorg-inputproto @2.2_0
+  xorg-inputproto @2.2.99.1_0
+  xorg-inputproto @2.3_0 (active)
+  xorg-kbproto @1.0.6_0 (active)
+  xorg-libAppleWM @1.4.1_0 (active)
+  xorg-libfontenc @1.1.1_0 (active)
+  xorg-libice @1.0.8_0 (active)
+  xorg-libpthread-stubs @0.3_0 (active)
+  xorg-libsm @1.2.1_0 (active)
+  xorg-libX11 @1.4.99.901_0
+  xorg-libX11 @1.5.0_0
+  xorg-libX11 @1.6.1_0 (active)
+  xorg-libXau @1.0.7_0
+  xorg-libXau @1.0.8_0 (active)
+  xorg-libXaw @1.0.11_0+docs (active)
+  xorg-libxcb @1.8.1_1+python27
+  xorg-libxcb @1.8.1_2+python27
+  xorg-libxcb @1.9_0+python27
+  xorg-libxcb @1.9.1_0+python27 (active)
+  xorg-libXcomposite @0.4.3_0 (active)
+  xorg-libXcursor @1.1.13_0 (active)
+  xorg-libXdamage @1.1.3_0 (active)
+  xorg-libXdmcp @1.1.1_0 (active)
+  xorg-libXext @1.3.1_0
+  xorg-libXext @1.3.2_0 (active)
+  xorg-libXfixes @5.0_0 (active)
+  xorg-libXfont @1.4.5_0 (active)
+  xorg-libXfontcache @1.0.5_0 (active)
+  xorg-libXi @1.6.1_0 (active)
+  xorg-libXinerama @1.1.2_0 (active)
+  xorg-libxkbfile @1.0.8_0 (active)
+  xorg-libXmu @1.1.1_0 (active)
+  xorg-libXp @1.0.1_0 (active)
+  xorg-libXrandr @1.3.2_0 (active)
+  xorg-libXt @1.1.3_0 (active)
+  xorg-libXxf86misc @1.0.3_0 (active)
+  xorg-printproto @1.0.5_0 (active)
+  xorg-randrproto @1.4.0_0 (active)
+  xorg-recordproto @1.14.2_0 (active)
+  xorg-renderproto @0.11.1_0 (active)
+  xorg-resourceproto @1.2.0_0 (active)
+  xorg-scrnsaverproto @1.2.2_0 (active)
+  xorg-server @1.13.0_1
+  xorg-sgml-doctools @1.11_0 (active)
+  xorg-util-macros @1.17_0 (active)
+  xorg-videoproto @2.3.1_0 (active)
+  xorg-xcb-proto @1.7.1_0+python27
+  xorg-xcb-proto @1.8_0+python27 (active)
+  xorg-xcb-util @0.3.8_0
+  xorg-xcb-util @0.3.9_0 (active)
+  xorg-xcmiscproto @1.2.2_0 (active)
+  xorg-xextproto @7.2.1_0 (active)
+  xorg-xf86bigfontproto @1.2.0_0 (active)
+  xorg-xf86miscproto @0.9.3_0 (active)
+  xorg-xineramaproto @1.2.1_0 (active)
+  xorg-xproto @7.0.23_0
+  xorg-xproto @7.0.24_0 (active)
+  xorg-xtrans @1.2.7_0 (active)
+  xpm @3.5.10_0 (active)
+  xrdb @1.0.9_0 (active)
+  xrender @0.9.7_0
+  xrender @0.9.8_0 (active)
+  xset @1.2.2_0 (active)
+  XviD @1.3.2_2 (active)
+  xz @5.0.3_0
+  xz @5.0.4_0
+  xz @5.0.5_0 (active)
+  yasm @1.1.0_0 (active)
+  zlib @1.2.5_0
+  zlib @1.2.6_0
+  zlib @1.2.7_0
+  zlib @1.2.8_0 (active)
+JiggyFour:/Volumes/BiggyPart/BigStuff/GimpBuildCrap meh$ 

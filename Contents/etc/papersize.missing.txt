@@ -1,0 +1,13 @@
+
+'/opt/local/etc/papersize' DNE. Requested by '../lib/libpaper.1.dylib'
+  from '../lib/libgs.9.06.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-ps'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/etc/papersize' DNE. Requested by './/libpaper.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

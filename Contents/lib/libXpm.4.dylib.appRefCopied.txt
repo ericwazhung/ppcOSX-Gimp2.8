@@ -1,0 +1,18 @@
+'../lib/libXpm.4.dylib'
+ '../lib/libXpm.4.dylib'
+  copied for './/libXpm.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:34:51 PDT 2014
+Also requested for '../lib/libXpm.4.dylib'
+  from './/libXpm.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:34:51 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-xpm'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:51:37 PDT 2014

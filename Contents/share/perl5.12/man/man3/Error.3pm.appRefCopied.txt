@@ -1,0 +1,10 @@
+'../share/perl5.12/man/man3/Error.3pm'
+ '../share/perl5.12/man/man3/Error.3pm'
+  copied for '..//lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto/Error/.packlist'
+  from '../lib/perl5/5.12.4/darwin-thread-multi-2level/CORE/libperl.dylib'
+  from '../bin/perl5'
+  from '..//etc/openssl/misc/CA.pl'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:39:45 PDT 2014

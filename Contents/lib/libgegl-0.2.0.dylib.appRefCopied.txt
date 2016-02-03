@@ -1,0 +1,15 @@
+'../lib/libgegl-0.2.0.dylib'
+ '../lib/libgegl-0.2.0.dylib'
+  copied for './/libgegl-0.2.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:42:52 PDT 2014
+Also requested for '../lib/libgegl-0.2.0.dylib'
+  from './/libgegl-0.2.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:42:52 PDT 2014
+Also requested for './/libgegl-0.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:43:06 PDT 2014

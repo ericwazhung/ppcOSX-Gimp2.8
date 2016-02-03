@@ -1,0 +1,4 @@
+
+'/opt/local/bin/gtk-query-immodules-2.0 from gtk+-2.24.20' DNE. Requested by './/gtk.immodules'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

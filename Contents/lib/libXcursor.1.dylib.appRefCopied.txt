@@ -1,0 +1,18 @@
+'../lib/libXcursor.1.dylib'
+ '../lib/libXcursor.1.dylib'
+  copied for './/libXcursor.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:34:19 PDT 2014
+Also requested for '../lib/libXcursor.1.dylib'
+  from './/libXcursor.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:34:23 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-xmc'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:51:34 PDT 2014

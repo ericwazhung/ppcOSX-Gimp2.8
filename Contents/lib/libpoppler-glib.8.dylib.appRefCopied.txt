@@ -1,0 +1,21 @@
+'../lib/libpoppler-glib.8.dylib'
+ '../lib/libpoppler-glib.8.dylib'
+  copied for '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 05:16:26 PDT 2014
+Also requested for '../lib/libpoppler-glib.8.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 05:16:29 PDT 2014
+Also requested for './/libpoppler-glib.8.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:22:08 PDT 2014

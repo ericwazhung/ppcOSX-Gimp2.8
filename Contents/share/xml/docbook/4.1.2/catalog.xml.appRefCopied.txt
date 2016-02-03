@@ -1,0 +1,9 @@
+'../share/xml/docbook/4.1.2/catalog.xml'
+ '../share/xml/docbook/4.1.2/catalog.xml'
+  copied for '../etc/xml/catalog'
+  from '../lib/libxml2.2.dylib'
+  from '../lib/libcroco-0.6.3.dylib'
+  from './/libcroco-0.6.3.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:37:45 PDT 2014

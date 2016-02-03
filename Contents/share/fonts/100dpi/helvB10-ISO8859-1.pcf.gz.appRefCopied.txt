@@ -1,0 +1,14 @@
+'../share/fonts/100dpi/helvB10-ISO8859-1.pcf.gz'
+ '../share/fonts/100dpi/helvB10-ISO8859-1.pcf.gz'
+  copied for '..//var/cache/fontconfig/f978d2703d887094acbebfa5c46dc3d2-be32d4.cache-3'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:42:52 PDT 2014
+Also requested for '..//var/cache/fontconfig/f978d2703d887094acbebfa5c46dc3d2-be32d4.cache-4'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:50:46 PDT 2014

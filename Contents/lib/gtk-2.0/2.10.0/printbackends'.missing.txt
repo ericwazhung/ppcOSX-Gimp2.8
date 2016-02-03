@@ -1,0 +1,12 @@
+
+'/opt/local/lib/gtk-2.0/2.10.0/printbackends'' DNE. Requested by './/libprintbackend-cups.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/printbackends'' DNE. Requested by './/libprintbackend-file.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/printbackends'' DNE. Requested by './/libprintbackend-lpr.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

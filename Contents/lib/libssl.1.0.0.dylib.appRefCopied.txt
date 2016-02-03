@@ -1,0 +1,31 @@
+'../lib/libssl.1.0.0.dylib'
+ '../lib/libssl.1.0.0.dylib'
+  copied for '../lib/libcurl.4.dylib'
+  from './/libcurl.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:40:21 PDT 2014
+Also requested for '../lib/libssl.1.0.0.dylib'
+  from '../lib/libcurl.4.dylib'
+  from './/libcurl.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:40:25 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 05:16:27 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-uri'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:51:16 PDT 2014
+Also requested for './/libssl.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:22:52 PDT 2014

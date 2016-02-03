@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.2. Blinds</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="prev" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="next" href="plug-in-curve-bend.html" title="4.3. Curve Bend" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.2. Blinds</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-distort.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. Distort Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-curve-bend.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.2. Blinds">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-blinds"></a>4.2. Blinds</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp21825520" class="indexterm"></a>
+      <a id="idp20385728" class="indexterm"></a>
+      <div class="sect3" title="4.2.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19584800"></a>4.2.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp15156192"></a>
+          <p class="title">
+            <strong>Figure 17.35. Applying example for the Blinds filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Applying example for the Blinds filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-blinds.jpg" alt="Applying example for the Blinds filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Blinds</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      It generates a blind effect with horizontal or vertical battens. You can
+      lift or close these battens, but not lift the whole blind up.
+    </p>
+      </div>
+      <div class="sect3" title="4.2.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp10112352"></a>4.2.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Distort</span> → <span class="guimenuitem">Blinds</span>.
+    </p>
+      </div>
+      <div class="sect3" title="4.2.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp16079248"></a>4.2.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp18070976"></a>
+          <p class="title">
+            <strong>Figure 17.36. <span class="quote">“<span class="quote">Blinds</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/blinds.png" alt="Blinds filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            All your setting changes will appear in the Preview without
+            affecting the image until you click on <span class="guilabel">OK</span>.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Orientation</span>
+            </dt>
+            <dd>
+              <p>
+            Allows you to decide whether battens will be horizontal or
+            vertical.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Background</span>
+            </dt>
+            <dd>
+              <p>
+            The batten color is that of the Toolbox Background. To be able to
+            use the <span class="emphasis"><em>Transparent</em></span> option, your image must
+            have an Alpha channel.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Displacement</span>
+            </dt>
+            <dd>
+              <p>
+            Slider and input box allow to wide battens giving the impression
+            they are closing, or to narrow them, giving the impression they
+            are opening.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Number of segments</span>
+            </dt>
+            <dd>
+              <p>
+            It's the number of battens.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-distort.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-curve-bend.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-distort.html">4. Distort Filters</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-curve-bend.html">4.3. Curve Bend</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

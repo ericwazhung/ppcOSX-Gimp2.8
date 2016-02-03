@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.15. Value Propagate</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="prev" href="plug-in-shift.html" title="4.14. Shift" />
+    <link rel="next" href="plug-in-video.html" title="4.16. Video" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.15. Value Propagate</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-shift.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. Distort Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-video.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.15. Value Propagate">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-vpropagate"></a>4.15. Value Propagate</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp13667120" class="indexterm"></a>
+      <div class="sect3" title="4.15.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19096960"></a>4.15.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp15193728"></a>
+          <p class="title">
+            <strong>Figure 17.71. Example for the Value Propagate filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for the Value Propagate filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-vpropagate.jpg" alt="Example for the Value Propagate filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Value Propagate</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter works on color borders. It spreads pixels that differ in a
+      specified way from their neighbouring pixels.
+    </p>
+      </div>
+      <div class="sect3" title="4.15.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19151024"></a>4.15.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Value Propagate</span>.
+    </p>
+      </div>
+      <div class="sect3" title="4.15.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp20215008"></a>4.15.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp20284400"></a>
+          <p class="title">
+            <strong>Figure 17.72. <span class="quote">“<span class="quote">Value propagate</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/vpropagate.png" alt="Value propagate filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            The result of your settings will appear in the Preview without
+            affecting the image until you click on <span class="guibutton">OK</span>.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Mode</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <p>
+              The examples will be about the following image:
+            </p>
+                <div class="mediaobject">
+                  <img src="images/filters/examples/vpropag-base.png" />
+                </div>
+                <dl>
+                  <dt>
+                    <span class="term">More white (larger value)</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Pixels will be propagated from upper value pixels towards
+                  lower value pixels. So bright areas will enlarge.
+                </p>
+                    <div class="figure">
+                      <a id="idp21464432"></a>
+                      <p class="title">
+                        <strong>Figure 17.73. More white</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag1.png" alt="More white" />
+                          <div class="caption">
+                            <p>
+                        Bright pixels have been propagated to dark pixels in
+                        the four directions : top, bottom, right and left.
+                        Filter applied several times to increase effect.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">More black (smaller value)</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Pixels will be propagated from lower value pixels towards
+                  upper value pixels. So dark areas will enlarge.
+                </p>
+                    <div class="figure">
+                      <a id="idp9171440"></a>
+                      <p class="title">
+                        <strong>Figure 17.74. More black</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag2.png" alt="More black" />
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                    <div class="figure">
+                      <a id="idp11006736"></a>
+                      <p class="title">
+                        <strong>Figure 17.75. To bottom only</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag2-bis.png" alt="To bottom only" />
+                          <div class="caption">
+                            <p>
+                        The same as above with <span class="guilabel">To bottom</span>
+                        direction only checked.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Middle value to peaks</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  On a border between the selected thresholds, the average of
+                  both values is propagated.
+                </p>
+                    <div class="figure">
+                      <a id="idp16970400"></a>
+                      <p class="title">
+                        <strong>Figure 17.76. Middle value to peaks</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag3.png" alt="Middle value to peaks" />
+                          <div class="caption">
+                            <p>
+                        A thin border with a transitional color has been
+                        added to objects. It is not visible around objects
+                        with smoothed borders.
+                      </p>
+                          </div>
+                        </div>
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag3-zoom.png" alt="Middle value to peaks" />
+                          <div class="caption">
+                            <p>
+                        Green area zoomed x800. A thin border (one pixel wide)
+                        has been added. Its value is the average between grey
+                        (90%) and green (78%) : (90 + 78) / 2 = 84.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Foreground to peaks</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  The propagated areas will be filled with the foreground
+                  color of the toolbox.
+                </p>
+                    <div class="figure">
+                      <a id="idp11016256"></a>
+                      <p class="title">
+                        <strong>Figure 17.77. Foreground to peaks</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag4.png" alt="Foreground to peaks" />
+                          <div class="caption">
+                            <p>
+                        In this example, the foreground color in Toolbox is
+                        Red. A thin border, one pixel wide, red, is added
+                        around objects. With smoothed objects, this border is
+                        located at the furthest limit of smoothing. Here,
+                        another border appears inside. This is an artifact due
+                        to the small size of the object which makes the
+                        smoothing area of opposite sides to overlap.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Only foreground</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Only areas with the Toolbox Foreground color will propagate.
+                </p>
+                    <div class="figure">
+                      <a id="idp20699008"></a>
+                      <p class="title">
+                        <strong>Figure 17.78. Only foreground</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag5.png" alt="Only foreground" />
+                          <div class="caption">
+                            <p>
+                        In this example, the foreground color in Toolbox is
+                        that of the green object. After applying filter
+                        several times, the green area is clearly enlarged.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Only background</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Only areas with the Background color will propagate.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">More opaque, </span>
+                    <span class="term">More transparent</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  These commands work like <span class="quote">“<span class="quote">More white</span>”</span> and
+                  <span class="quote">“<span class="quote">More black</span>”</span>. Opaque (transparent) areas will
+                  be propagated over less opaque (transparent) areas. These
+                  commands need an image with an alpha channel.
+                </p>
+                    <div class="figure">
+                      <a id="idp9547840"></a>
+                      <p class="title">
+                        <strong>Figure 17.79. More opaque</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag6a.png" alt="More opaque" />
+                          <div class="caption">
+                            <p>
+                        Original layer, with a transparent background.
+                      </p>
+                          </div>
+                        </div>
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag6b.png" alt="More opaque" />
+                          <div class="caption">
+                            <p>
+                        Filter applied several times: the green, opaque, area
+                        got increased.
+                      </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Propagate</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">Lower threshold, </span>
+                    <span class="term">Upper threshold</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  A pixel will be propagated (spread) if the difference in
+                  value between the pixel and its neighbour is no smaller than
+                  the lower threshold and no larger than the upper threshold.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Propagating rate</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  That's the propagating amount. The higher it will be the
+                  more colored the propagation will be.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">To left, </span>
+                    <span class="term">To top, </span>
+                    <span class="term">To right, </span>
+                    <span class="term">To bottom</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  You can select one or more directions.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Propagating alpha channel</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  If checked, the pixel alpha value will be propagated,
+                  otherwise the pixel will get the alpha of the neighbouring
+                  pixels. This checkbox is only visible when the active layer
+                  has an alpha channel.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Propagating value channel</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  If checked, the pixel's color channels (gray channel on
+                  grayscaled images) will be propagated. The option is
+                  checked by default, of course. This checkbox too is only
+                  visible when the active layer has an alpha channel.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-shift.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-video.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-shift.html">4.14. Shift</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-video.html">4.16. Video</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.7. Tileable Blur</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-blur.html" title="2. Blur Filters" />
+    <link rel="prev" href="plug-in-pixelize.html" title="2.6. Pixelise" />
+    <link rel="next" href="filters-enhance.html" title="3. Enhance Filters" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.7. Tileable Blur</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-pixelize.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. Blur Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-enhance.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="2.7. Tileable Blur">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-tile-blur"></a>2.7. Tileable Blur</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp19805472" class="indexterm"></a>
+      <a id="idp16761472" class="indexterm"></a>
+      <div class="sect3" title="2.7.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp15110192"></a>2.7.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp15859952"></a>
+          <p class="title">
+            <strong>Figure 17.18. Example for the <span class="quote">“<span class="quote">Tileable</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for the Tileable filter" />
+              <div class="caption">
+                <p>Original</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-tblur.jpg" alt="Example for the Tileable filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Tileable Blur</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This tool is used to soften tile seams in images used in tiled
+      backgrounds. It does this by blending and blurring the boundary between
+      images that will be next to each other after tiling.
+    </p>
+        <div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Tip]" src="images/tip.png" />
+              </td>
+              <th align="left">Tip</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        If you want to treat only images borders, you can't apply filter
+        to the whole image. The solution to get the wanted effect is as
+        follows:
+      </p>
+                <div class="procedure">
+                  <ol class="procedure" type="1">
+                    <li class="step" title="Step 1">
+                      <p>
+            Duplicate layer
+            (<span class="guimenu">Layer</span> → <span class="guimenuitem">Duplicate Layer</span>)
+            and select it to work on it.
+          </p>
+                    </li>
+                    <li class="step" title="Step 2">
+                      <p>
+            Apply <span class="quote">“<span class="quote">Tileable Blur</span>”</span> filter with a 20 pixels radius
+            to this layer.
+          </p>
+                    </li>
+                    <li class="step" title="Step 3">
+                      <p>
+            Select all
+            (<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>A</strong></span>) and
+            reduce selection
+            (<span class="guimenu">Selection</span> → <span class="guimenuitem">Shrink</span>)
+            to create a border with the wanted width.
+          </p>
+                    </li>
+                    <li class="step" title="Step 4">
+                      <p>
+            Give a feathered border to the selection by using
+            <span class="guimenu">Selection</span> → <span class="guimenuitem">Feather</span>.
+          </p>
+                    </li>
+                    <li class="step" title="Step 5">
+                      <p>
+            Delete selection with
+            <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>K</strong></span>.
+          </p>
+                    </li>
+                    <li class="step" title="Step 6">
+                      <p>
+            Merge layers with
+            <span class="guimenu">Layer</span> → <span class="guimenuitem">Merge down</span>.
+          </p>
+                    </li>
+                  </ol>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="2.7.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp20378240"></a>2.7.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter in the image menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Tileable Blur</span>.
+    </p>
+      </div>
+      <div class="sect3" title="2.7.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp16606512"></a>2.7.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp21731552"></a>
+          <p class="title">
+            <strong>Figure 17.19. <span class="quote">“<span class="quote">Tileable Blur</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/tileable.png" alt="Tileable Blur filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Radius</span>
+            </dt>
+            <dd>
+              <p>
+            The bigger the radius, the more marked is the blur. By selecting
+            <span class="guilabel">Horizontal</span> and <span class="guilabel">Vertical</span>,
+            you can make the horizontal and vertical borders tileable.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Blur vertically, </span>
+              <span class="term">Blur horizontally</span>
+            </dt>
+            <dd>
+              <p>
+            These options are self-explanatory.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Blur type</span>
+            </dt>
+            <dd>
+              <p>Choose the algorithm to be applied:</p>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">IIR</span>
+                  </dt>
+                  <dd>
+                    <p>for photographic or scanned images.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">RLE</span>
+                  </dt>
+                  <dd>
+                    <p>for computer-generated images.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-pixelize.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-enhance.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-pixelize.html">2.6. Pixelise</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-enhance.html">3. Enhance Filters</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.17. Fractal Explorer</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-render.html" title="13. Rendering Filters" />
+    <link rel="prev" href="script-fu-circuit.html" title="13.16. Circuit" />
+    <link rel="next" href="plug-in-gfig.html" title="13.18. Gfig" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.17. Fractal Explorer</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-circuit.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. Rendering Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-gfig.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="13.17. Fractal Explorer">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-fractalexplorer"></a>13.17. Fractal Explorer</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp18882736" class="indexterm"></a>
+      <a id="idp23123536" class="indexterm"></a>
+      <div class="sect3" title="13.17.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25308640"></a>13.17.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp23347456"></a>
+          <p class="title">
+            <strong>Figure 17.323. Example for the Fractal Explorer filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-fractalexplorer.jpg" alt="Example for the Fractal Explorer filter" />
+              <div class="caption">
+                <p>
+            Filter <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> applied
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      With this filter, you can create fractals and multicolored pictures
+      verging to chaos. Unlike the
+      <a class="link" href="plug-in-ifscompose.html" title="13.7. IFS Fractal">IFS Fractal</a> filter, with which you
+      can fix the fractal structure precisely, this filter lets you perform
+      fractals simply.
+    </p>
+      </div>
+      <div class="sect3" title="13.17.2. Starting filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25841648"></a>13.17.2. Starting filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guimenuitem">Fractal Explorer</span>.
+    </p>
+      </div>
+      <div class="sect3" title="13.17.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25550272"></a>13.17.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp24938592"></a>
+          <p class="title">
+            <strong>Figure 17.324. <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/fractalexplorer.png" alt="Fractal Explorer filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      The Fractal Explorer window contains two panes: on the left there is the
+      Preview pane with a Zoom feature, on the right you find the main options
+      organized in tabs: Parameters, Colors, and Fractals.
+    </p>
+        <div class="sect4" title="13.17.3.1. Preview">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp25545120"></a>13.17.3.1. Preview</h5>
+              </div>
+            </div>
+          </div>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Realtime preview</span>
+              </dt>
+              <dd>
+                <p>
+              Uncheck the <span class="guilabel">Realtime preview</span> only if your
+              computer is slow. In this case, you can update preview by
+              clicking on the <span class="guibutton">Redraw preview</span> button.
+            </p>
+                <p>
+              By clicking-dragging mouse pointer on preview, you can draw a
+              rectangle delimiting an area which will be zoomed.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Zoom</span>
+              </dt>
+              <dd>
+                <p>
+              You have there some options to zoom in or zoom out. The
+              <span class="guibutton">Undo</span> allows you to return to previous
+              state, before zooming. The <span class="guibutton">Redo</span> allows
+              you to reestablish the zoom you had undone, without having to
+              re-create it with the <span class="guibutton">Zoom In</span> or 
+              <span class="guibutton">Zoom Out</span> buttons.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4" title="13.17.3.2. Parameters">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp25834144"></a>13.17.3.2. Parameters</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp24210208"></a>
+            <p class="title">
+              <strong>Figure 17.325. 
+          <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> filter options (Parameters)
+        </strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer1.png" alt="Fractal Explorer filter options (Parameters)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        This tab contains some options to set fractal calculation and select
+        fractal type.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Fractal Parameters</span>
+              </dt>
+              <dd>
+                <p>
+              Here, you have sliders and input boxes to set fractal
+              spreading, repetition and aspect.
+            </p>
+                <div class="variablelist">
+                  <dl>
+                    <dt>
+                      <span class="term">Left, </span>
+                      <span class="term">Right, </span>
+                      <span class="term">Top, </span>
+                      <span class="term">Bottom</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    You can set fractal spreading between a minimum and a
+                    maximum, in the horizontal and/or vertical directions.
+                    Values are from -3.0 to 3.0.
+                  </p>
+                    </dd>
+                    <dt>
+                      <span class="term">Iterations</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    With this parameter, you can set fractal iteration,
+                    repetition and so detail. Values are from 0.0 to 1000.0
+                  </p>
+                    </dd>
+                    <dt>
+                      <span class="term">CX, </span>
+                      <span class="term">CY</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    With these parameters, you can change fractal aspect, in
+                    the horizontal (X) and/or vertical (Y) directions, except
+                    for Mandelbrot and Sierpinski types.
+                  </p>
+                    </dd>
+                    <dt>
+                      <span class="term">Open, </span>
+                      <span class="term">Reset, </span>
+                      <span class="term">Save</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    With these three buttons, you can save your work
+                    with all its parameters, open a previously saved
+                    fractal, or return to the initial state before all
+                    modifications.
+                  </p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">Fractal Type</span>
+              </dt>
+              <dd>
+                <p>
+              You can choose what fractal type will be, for instance
+              <span class="guilabel">Mandelbrot</span>, <span class="guilabel">Julia</span>,
+              <span class="guilabel">Barnsley</span> or
+              <span class="guilabel">Sierpinski</span>.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4" title="13.17.3.3. Colors">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp23687760"></a>13.17.3.3. Colors</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp25916256"></a>
+            <p class="title">
+              <strong>Figure 17.326. 
+          <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> filter options (Colors)
+        </strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer2.png" alt="Fractal Explorer filter options (Colors)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>This tab contains options for fractal color setting.</p>
+          <div class="variablelist" title="Number of Colors">
+            <p class="title">
+              <strong>Number of Colors</strong>
+            </p>
+            <dl>
+              <dt>
+                <span class="term">Number of colors</span>
+              </dt>
+              <dd>
+                <p>
+              This slider and its input boxes allow you to set the number of
+              colors for the fractal, between 2 and 8192. A palette of these
+              colors is displayed at the bottom of the tab. Actually, that's a
+              gradient between colors in fractal: you can change colors with
+              <span class="quote">“<span class="quote">Color Density</span>”</span> and <span class="quote">“<span class="quote">Color Function</span>”</span>
+              options. Fractal colors don't depend on colors of the original
+              image (you can use a white image for fractals as well).
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Use loglog smoothing</span>
+              </dt>
+              <dd>
+                <p>
+              If this option is checked, the band effect is smoothed.
+            </p>
+                <div class="figure">
+                  <a id="idp24490720"></a>
+                  <p class="title">
+                    <strong>Figure 17.327. Loglog smoothing example</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/filters/examples/render-fractalexpl.png" alt="Loglog smoothing example" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist" title="Color density">
+            <p class="title">
+              <strong>Color density</strong>
+            </p>
+            <dl>
+              <dt>
+                <span class="term">Red, </span>
+                <span class="term">Green, </span>
+                <span class="term">Blue</span>
+              </dt>
+              <dd>
+                <p>
+              These three sliders and their text-boxes let you set the color
+              intensity in the three color channels. Values vary from 0.0 to
+              1.0.
+            </p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist" title="Color Function">
+            <p class="title">
+              <strong>Color Function</strong>
+            </p>
+            <p>
+          For the <span class="guilabel">Red</span>, <span class="guilabel">Green</span> and
+          <span class="guilabel">Blue</span> color channels, you can select how color
+          will be treated:
+        </p>
+            <dl>
+              <dt>
+                <span class="term">Sine</span>
+              </dt>
+              <dd>
+                <p>
+              Color variations will be modulated according to the sine
+              function.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Cosine</span>
+              </dt>
+              <dd>
+                <p>
+              Color densities will vary according to cosine function.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">None</span>
+              </dt>
+              <dd>
+                <p>Color densities will vary linearly.</p>
+              </dd>
+              <dt>
+                <span class="term">Inversion</span>
+              </dt>
+              <dd>
+                <p>
+              If you check this option, function values will be inverted.
+            </p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist" title="Color Mode">
+            <p class="title">
+              <strong>Color Mode</strong>
+            </p>
+            <p>
+          These options allow you to set where color values must be taken
+          from.
+        </p>
+            <dl>
+              <dt>
+                <span class="term">As specified above</span>
+              </dt>
+              <dd>
+                <p>
+              Color values will be taken from the <span class="guilabel">Color
+              Density</span> options.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Apply active gradient to final image</span>
+              </dt>
+              <dd>
+                <p>
+              Used colors will be that of active gradient. You should be able
+              to select another gradient by clicking on the gradient source
+              button.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4" title="13.17.3.4. Fractals">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp24933184"></a>13.17.3.4. Fractals</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp25893008"></a>
+            <p class="title">
+              <strong>Figure 17.328. 
+          <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> filter options (Fractals)
+        </strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer3.png" alt="Fractal Explorer filter options (Fractals)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        This tab contains a big list of fractals with their parameters, that
+        you can use as a model: only click on the wanted one.
+      </p>
+          <p>
+        The <span class="guibutton">Refresh</span> allows you to update the list if
+        you have saved your work, without needing to re-start
+        <acronym class="acronym">GIMP</acronym>. You can delete the selected fractal from the
+        list by clicking on the <span class="guibutton">Delete</span>.
+      </p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-circuit.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-gfig.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-circuit.html">13.16. Circuit</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-gfig.html">13.18. Gfig</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.7. Bovination</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters" />
+    <link rel="prev" href="script-fu-blended-logo-alpha.html" title="16.6. Blended" />
+    <link rel="next" href="script-fu-chalk-logo-alpha.html" title="16.8. Chalk" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.7. Bovination</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-blended-logo-alpha.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. Alpha to Logo Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-chalk-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="16.7. Bovination">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-bovinated-logo-alpha"></a>16.7. Bovination</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp25445136" class="indexterm"></a>
+      <a id="idp25968928" class="indexterm"></a>
+      <div class="sect3" title="16.7.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19191040"></a>16.7.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp25297808"></a>
+          <p class="title">
+            <strong>Figure 17.383. Example for the <span class="quote">“<span class="quote">Bovination</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-bovination-applied.jpg" alt="Example for the Bovination filter" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Bovination</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter adds <span class="quote">“<span class="quote">cow spots</span>”</span> to the active layer alpha
+      channel.
+    </p>
+        <div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Warning]" src="images/warning.png" />
+              </td>
+              <th align="left">Warning</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        The image will always be resized to the active layer's size.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="16.7.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25466560"></a>16.7.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Bovination</span>.
+    </p>
+      </div>
+      <div class="sect3" title="16.7.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp23180176"></a>16.7.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp23264464"></a>
+          <p class="title">
+            <strong>Figure 17.384. <span class="quote">“<span class="quote">Bovination</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/bovination-options.png" alt="Bovination options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Spots density X, </span>
+              <span class="term">Spots density Y</span>
+            </dt>
+            <dd>
+              <p>
+            The horizontal (X) and vertical (Y) spots density will be used by
+            the <a class="link" href="plug-in-solid-noise.html" title="13.5. Solid Noise">Solid Noise</a> filter
+            as <span class="guilabel">X Size</span> and <span class="guilabel">Y Size</span>
+            options. So these values range from 1 to 16, with high values
+            resulting in many spots in the respective dimension, low values
+            resulting in few spots.
+          </p>
+              <div class="figure">
+                <a id="idp24878048"></a>
+                <p class="title">
+                  <strong>Figure 17.385. <span class="quote">“<span class="quote">Spots density</span>”</span> examples</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/bovination-x.png" alt="Spots density examples" />
+                    <div class="caption">
+                      <p>Maximum X density, minimum Y density</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/bovination-y.png" alt="Spots density examples" />
+                    <div class="caption">
+                      <p>Maximum Y density, minimum X density</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Background Color</span>
+            </dt>
+            <dd>
+              <p>
+            This is the color used to fill the <span class="quote">“<span class="quote">Background</span>”</span>
+            layer; it defaults to white. When you click on the color button,
+            you may choose any other color in the color selector dialog.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3" title="16.7.4. Filter details">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25856784"></a>16.7.4. Filter details</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      The filter fills the alpha channel with
+      <a class="link" href="plug-in-solid-noise.html" title="13.5. Solid Noise">Solid Noise</a>:
+    </p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/bovination-noise.jpg" />
+        </div>
+        <p>
+      ... and maximizes the
+      <a class="link" href="gimp-tool-brightness-contrast.html" title="5.5. Brightness-Contrast">Contrast</a>:
+    </p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/bovination-contrast.png" />
+        </div>
+        <p>
+      Besides, the filter adds a
+      <a class="link" href="plug-in-gauss.html" title="2.3. Gaussian Blur">Blur</a>
+      layer as a light gray shadow and uses this layer as a
+      <a class="link" href="plug-in-bump-map.html" title="12.2. Bump Map">Bump Map</a>. Finally a (by default)
+      white <span class="quote">“<span class="quote">Background</span>”</span> layer is added below.
+    </p>
+        <p>
+      So the filter will end up with these layers:<sup>[<a id="idp25287472" href="#ftn.idp25287472" class="footnote">19</a>]</sup>
+    </p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/bovination-layers.png" />
+        </div>
+      </div>
+      <div class="footnotes">
+        <br />
+        <hr width="100" align="left" />
+        <div class="footnote">
+          <p><sup>[<a id="ftn.idp25287472" href="#idp25287472" class="para">19</a>] </sup>
+        If the active layer is not the top layer, it might happen that the
+        filter messes up the layers. Then you will have to
+        <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. Layers Dialog">raise the active layer</a>.
+      </p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-blended-logo-alpha.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-chalk-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-blended-logo-alpha.html">16.6. Blended</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-chalk-logo-alpha.html">16.8. Chalk</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

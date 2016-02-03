@@ -1,0 +1,7 @@
+'../bin/perl5'
+ '../bin/perl5'
+  copied for '..//etc/openssl/misc/CA.pl'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:38:26 PDT 2014

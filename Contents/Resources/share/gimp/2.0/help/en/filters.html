@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Chapter 17. Filters</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-function-reference.html" title="Part III. Function Reference" />
+    <link rel="prev" href="gimp-help-online.html" title="12.8. GIMP online" />
+    <link rel="next" href="filters-blur.html" title="2. Blur Filters" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Chapter 17. Filters</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-help-online.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">Part III. Function Reference</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-blur.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter" title="Chapter 17. Filters">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="filters"></a>Chapter 17. Filters</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table of Contents</strong>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="filters.html#filter-introduction">1. Introduction</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters.html#idp14575568">1.1. Preview</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-blur.html">2. Blur Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-blur.html#filters-blur-introduction">2.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-blur.html">2.2. Blur</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gauss.html">2.3. Gaussian Blur</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sel-gauss.html">2.4. Selective Gaussian Blur</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-mblur.html">2.5. Motion Blur</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-pixelize.html">2.6. Pixelise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-tile-blur.html">2.7. Tileable Blur</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-enhance.html">3. Enhance Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-enhance.html#filters-enhance-introduction">3.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-antialias.html">3.2. Antialias</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-deinterlace.html">3.3. Deinterlace</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-despeckle.html">3.4. Despeckle</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-destripe.html">3.5. Destripe</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-nlfilt.html">3.6. NL Filter</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-red-eye-removal.html">3.7. Red Eye Removal</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sharpen.html">3.8. Sharpen</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-unsharp-mask.html">3.9. Unsharp Mask</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-distort.html">4. Distort Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-distort.html#filters-distort-introduction">4.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-blinds.html">4.2. Blinds</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-curve-bend.html">4.3. Curve Bend</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-emboss.html">4.4. Emboss</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-engrave.html">4.5. Engrave</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-erase-rows.html">4.6. Erase Every Other Row</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-iwarp.html">4.7. IWarp</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lens-distortion.html">4.8. Lens Distortion</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-mosaic.html">4.9. Mosaic</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-newsprint.html">4.10. Newsprint</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-pagecurl.html">4.11. Page Curl</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-polar-coords.html">4.12. Polar Coords</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-ripple.html">4.13. Ripple</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-shift.html">4.14. Shift</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-vpropagate.html">4.15. Value Propagate</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-video.html">4.16. Video</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-waves.html">4.17. Waves</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-whirl-pinch.html">4.18. Whirl and Pinch</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-wind.html">4.19. Wind</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-light-and-shadow.html">5. Light and Shadow Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-light-and-shadow.html#filters-light-and-shadow-introduction">5.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gflare.html">5.2. Gradient Flare</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-flarefx.html">5.3. Lens Flare</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lighting.html">5.4. Lighting Effects</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sparkle.html">5.5. Sparkle</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-nova.html">5.6. Supernova</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-drop-shadow.html">5.7. Drop Shadow</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-perspective-shadow.html">5.8. Perspective</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-xach-effect.html">5.9. Xach-Effect</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-applylens.html">5.10. Apply Lens</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-glasstile.html">5.11. Glass Tile</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-noise.html">6. Noise Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-noise.html#filters-noise-introduction">6.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-hsv-noise.html">6.2. HSV Noise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-hurl.html">6.3. Hurl</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-pick.html">6.4. Pick</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-rgb-noise.html">6.5. RGB Noise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-slur.html">6.6. Slur</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-spread.html">6.7. Spread</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-edge.html">7. Edge-Detect Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-edge.html#filters-edges-introduction">7.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-dog.html">7.2. Difference of Gaussians</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-edge.html">7.3. Edge</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-laplace.html">7.4. Laplace</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-neon.html">7.5. Neon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sobel.html">7.6. Sobel</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-generic.html">8. Generic Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-generic.html#filters-generic-introduction">8.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-convmatrix.html">8.2. Convolution Matrix</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-dilate.html">8.3. Dilate</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-erode.html">8.4. Erode</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-combine.html">9. Combine Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-combine.html#filters-combine-introduction">9.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-depth-merge.html">9.2. Depth Merge</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-film.html">9.3. Film</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-artistic.html">10. Artistic Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-artistic.html#filters-artistic-introduction">10.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-apply-canvas.html">10.2. Apply Canvas</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cartoon.html">10.3. Cartoon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-clothify.html">10.4. Clothify</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cubism.html">10.5. Cubism</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gimpressionist.html">10.6. GIMPressionist</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-oilify.html">10.7. Oilify</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-photocopy.html">10.8. Photocopy</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-predator.html">10.9. Predator</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-softglow.html">10.10. Softglow</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lic.html">10.11. Van Gogh (LIC)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-weave.html">10.12. Weave</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-decor.html">11. Decor Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-decor.html#filters-decor-introduction">11.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-add-bevel.html">11.2. Add Bevel</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-addborder.html">11.3. Add Border</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-coffee-stain.html">11.4. Coffee Stain</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-fuzzy-border.html">11.5. Fuzzy Border</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-old-photo.html">11.6. Old Photo</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-round-corners.html">11.7. Round Corners</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-slide.html">11.8. Slide</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-carve-it.html">11.9. Stencil Carve</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-sota-chrome-it.html">11.10. Stencil Chrome</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-map.html">12. Map Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-map.html#filters-map-introduction">12.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-bump-map.html">12.2. Bump Map</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-displace.html">12.3. Displace</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-fractal-trace.html">12.4. Fractal Trace</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-illusion.html">12.5. Illusion</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-make-seamless.html">12.6. Make Seamless</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-map-object.html">12.7. Map Object</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-papertile.html">12.8. Paper Tile</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-small-tiles.html">12.9. Small Tiles</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-tile.html">12.10. Tile</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-warp.html">12.11. Warp</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-render.html">13. Rendering Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-render.html#filters-render-introduction">13.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-difference-clouds.html">13.2. Difference Clouds</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="python-fu-foggify.html">13.3. Fog</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-plasma.html">13.4. Plasma</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-solid-noise.html">13.5. Solid Noise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-flame.html">13.6. Flame</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-ifscompose.html">13.7. IFS Fractal</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-checkerboard.html">13.8. Checkerboard</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cml-explorer.html">13.9. CML Explorer</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-diffraction.html">13.10. Diffraction Patterns</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-grid.html">13.11. Grid</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-jigsaw.html">13.12. Jigsaw</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-maze.html">13.13. Maze</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-qbist.html">13.14. Qbist</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sinus.html">13.15. Sinus</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-circuit.html">13.16. Circuit</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-fractalexplorer.html">13.17. Fractal Explorer</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gfig.html">13.18. Gfig</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-lava.html">13.19. Lava</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-line-nova.html">13.20. Line Nova</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-spheredesigner.html">13.21. Sphere Designer</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-spyrogimp.html">13.22. Spyrogimp</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-web.html">14.  Web Filters </a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-web.html#filters-web-introduction">14.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-imagemap.html">14.2. ImageMap</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-semiflatten.html">14.3. Semi-Flatten</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="python-fu-slice.html">14.4. Slice</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-animation.html">15. Animation Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-animation.html#filters-animation-introduction">15.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-blend-anim.html">15.2. Blend</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-burn-in-anim.html">15.3. Burn-In</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-ripply-anim.html">15.4. Rippling</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-spinning-globe.html">15.5. Spinning Globe</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-waves-anim.html">15.6. Waves</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-optimize.html">15.7. Optimize</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-animationplay.html">15.8. Playback</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-alpha-to-logo.html">16. Alpha to Logo Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-alpha-to-logo.html#filters-alpha-to-logo-introduction">16.1. Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-3d-outline-logo-alpha.html">16.2. 3D Outline</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-alien-glow-logo-alpha.html">16.3. Alien Glow</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-alien-neon-logo-alpha.html">16.4. Alien Neon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-basic-logo-alpha.html">16.5. Basic I &amp; II</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-blended-logo-alpha.html">16.6. Blended</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-bovinated-logo-alpha.html">16.7. Bovination</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chalk-logo-alpha.html">16.8. Chalk</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chip-away-logo-alpha.html">16.9. Chip Away</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chrome-logo-alpha.html">16.10. Chrome</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-comic-logo-alpha.html">16.11. Comic Book</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-cool-metal-logo-alpha.html">16.12. Cool Metal</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-frosty-logo-alpha.html">16.13. Frosty</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-glossy-logo-alpha.html">16.14. Glossy</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-glowing-logo-alpha.html">16.15. Glowing Hot</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-gradient-bevel-logo-alpha.html">16.16. Gradient Bevel</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-neon-logo-alpha.html">16.17. Neon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-t-o-p-logo-alpha.html">16.18. Particle Trace</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-textured-logo-alpha.html">16.19. Textured</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1" title="1. Introduction">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="filter-introduction"></a>1. Introduction</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp16153440" class="indexterm"></a>
+        <a id="idp12027536" class="indexterm"></a>
+        <p>
+    A filter is a special kind of tool designed to take an input layer or
+    image, apply a mathematical algorithm to it, and return the input layer or
+    image in a modified format. <acronym class="acronym">GIMP</acronym>
+    uses filters to achieve a variety of effects and those effects are
+    discussed here.
+  </p>
+        <div class="itemizedlist">
+          <p>The filters are divided into several categories:</p>
+          <ul class="itemizedlist" type="disc">
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-blur.html" title="2. Blur Filters">Section 2, “Blur Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-enhance.html" title="3. Enhance Filters">Section 3, “Enhance Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-distort.html" title="4. Distort Filters">Section 4, “Distort Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-light-and-shadow.html" title="5. Light and Shadow Filters">Section 5, “Light and Shadow Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-noise.html" title="6. Noise Filters">Section 6, “Noise Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-edge.html" title="7. Edge-Detect Filters">Section 7, “Edge-Detect Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-generic.html" title="8. Generic Filters">Section 8, “Generic Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-combine.html" title="9. Combine Filters">Section 9, “Combine Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-artistic.html" title="10. Artistic Filters">Section 10, “Artistic Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-decor.html" title="11. Decor Filters">Section 11, “Decor Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-map.html" title="12. Map Filters">Section 12, “Map Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-render.html" title="13. Rendering Filters">Section 13, “Rendering Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-web.html" title="14.  Web Filters">Section 14, “ Web Filters ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-animation.html" title="15. Animation Filters">Section 15, “Animation Filters”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters">Section 16, “Alpha to Logo Filters”</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="sect2" title="1.1. Preview">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp14575568"></a>1.1. Preview</h3>
+              </div>
+            </div>
+          </div>
+          <p>
+      Most filters have a Preview where changes in the image are displayed, in
+      real time (if the <span class="quote">“<span class="quote">Preview</span>”</span> option is checked), before
+      being applied to the image.
+    </p>
+          <div class="figure">
+            <a id="idp20933136"></a>
+            <p class="title">
+              <strong>Figure 17.1. Preview submenu</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/preview-submenu.png" alt="Preview submenu" />
+                <div class="caption">
+                  <p>
+            Right clicking on the Preview window opens a submenu which lets
+            you set the Style and the Size of checks representing
+            transparency.
+          </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-help-online.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-function-reference.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-blur.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-help-online.html">12.8. GIMP online</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-blur.html">2. Blur Filters</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

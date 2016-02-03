@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.12. Cool Metal</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters" />
+    <link rel="prev" href="script-fu-comic-logo-alpha.html" title="16.11. Comic Book" />
+    <link rel="next" href="script-fu-frosty-logo-alpha.html" title="16.13. Frosty" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.12. Cool Metal</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-comic-logo-alpha.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. Alpha to Logo Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-frosty-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="16.12. Cool Metal">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-cool-metal-logo-alpha"></a>16.12. Cool Metal</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp22022960" class="indexterm"></a>
+      <a id="idp19978896" class="indexterm"></a>
+      <div class="sect3" title="16.12.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp24798112"></a>16.12.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19671440"></a>
+          <p class="title">
+            <strong>Figure 17.398. Example for the <span class="quote">“<span class="quote">Cool Metal</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/coolmetal.jpg" alt="Example for the Cool Metal filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Cool Metal</span>”</span> filter</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/coolmetal-script-fu.jpg" alt="Example for the Cool Metal filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Cool Metal</span>”</span> logo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter creates an effect that looks like metal with a reflection in
+      the mirrored ground, and an interesting drop shadow.
+    </p>
+        <p>
+      The filter is derived from the <span class="quote">“<span class="quote">Cool Metal</span>”</span> script
+      (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Cool Metal</span> in the image window),
+      which creates a logo from a text as shown above.
+    </p>
+      </div>
+      <div class="sect3" title="16.12.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp14939616"></a>16.12.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Cool Metal</span>.
+    </p>
+      </div>
+      <div class="sect3" title="16.12.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp24734064"></a>16.12.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp23006304"></a>
+          <p class="title">
+            <strong>Figure 17.399. <span class="quote">“<span class="quote">Cool Metal</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/coolmetal-options.png" alt="Cool Metal options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Effect size (pixels)</span>
+            </dt>
+            <dd>
+              <p>
+            This is actually the font size option of the
+            <span class="quote">“<span class="quote">Cool Metal</span>”</span> Script-Fu script. Some internal values
+            will be set in relation to this size, for feathering, blurring,
+            embossing, and creating ripple patterns.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Background color</span>
+            </dt>
+            <dd>
+              <p>
+            The color of the background layer added by the filter. When you
+            click in the color swatch button, the color select dialog pops up.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Gradient</span>
+            </dt>
+            <dd>
+              <p>
+            The default gradient to create the cool metal is
+            <span class="quote">“<span class="quote">Horizon 1</span>”</span>. Clicking in the gradient button will
+            open a simplified <a class="link" href="gimp-gradient-dialog.html" title="3.4. Gradients Dialog">gradient
+            dialog</a>, where you can select any other gradient.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Gradient reverse</span>
+            </dt>
+            <dd>
+              <p>
+            By default, the selected gradient will be applied from top to
+            bottom. When this option is checked, the direction will be
+            reversed.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3" title="16.12.4. Filter details">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25600432"></a>16.12.4. Filter details</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      At least some of the filter effects should be described briefly: how the
+      filter creates the reflection and this nice shadow, or rather, how you
+      can reproduce these effects manually. In fact, the only trick is to know
+      which tool to use...
+    </p>
+        <div class="orderedlist" title="Making the reflection">
+          <p class="title">
+            <strong>Making the reflection</strong>
+          </p>
+          <p>
+        Assuming that the alpha has been filled with a gradient, then:
+      </p>
+          <ol class="orderedlist" type="1">
+            <li class="listitem">
+              <p>
+          Create a new layer containing the area you want to mirror, for
+          example <a class="link" href="gimp-edit-copy.html" title="3.7. Copy">Copy</a> and
+          <a class="link" href="gimp-edit-paste.html" title="3.9. Paste">Paste</a> the area in a new
+          layer.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          To make the reflection look more natural, scale down the layer (the
+          filter resizes to 85% of the original height). You can do this e.g.
+          using <a class="link" href="gimp-layer-scale.html" title="7.51. Scale Layer">Scale Layer</a> command or
+          the <a class="link" href="gimp-tool-scale.html" title="4.6. Scale">Scale Tool</a>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          Then <a class="link" href="gimp-tool-flip.html" title="4.9. Flip">flip</a> the layer vertically
+          and <a class="link" href="gimp-tool-move.html" title="4.3. Move">move</a> it down.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          Now <a class="link" href="gimp-layer-mask-add.html" title="7.21. Add Layer Mask">add a layer mask</a>,
+          fill the layer mask with a
+          <a class="link" href="gimp-tool-blend.html" title="3.4. Blend">gradient</a> (for instance white
+          or gray to black), and, of course,
+          <a class="link" href="gimp-layer-mask-apply.html" title="7.22.  Apply Layer Mask">apply the layer mask</a>.
+        </p>
+            </li>
+          </ol>
+        </div>
+        <div class="orderedlist" title="Making the shadow">
+          <p class="title">
+            <strong>Making the shadow</strong>
+          </p>
+          <p>
+        Fill the alpha with black, for instance via
+        <a class="link" href="gimp-layer-duplicate.html" title="7.4. Duplicate layer">Duplicate Layer</a>
+        and <a class="link" href="gimp-layer-alpha-selection-replace.html" title="7.37. Alpha to Selection">Alpha to
+        Selection</a>, then
+      </p>
+          <ol class="orderedlist" type="1">
+            <li class="listitem">
+              <p>
+          shrink and slant the layer, e.g. using the
+          <a class="link" href="gimp-tool-perspective.html" title="4.8. Perspective">Perspective</a> tool,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          and apply a <a class="link" href="plug-in-gauss.html" title="2.3. Gaussian Blur">Gaussian Blur</a> to
+          the layer.
+        </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-comic-logo-alpha.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-frosty-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-comic-logo-alpha.html">16.11. Comic Book</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-frosty-logo-alpha.html">16.13. Frosty</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

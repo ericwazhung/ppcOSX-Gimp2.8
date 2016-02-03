@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.11. Page Curl</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="prev" href="plug-in-newsprint.html" title="4.10. Newsprint" />
+    <link rel="next" href="plug-in-polar-coords.html" title="4.12. Polar Coords" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.11. Page Curl</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-newsprint.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. Distort Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-polar-coords.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.11. Page Curl">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-pagecurl"></a>4.11. Page Curl</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp16443120" class="indexterm"></a>
+      <a id="idp7801632" class="indexterm"></a>
+      <div class="sect3" title="4.11.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19150304"></a>4.11.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp22117312"></a>
+          <p class="title">
+            <strong>Figure 17.61. Example for the Page Curl filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for the Page Curl filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-pagecurl.jpg" alt="Example for the Page Curl filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Page Curl</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter curls a corner of the current layer or selection into a
+      kind of cornet showing the underlying layer in the cleared area. A new
+      <span class="quote">“<span class="quote">Curl Layer</span>”</span> and a new Alpha channel are created. The part
+      of the initial layer corresponding to this cleared area is also
+      transparent.
+    </p>
+      </div>
+      <div class="sect3" title="4.11.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp10964944"></a>4.11.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Page Curl</span>.
+    </p>
+      </div>
+      <div class="sect3" title="4.11.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21205840"></a>4.11.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19267920"></a>
+          <p class="title">
+            <strong>Figure 17.62. Options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/pagecurl.png" alt="Options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Curl Location</span>
+            </dt>
+            <dd>
+              <p>
+            You have there four radio buttons to select the corner you want
+            raise. The Preview is redundant and doesn't respond to other
+            options.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Curl Orientation</span>
+            </dt>
+            <dd>
+              <p>
+            <span class="emphasis"><em>Horizontal</em></span> and <span class="emphasis"><em>Vertical</em></span>
+            refer to the border you want raise.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Shade under curl</span>
+            </dt>
+            <dd>
+              <p>
+            This is the shadow inside the cornet.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Foreground / background colors, </span>
+              <span class="term">Current gradient, </span>
+              <span class="term">Current gradient (reversed)</span>
+            </dt>
+            <dd>
+              <p>
+            This option refers to the outer face of the cornet.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Opacity</span>
+            </dt>
+            <dd>
+              <p>
+            Refers to the visibility of the layer part underlying the cornet.
+            It may be set also in the Layer Dialog.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-newsprint.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-polar-coords.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-newsprint.html">4.10. Newsprint</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-polar-coords.html">4.12. Polar Coords</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

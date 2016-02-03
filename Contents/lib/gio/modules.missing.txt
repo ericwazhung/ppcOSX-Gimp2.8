@@ -1,0 +1,17 @@
+
+'/opt/local/lib/gio/modules' DNE. Requested by '../lib/libgio-2.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gio/modules' DNE. Requested by './/libgio-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gio/modules' DNE. Requested by './/libgio-2.0.a'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gio/modules' DNE. Requested by './/libgio-2.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

@@ -1,0 +1,10 @@
+'../etc/gtk-2.0/im-multipress.conf'
+ '../etc/gtk-2.0/im-multipress.conf'
+  copied for './/im-multipress.a'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:33:37 PDT 2014
+Also requested for './/im-multipress.so'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:33:39 PDT 2014

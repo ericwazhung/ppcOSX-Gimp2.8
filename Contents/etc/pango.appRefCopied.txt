@@ -1,0 +1,25 @@
+'../etc/pango'
+ '../etc/pango'
+  copied for '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:25:20 PDT 2014
+('../etc/pango/pango.modules' was) Also requested for '..//etc/pango/pangorc'
+  from '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:32 PDT 2014
+Also requested for './/libpango-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:26 PDT 2014
+Also requested for './/libpango-1.0.a'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:31 PDT 2014
+Also requested for './/libpango-1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:37 PDT 2014

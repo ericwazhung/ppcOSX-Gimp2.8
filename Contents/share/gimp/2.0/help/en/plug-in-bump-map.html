@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>12.2. Bump Map</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-map.html" title="12. Map Filters" />
+    <link rel="prev" href="filters-map.html" title="12. Map Filters" />
+    <link rel="next" href="plug-in-displace.html" title="12.3. Displace" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">12.2. Bump Map</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-map.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">12. Map Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-displace.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="12.2. Bump Map">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-bump-map"></a>12.2. Bump Map</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp25210000" class="indexterm"></a>
+      <a id="idp15054528" class="indexterm"></a>
+      <div class="sect3" title="12.2.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp7462288"></a>12.2.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp16551424"></a>
+          <p class="title">
+            <strong>Figure 17.246. <span class="quote">“<span class="quote">bump-map</span>”</span> example</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/example-map-bumpmap.png" alt="bump-map example" />
+              <div class="caption">
+                <p>
+            On the left, the original image that we want to emboss: a solid
+            blue. In the middle, the bump map : a grayscale image, where
+            black pixels will emboss backwards and white pixels will emboss
+            forwards. On the right, the bump-mapped image. The filter adds a
+            shadow effect.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter creates a 3D effect by embossing an image (the card) and
+      then mapping it to another image. Bump height depends on pixel
+      luminosity and you can set light direction. See
+      <a class="link" href="plug-in-emboss.html" title="4.4. Emboss">Emboss</a> for more information
+      about embossing. You can bump map any type of image, unlike the Emboss
+      filter.
+    </p>
+      </div>
+      <div class="sect3" title="12.2.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25622928"></a>12.2.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Map</span> → <span class="guimenuitem">Bump Map</span>.
+    </p>
+      </div>
+      <div class="sect3" title="12.2.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp23933360"></a>12.2.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp23127504"></a>
+          <p class="title">
+            <strong>Figure 17.247. <span class="quote">“<span class="quote">Bump Map</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/map/bumpmap.png" alt="Bump Map filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, parameter setting results are interactively displayed
+            in preview.  Scroll bars allow you to move around the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Bump map</span>
+            </dt>
+            <dd>
+              <p>
+            This drop-down list allows you to select the image that will be
+            used as a map for bump-mapping. This list contains images that are
+            present on your screen when you launch the filter. Images opened
+            after starting filter are not present in this list.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Map type</span>
+            </dt>
+            <dd>
+              <p>
+            This option allows you to define the method that will be used
+            when creating the map image:
+          </p>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Linear</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Bump height is a direct function of luminosity.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Sinusoidal</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Bump height is a sinusoidal function of luminosity.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Spheric</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Bump height is a spheric function of luminosity.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Compensate for darkening</span>
+            </dt>
+            <dd>
+              <p>
+            Bump-mapping tends to darken image. You can compensate this
+            darkening by checking this option.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Invert bumpmap</span>
+            </dt>
+            <dd>
+              <p>
+            Bright pixels default to bumps and dark pixels to hollows. You can
+            invert this effect by checking this option.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Tile bumpmap</span>
+            </dt>
+            <dd>
+              <p>
+            If you check this option, there will be no relief break if
+            you use your image as a pattern for a web page: patterns will
+            be placed side by side without any visible joins.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Azimut</span>
+            </dt>
+            <dd>
+              <p>
+            This is about lighting according to the points of the compass
+            (0 - 360). East (0°) is on the left. Increasing value goes
+            counter-clockwise.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Elevation</span>
+            </dt>
+            <dd>
+              <p>
+            That's height from horizon (0.50°), up to zenith (90°).
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Depth</span>
+            </dt>
+            <dd>
+              <p>
+            With this slider, you can vary bump height and hollow depth. The
+            higher the value, the higher the difference between both. Values
+            vary from 1 to 65.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">X offset, </span>
+              <span class="term">Y offset</span>
+            </dt>
+            <dd>
+              <p>
+            With this slider, you can adjust the map image position
+            compared with the image, horizontally (X) and/or vertically
+            (Y).
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Waterlevel</span>
+            </dt>
+            <dd>
+              <p>
+            If your image has transparent areas, they will be treated like
+            dark areas and will appear as hollows after bump-mapping. With this
+            slider, you can reduce hollows as if sea level was raising. This
+            hollows will disappear when sea level value reaches 255. If the
+            Invert bump-map option is checked, transparent areas will be
+            treated as bright areas, and then Waterlevel slider will plane
+            bumps down.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Ambient</span>
+            </dt>
+            <dd>
+              <p>
+            This slider controls the intensity of ambient light. With high
+            values, shadows will fade and relief lessen.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-map.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-map.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-displace.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-map.html">12. Map Filters</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-displace.html">12.3. Displace</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

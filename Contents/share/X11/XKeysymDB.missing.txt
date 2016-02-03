@@ -1,0 +1,10 @@
+
+'/opt/local/share/X11/XKeysymDB' DNE. Requested by '../lib/libX11.6.dylib'
+  from '../lib/libcairo.2.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/share/X11/XKeysymDB' DNE. Requested by './/libX11.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

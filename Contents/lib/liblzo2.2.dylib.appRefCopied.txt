@@ -1,0 +1,17 @@
+'../lib/liblzo2.2.dylib'
+ '../lib/liblzo2.2.dylib'
+  copied for '../lib/libcairo-script-interpreter.2.dylib'
+  from './/libcairo-script-interpreter.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:36:58 PDT 2014
+Also requested for '../lib/liblzo2.2.dylib'
+  from '../lib/libcairo-script-interpreter.2.dylib'
+  from './/libcairo-script-interpreter.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:58 PDT 2014
+Also requested for './/liblzo2.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:06 PDT 2014

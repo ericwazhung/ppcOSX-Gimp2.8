@@ -1,0 +1,8 @@
+
+'/opt/local/share/X11/locale', Requested by '../lib/libX11.6.dylib'
+  from '../lib/libcairo.2.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh',
+  was skipped via user-option in /Users/meh/myexecs/appReferences2.sh
+  Most-likely, the necessary pieces have been copied-over via other callers...

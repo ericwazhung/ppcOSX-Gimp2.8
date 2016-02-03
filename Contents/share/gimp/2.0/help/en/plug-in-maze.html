@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.13. Maze</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-render.html" title="13. Rendering Filters" />
+    <link rel="prev" href="plug-in-jigsaw.html" title="13.12. Jigsaw" />
+    <link rel="next" href="plug-in-qbist.html" title="13.14. Qbist" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.13. Maze</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-jigsaw.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. Rendering Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-qbist.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="13.13. Maze">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-maze"></a>13.13. Maze</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp25618800" class="indexterm"></a>
+      <a id="idp25964848" class="indexterm"></a>
+      <div class="sect3" title="13.13.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp23347200"></a>13.13.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp24163312"></a>
+          <p class="title">
+            <strong>Figure 17.313. An example of a rendered maze. </strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-maze.jpg" alt="An example of a rendered maze." />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Maze</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter generates a random black and white maze
+      pattern.  The result completely overwrites the previous
+      contents of the active layer.  A typical example is shown
+      below.  Can you find the route from the center to the edge?
+    </p>
+      </div>
+      <div class="sect3" title="13.13.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp22160448"></a>13.13.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">Maze</span>.
+    </p>
+      </div>
+      <div class="sect3" title="13.13.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp22087392"></a>13.13.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp23826656"></a>
+          <p class="title">
+            <strong>Figure 17.314. <span class="quote">“<span class="quote">Maze</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/maze.png" alt="Maze filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist" title="Maze Size">
+          <p class="title">
+            <strong>Maze Size</strong>
+          </p>
+          <dl>
+            <dt>
+              <span class="term">Width, </span>
+              <span class="term">Height</span>
+            </dt>
+            <dd>
+              <p>
+            These sliders control how many pathways the maze should have. The
+            lower the values for width and height, the more paths you will
+            get. The same happens if you increase the number of pieces in the
+            Width and Height <span class="guilabel">Pieces</span> fields. The result
+            won't really look like a maze unless the width and height are
+            equal.
+          </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="variablelist" title="Algorithm">
+          <p class="title">
+            <strong>Algorithm</strong>
+          </p>
+          <dl>
+            <dt>
+              <span class="term">Seed</span>
+            </dt>
+            <dd>
+              <p>
+            You can specify a seed for the random number generator, or
+            ask the program to generate one for you.  Unless you need
+            to later reproduce exactly the same maze, you might as
+            well have the program do it.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Depth first, </span>
+              <span class="term">Prim's algorithm</span>
+            </dt>
+            <dd>
+              <p>
+            You can choose between these two algorithms for maze. Only a
+            computer scientist can tell the difference between them.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Tileable</span>
+            </dt>
+            <dd>
+              <p>
+            If you want to use it in a pattern, you can make the maze
+            tileable by checking this check-button.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-jigsaw.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-qbist.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-jigsaw.html">13.12. Jigsaw</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-qbist.html">13.14. Qbist</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

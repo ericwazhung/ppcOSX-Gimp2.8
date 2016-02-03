@@ -1,0 +1,8 @@
+
+'/opt/local/lib/gtk-2.0/modules'' DNE. Requested by './/libferret.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/modules'' DNE. Requested by './/libgail.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

@@ -1,0 +1,8 @@
+
+'/opt/local/share/terminfo', Requested by '../lib/libncurses.5.dylib'
+  from '../lib/libaa.1.dylib'
+  from './/libaa.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh',
+  was skipped via user-option in /Users/meh/myexecs/appReferences2.sh
+  Most-likely, the necessary pieces have been copied-over via other callers...

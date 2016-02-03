@@ -1,0 +1,16 @@
+'../lib/libXft.2.dylib'
+ '../lib/libXft.2.dylib'
+  copied for './/libXft.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:34:47 PDT 2014
+Also requested for '../lib/libXft.2.dylib'
+  from './/libXft.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:34:47 PDT 2014
+Also requested for '../lib/libpangoxft-1.0.0.dylib'
+  from './/libpangoxft-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:52 PDT 2014

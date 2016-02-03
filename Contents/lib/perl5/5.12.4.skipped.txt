@@ -1,0 +1,9 @@
+
+'/opt/local/lib/perl5/5.12.4', Requested by '../lib/perl5/5.12.4/darwin-thread-multi-2level/CORE/libperl.dylib'
+  from '../bin/perl5'
+  from '..//etc/openssl/misc/CA.pl'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh',
+  was skipped via user-option in /Users/meh/myexecs/appReferences2.sh
+  Most-likely, the necessary pieces have been copied-over via other callers...

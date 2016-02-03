@@ -1,0 +1,109 @@
+Last login: Fri Nov  1 23:42:26 on ttys009
+... loading bash profile from /Users/meh/.bash_profile ...
+JiggyFour:~ meh$ thing="blah $(shrext{ \"
+> 
+JiggyFour:~ meh$ thing="blah $(shrext{ \\"
+> 
+JiggyFour:~ meh$ thing="blah $(shrext) \"
+> 
+JiggyFour:~ meh$ thing="blah $(shrext) \\"
+-bash: shrext: command not found
+JiggyFour:~ meh$ thing="blah $\(shrext\) \\"
+JiggyFour:~ meh$ echo $thing
+blah $\(shrext\) \
+JiggyFour:~ meh$ thing="blah \$(shrext) \\"
+JiggyFour:~ meh$ echo $thing
+blah $(shrext) \
+JiggyFour:~ meh$ sed s/"$thing"/\$(shrext)/g
+-bash: syntax error near unexpected token `('
+JiggyFour:~ meh$ sed s/"$thing"/\$\(shrext\)/g
+sed: 1: "s/blah $(shrext) \/$(sh ...": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed s/blah \$\(shrext\) \\/\$\(shrext\)/g
+sed: 1: "s/blah": unterminated substitute pattern
+JiggyFour:~ meh$ sed s/"blah \$\(shrext\) \\"/\$\(shrext\)/g
+sed: 1: "s/blah $\(shrext\) \/$( ...": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed s/"blah \$\(shrext\) \\"/"\$\(shrext\)"/g
+sed: 1: "s/blah $\(shrext\) \/$\ ...": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed s/"blah \$\(shrext\) \\"/"\$\(shrext)"/g
+sed: 1: "s/blah $\(shrext\) \/$\ ...": RE error: parentheses not balanced
+JiggyFour:~ meh$ sed s/"blah \$\(shrext\) \\"/"\$(shrext)"/g
+sed: 1: "s/blah $\(shrext\) \/$( ...": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/blah \$\(shrext\) \\/\$(shrext)/g"
+sed: 1: "s/blah $\(shrext\) \/$( ...": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/blah \$\(shrext\) \\/$(shrext)/g"
+-bash: shrext: command not found
+sed: 1: "s/blah $\(shrext\) \//g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/blah \$\(shrext\) \\/"$(shrext)"/g"
+-bash: shrext: command not found
+sed: 1: "s/blah $\(shrext\) \//g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/blah \$\(shrext\) \\/\"$(shrext)\"/g"
+-bash: shrext: command not found
+sed: 1: "s/blah $\(shrext\) \/""/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "/blas/s/bla/ads/g"
+^C
+JiggyFour:~ meh$ sed /blas/s/bla/ads/g
+^C
+JiggyFour:~ meh$ sed s/bla/ads/g
+blasdf
+adssdf
+^C
+JiggyFour:~ meh$ sed s/"$(shrext) \"/"$(shrext)"/g
+> 
+JiggyFour:~ meh$ sed s/"$(shrext) \\"/"$(shrext)"/g
+-bash: shrext: command not found
+-bash: shrext: command not found
+sed: 1: "s/ \//g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed s/"\$(shrext) \\"/"\$(shrext)"/g
+sed: 1: "s/$(shrext) \/$(shrext)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed s/shrext/shrext2/g
+shrext
+shrext2
+q^C
+JiggyFour:~ meh$ sed s/shrext/(shrext)/g
+-bash: syntax error near unexpected token `('
+JiggyFour:~ meh$ sed "s/shrext/(shrext)/g"
+shrext
+(shrext)
+^C
+JiggyFour:~ meh$ sed "s/(shrext)/(shrext2)/g"
+shrext
+shrext
+(shrext)
+(shrext2)
+^C
+JiggyFour:~ meh$ sed "s/\$(shrext)/\$(shrext2)/g"
+$(shrext)
+$(shrext2)
+^C
+JiggyFour:~ meh$ sed "s/\$(shrext) \\/\$(shrext2)/g"
+sed: 1: "s/$(shrext) \/$(shrext2)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/\$(shrext) \/\$(shrext2)/g"
+sed: 1: "s/$(shrext) \/$(shrext2)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/\$(shrext) \\\/\$(shrext2)/g"
+$(shrext) \
+$(shrext2)
+^C
+JiggyFour:~ meh$ sed "s/shrext) \\\/shrext)/g"
+$(shrext) \
+$(shrext)
+^C
+JiggyFour:~ meh$ sed "s/shrext) \\/shrext)/g"
+sed: 1: "s/shrext) \/shrext)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/shrext) \/shrext)/g"
+sed: 1: "s/shrext) \/shrext)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/shrext) \\\/shrext)/g"
+$(shrext) \
+$(shrext)
+$(shrext) \\
+$(shrext)\
+^C
+JiggyFour:~ meh$ sed "s/shrext) \/shrext)/g"
+sed: 1: "s/shrext) \/shrext)/g": unterminated substitute in regular expression
+JiggyFour:~ meh$ sed "s/shrext) \\\n\t\n/shrext\n)/g"
+blah $(shrext) \
+blah $(shrext) \
+^[[A^[[A^[[B
+blah $(shrext) \\n\t\n
+blah $(shrext) \\n\t\n
+^[[A^[[B^C
+JiggyFour:~ meh$ 

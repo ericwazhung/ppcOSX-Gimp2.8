@@ -1,0 +1,15 @@
+'../lib/libgimpthumb-2.0.0.dylib'
+ '../lib/libgimpthumb-2.0.0.dylib'
+  copied for './/libgimpthumb-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 07:08:01 PDT 2014
+Also requested for '../lib/libgimpthumb-2.0.0.dylib'
+  from './/libgimpthumb-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:08:01 PDT 2014
+Also requested for './/libgimpthumb-2.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:08:03 PDT 2014

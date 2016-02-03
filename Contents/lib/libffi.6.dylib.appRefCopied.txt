@@ -1,0 +1,88 @@
+'../lib/libffi.6.dylib'
+ '../lib/libffi.6.dylib'
+  copied for '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:24:33 PDT 2014
+Also requested for '../lib/libgdk-quartz-2.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:24:37 PDT 2014
+Also requested for '../lib/libpangocairo-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:24:59 PDT 2014
+Also requested for '../lib/libpangoft2-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:15 PDT 2014
+Also requested for '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:18 PDT 2014
+Also requested for '..//lib/pango/1.8.0/modules/pango-arabic-lang.so'
+  from '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:21 PDT 2014
+Also requested for '..//lib/pango/1.8.0/modules/pango-basic-fc.so'
+  from '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:25 PDT 2014
+Also requested for '..//lib/pango/1.8.0/modules/pango-indic-lang.so'
+  from '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:29 PDT 2014
+Also requested for '../lib/libgio-2.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:52:53 PDT 2014
+Also requested for '../lib/libgobject-2.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:54:55 PDT 2014
+Also requested for '../lib/libffi.6.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:55:07 PDT 2014
+Also requested for './/libffi.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:41:34 PDT 2014
+Also requested for '../lib/libgailutil.18.dylib'
+  from './/libgailutil.18.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:42:20 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 05:16:28 PDT 2014
+Also requested for '../lib/librsvg-2.2.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-svg'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:50:59 PDT 2014
+Also requested for '../lib/libpangoxft-1.0.0.dylib'
+  from './/libpangoxft-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:52 PDT 2014

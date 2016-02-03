@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.37. Max RGB</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. The “Colors” Menu" />
+    <link rel="prev" href="plug-in-hot.html" title="8.36. Hot" />
+    <link rel="next" href="plug-in-retinex.html" title="8.38. Retinex" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.37. Max RGB</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-hot.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. The <span class="quote">“<span class="quote">Colors</span>”</span> Menu</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-retinex.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="8.37. Max RGB">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-max-rgb"></a>8.37. Max RGB</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp16511712" class="indexterm"></a>
+      <a id="idp8583280" class="indexterm"></a>
+      <div class="sect3" title="8.37.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp7878624"></a>8.37.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp10021840"></a>
+          <p class="title">
+            <strong>Figure 16.196. Example for the filter <span class="quote">“<span class="quote">Max RGB</span>”</span></strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for the filter Max RGB" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/color-taj-maxrgb.jpg" alt="Example for the filter Max RGB" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Max RGB</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      For every pixel of the image, this filter holds the channel with the
+      maximal/minimal intensity. The result is an image with only three
+      colors, red, green and blue, and possibly pure gray.
+    </p>
+      </div>
+      <div class="sect3" title="8.37.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp11582016"></a>8.37.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Colors</span> → <span class="guimenuitem">Max RGB</span>.
+    </p>
+      </div>
+      <div class="sect3" title="8.37.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21636032"></a>8.37.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19419424"></a>
+          <p class="title">
+            <strong>Figure 16.197. <span class="quote">“<span class="quote">Max RGB</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/maxRGB.png" alt="Max RGB options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            This preview displays, in real time, the resulting image after
+            treatment by filter.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Parameter Settings</span>
+            </dt>
+            <dd>
+              <p>
+            <span class="guilabel">Hold the maximal channels</span>: For every pixel,
+            the filter keeps intensity of the RGB color channel which has
+            the maximal intensity and reduces other both to zero. For
+            example: 220, 158, 175  max--&gt; 220, 0, 0. If two channels have
+            same intensity, both are held: 210, 54, 210 max--&gt; 210, 0, 210.
+          </p>
+              <p>
+            <span class="guilabel">Hold the minimal channels</span>: For every pixel,
+            the filter keeps intensity of the RGB color channel which has
+            the minimal intensity and reduce both others to zero. For
+            example: 220, 158, 175  min--&gt; 0, 158, 0. If two minimal
+            channels have same intensity, both are held: 210, 54, 54
+            min--&gt; 0, 54, 54.
+          </p>
+              <p>
+            Grey levels are not changed since light intensity is the same in
+            all three channels.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-hot.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-retinex.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-hot.html">8.36. Hot</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-retinex.html">8.38. Retinex</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

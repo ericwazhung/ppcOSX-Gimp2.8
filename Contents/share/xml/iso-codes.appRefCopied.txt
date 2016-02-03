@@ -1,0 +1,5 @@
+'../share/xml/iso-codes'
+ '../share/xml/iso-codes'
+  copied for 'gimp-2.8.theRealThing'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:19:47 PDT 2014

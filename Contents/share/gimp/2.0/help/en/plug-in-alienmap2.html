@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.21. Alien Map</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. The “Colors” Menu" />
+    <link rel="prev" href="script-fu-set-cmap.html" title="8.20. Set Colormap" />
+    <link rel="next" href="plug-in-exchange.html" title="8.22. Color Exchange" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.21. Alien Map</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-set-cmap.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. The <span class="quote">“<span class="quote">Colors</span>”</span> Menu</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-exchange.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="8.21. Alien Map">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-alienmap2"></a>8.21. Alien Map</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp19318080" class="indexterm"></a>
+      <a id="idp13789536" class="indexterm"></a>
+      <div class="sect3" title="8.21.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18807072"></a>8.21.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp20411904"></a>
+          <p class="title">
+            <strong>Figure 16.163. Alien Map filter example</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Alien Map filter example" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/color-taj-alien2.jpg" alt="Alien Map filter example" />
+              <div class="caption">
+                <p>Filter applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter renders very modified colors by applying trigonometric
+      functions. Alien Map can work on images having
+      <a class="link" href="glossary.html#glossary-colormodel" title="Color model">RGB and HSV</a> color models.
+    </p>
+      </div>
+      <div class="sect3" title="8.21.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21565280"></a>8.21.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter in the image window menu under
+      <span class="guimenu">Colors</span> → <span class="guisubmenu">Map</span> → <span class="guimenuitem">Alien Map</span>.
+    </p>
+      </div>
+      <div class="sect3" title="8.21.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18458496"></a>8.21.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19594368"></a>
+          <p class="title">
+            <strong>Figure 16.164. Options for the <span class="quote">“<span class="quote">Alien Map</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/map/alienmap.png" alt="Options for the Alien Map filter" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            This preview displays results of filter application interactively.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Mode</span>
+            </dt>
+            <dd>
+              <p>
+            Radio buttons <span class="guilabel">RGB Color Channel</span> and
+            <span class="guilabel">HSV Color Channel</span>
+            let you select the color space you want to use.
+          </p>
+              <p>
+            Check boxes <span class="guilabel">Modify ... Channel</span> let you
+            select RGB/HSV Channel you want to work with.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Sliders</span>
+            </dt>
+            <dd>
+              <p>
+            For each channel, you can set Frequency (0-5) and Phaseshift
+            (0-360) of sine-cosine functions, using either sliders or input
+            boxes and their arrowheads.
+          </p>
+              <p><span class="guilabel">Frequency</span> around 0.3 to 0.7 provides a
+            curve that is similar to the linear function (original image),
+            only darker or with more contrast. As you raise the frequency
+            level, you'll get an increasing variation in pixel
+            transformation, meaning that the image will get more and more
+            <span class="quote">“<span class="quote">alien</span>”</span>.
+          </p>
+              <p><span class="guilabel">Phase</span> alters the value transformation. 0
+            and 360 degrees are the same as a sine function and 90 is the
+            same as a cosine function. 180 inverts sine and 270 inverts
+            cosine.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-set-cmap.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-exchange.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-set-cmap.html">8.20. Set Colormap</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-exchange.html">8.22. Color Exchange</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

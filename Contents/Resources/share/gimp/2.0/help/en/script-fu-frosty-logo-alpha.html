@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.13. Frosty</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters" />
+    <link rel="prev" href="script-fu-cool-metal-logo-alpha.html" title="16.12. Cool Metal" />
+    <link rel="next" href="script-fu-glossy-logo-alpha.html" title="16.14. Glossy" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.13. Frosty</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-cool-metal-logo-alpha.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. Alpha to Logo Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-glossy-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="16.13. Frosty">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-frosty-logo-alpha"></a>16.13. Frosty</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp23132320" class="indexterm"></a>
+      <a id="idp25900464" class="indexterm"></a>
+      <div class="sect3" title="16.13.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp24871360"></a>16.13.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp21915024"></a>
+          <p class="title">
+            <strong>Figure 17.400. Example for the <span class="quote">“<span class="quote">Frosty</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/frosty.jpg" alt="Example for the Frosty filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Frosty</span>”</span> filter applied</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/menus/file/create/logos/frosty.jpg" alt="Example for the Frosty filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Frosty</span>”</span> logo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter is derived from the <span class="quote">“<span class="quote">Frosty</span>”</span> logo script
+      (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Frosty</span>
+      in the image window), which creates a frozen logo like the example above.
+    </p>
+        <p>
+      The filter adds this frosty effect to the alpha, that is the area of the
+      active layer defined by the non-transparent pixels (think of it as a
+      <span class="quote">“<span class="quote">selection by visibility</span>”</span>). The filter effect will always
+      be applied according to the alpha values.
+    </p>
+        <div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="images/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        Unlike the most alpha to logo filters, the <span class="quote">“<span class="quote">Frosty</span>”</span>
+        filter will <span class="emphasis"><em>not</em></span> resize the image to the active
+        layer's size.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="16.13.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25300352"></a>16.13.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Frosty</span>.
+    </p>
+      </div>
+      <div class="sect3" title="16.13.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21991712"></a>16.13.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp21027040"></a>
+          <p class="title">
+            <strong>Figure 17.401. <span class="quote">“<span class="quote">Frosty</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/frosty-options.png" alt="Frosty options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Effect size (pixels)</span>
+            </dt>
+            <dd>
+              <div class="figure">
+                <a id="idp19260720"></a>
+                <p class="title">
+                  <strong>Figure 17.402. <span class="quote">“<span class="quote">Effect size</span>”</span> examples</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/alpha-to-logo/frosty-10.jpg" alt="Effect size examples" />
+                    <div class="caption">
+                      <p>Effect size 10</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/alpha-to-logo/frosty-200.jpg" alt="Effect size examples" />
+                    <div class="caption">
+                      <p>Effect size 200</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/alpha-to-logo/frosty-400.jpg" alt="Effect size examples" />
+                    <div class="caption">
+                      <p>Effect size 400</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Background color</span>
+            </dt>
+            <dd>
+              <p>
+            This color is used to fill the background layer created by the
+            filter. It defaults to white. When you click on the color button,
+            a color selector pops up where you can select any other color.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-cool-metal-logo-alpha.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-glossy-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-cool-metal-logo-alpha.html">16.12. Cool Metal</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-glossy-logo-alpha.html">16.14. Glossy</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+'../lib/libxml2.2.dylib'
+ '../lib/libxml2.2.dylib'
+  copied for '../lib/libcroco-0.6.3.dylib'
+  from './/libcroco-0.6.3.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:37:43 PDT 2014
+Also requested for '../lib/libxml2.2.dylib'
+  from '../lib/libcroco-0.6.3.dylib'
+  from './/libcroco-0.6.3.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:37:43 PDT 2014
+Also requested for '../lib/librsvg-2.2.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-svg'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:51:00 PDT 2014
+Also requested for './/libxml2.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:23:12 PDT 2014

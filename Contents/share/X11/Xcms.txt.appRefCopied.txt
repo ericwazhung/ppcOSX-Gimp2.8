@@ -1,0 +1,12 @@
+'../share/X11/Xcms.txt'
+ '../share/X11/Xcms.txt'
+  copied for '../lib/libX11.6.dylib'
+  from '../lib/libcairo.2.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:52:08 PDT 2014
+Also requested for './/libX11.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:34:00 PDT 2014

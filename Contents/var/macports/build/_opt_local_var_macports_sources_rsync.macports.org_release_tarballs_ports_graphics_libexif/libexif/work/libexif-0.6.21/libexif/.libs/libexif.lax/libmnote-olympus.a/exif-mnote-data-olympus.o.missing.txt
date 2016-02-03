@@ -1,0 +1,9 @@
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_libexif/libexif/work/libexif-0.6.21/libexif/.libs/libexif.lax/libmnote-olympus.a/exif-mnote-data-olympus.o' DNE. Requested by './/libexif.12.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_graphics_libexif/libexif/work/libexif-0.6.21/libexif/.libs/libexif.lax/libmnote-olympus.a/exif-mnote-data-olympus.o' DNE. Requested by '../lib/libexif.12.dylib'
+  from './/libexif.12.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.8. Sharpen</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-enhance.html" title="3. Enhance Filters" />
+    <link rel="prev" href="plug-in-red-eye-removal.html" title="3.7. Red Eye Removal" />
+    <link rel="next" href="plug-in-unsharp-mask.html" title="3.9. Unsharp Mask" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.8. Sharpen</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-red-eye-removal.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. Enhance Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-unsharp-mask.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="3.8. Sharpen">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-sharpen"></a>3.8. Sharpen</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp17205152" class="indexterm"></a>
+      <a id="idp17290960" class="indexterm"></a>
+      <div class="sect3" title="3.8.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21710336"></a>3.8.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      Most of digitized images need correction of sharpness. This is due to
+      digitizing process that must chop a color continuum up in points with
+      slightly different colors: elements thinner than sampling frequency
+      will be averaged into an uniform color. So sharp borders are rendered
+      a little blurred. The same phenomenon appears when printing color dots
+      on paper.
+    </p>
+        <p>
+      The Sharpen filter accentuates edges but also any noise or blemish and
+      it may create noise in graduated color areas like the sky or a water
+      surface. It competes with the Unsharp Mask filter, which is more
+      sophisticated and renders more natural results.
+    </p>
+        <div class="figure">
+          <a id="idp15734496"></a>
+          <p class="title">
+            <strong>Figure 17.29. Applying example for the Sharpen filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Applying example for the Sharpen filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-taj-sharpen.jpg" alt="Applying example for the Sharpen filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Sharpen</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3" title="3.8.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21608224"></a>3.8.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Sharpen</span>.
+    </p>
+      </div>
+      <div class="sect3" title="3.8.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp9081984"></a>3.8.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp13765488"></a>
+          <p class="title">
+            <strong>Figure 17.30. <span class="quote">“<span class="quote">Sharpen</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/sharpen.png" alt="Sharpen filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, parameter setting results are interactively displayed
+            in preview. Scroll bars allow you to move around the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Sharpness</span>
+            </dt>
+            <dd>
+              <p>
+            The slider and input boxes allow you to set sharpness (1-99)
+            and you can judge result in preview. By increasing sharpness,
+            you may increase image blemishes and also create noise in
+            graduated color areas.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-red-eye-removal.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-unsharp-mask.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-red-eye-removal.html">3.7. Red Eye Removal</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-unsharp-mask.html">3.9. Unsharp Mask</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

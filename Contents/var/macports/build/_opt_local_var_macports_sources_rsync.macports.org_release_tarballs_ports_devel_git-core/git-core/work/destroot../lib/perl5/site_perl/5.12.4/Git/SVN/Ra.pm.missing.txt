@@ -1,0 +1,8 @@
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_devel_git-core/git-core/work/destroot/opt/local/lib/perl5/site_perl/5.12.4/Git/SVN/Ra.pm' DNE. Requested by '..//lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/auto/Git/.packlist'
+  from '../lib/perl5/5.12.4/darwin-thread-multi-2level/CORE/libperl.dylib'
+  from '../bin/perl5'
+  from '..//etc/openssl/misc/CA.pl'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

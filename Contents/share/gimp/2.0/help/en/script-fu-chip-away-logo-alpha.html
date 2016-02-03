@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.9. Chip Away</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters" />
+    <link rel="prev" href="script-fu-chalk-logo-alpha.html" title="16.8. Chalk" />
+    <link rel="next" href="script-fu-chrome-logo-alpha.html" title="16.10. Chrome" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.9. Chip Away</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-chalk-logo-alpha.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. Alpha to Logo Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="16.9. Chip Away">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-chip-away-logo-alpha"></a>16.9. Chip Away</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp18555600" class="indexterm"></a>
+      <a id="idp20488848" class="indexterm"></a>
+      <div class="sect3" title="16.9.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25320816"></a>16.9.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19301696"></a>
+          <p class="title">
+            <strong>Figure 17.388. Example for the <span class="quote">“<span class="quote">Chip Away</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-chip-away.jpg" alt="Example for the Chip Away filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Chip Away</span>”</span> filter</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/chip-away-script-fu.jpg" alt="Example for the Chip Away filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Chip Away</span>”</span> logo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter adds a chipped woodcarving effect to the alpha channel of
+      the active layer. Optionally it adds a drop shadow to the image.
+      The content of the active layer doesn't matter, only the shape of its
+      alpha channel does.
+    </p>
+        <div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Warning]" src="images/warning.png" />
+              </td>
+              <th align="left">Warning</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        The image will always be resized to the active layer's size.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>
+      The filter is derived from the <span class="quote">“<span class="quote">Chip Away</span>”</span> Script-Fu script
+      (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Chip Away</span>),
+      which creates a text logo with the effect shown above.
+    </p>
+      </div>
+      <div class="sect3" title="16.9.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp23991328"></a>16.9.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Chip Away</span>.
+    </p>
+      </div>
+      <div class="sect3" title="16.9.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp24560768"></a>16.9.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp9502112"></a>
+          <p class="title">
+            <strong>Figure 17.389. <span class="quote">“<span class="quote">Chip Away</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/chip-away-options.png" alt="Chip Away options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Chip amount</span>
+            </dt>
+            <dd>
+              <p>
+            This option lets you vary the size of chipping area. But note that
+            <span class="quote">“<span class="quote">Chip amount</span>”</span> is not the size of this area in pixels.
+            It is used as the maximum amount pixels are randomly spread by the
+            <a class="link" href="plug-in-spread.html" title="6.7. Spread">Spread</a> filter applied to the
+            bump map. Valid range is 0-200.
+          </p>
+              <div class="figure">
+                <a id="idp24935040"></a>
+                <p class="title">
+                  <strong>Figure 17.390. <span class="quote">“<span class="quote">Chip amount</span>”</span> examples</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-0.jpg" alt="Chip amount examples" />
+                    <div class="caption">
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-30.jpg" alt="Chip amount examples" />
+                    <div class="caption">
+                      <p>30</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-60.jpg" alt="Chip amount examples" />
+                    <div class="caption">
+                      <p>60</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-90.jpg" alt="Chip amount examples" />
+                    <div class="caption">
+                      <p>90</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Blur amount</span>
+            </dt>
+            <dd>
+              <p>
+            The specified value will be passed as <span class="quote">“<span class="quote">Radius</span>”</span> option
+            to the <a class="link" href="plug-in-gauss.html" title="2.3. Gaussian Blur">Gaussian blur</a> filter,
+            which will blur the bump layer by this amount.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Invert</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, the <a class="link" href="plug-in-bump-map.html" title="12.2. Bump Map">bump map</a>
+            will be inverted and will create hollows instead of bumps, which
+            makes the image looking carved.
+          </p>
+              <div class="figure">
+                <a id="idp19782048"></a>
+                <p class="title">
+                  <strong>Figure 17.391. <span class="quote">“<span class="quote">Chip Away</span>”</span> inverted example</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-invert.jpg" alt="Chip Away inverted example" />
+                    <div class="caption">
+                      <p>Inverted, (without drop shadow)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Drop shadow</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, a <a class="link" href="script-fu-drop-shadow.html" title="5.7. Drop Shadow">Drop
+            shadow</a> will be added to the image in a new layer below the
+            active layer.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Keep bump layer</span>
+            </dt>
+            <dd>
+              <p>
+            By default, the <a class="link" href="plug-in-bump-map.html" title="12.2. Bump Map">bump map</a>
+            used to create the chipping effect will be removed after applying
+            the filter. When this option is checked, the bump map will be kept
+            as an invisible layer.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Fill BG with pattern</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, the background layer (added by the filter) will be
+            filled with the specified <span class="guilabel">Pattern</span>. Otherwise,
+            it will be filled with white.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Keep background</span>
+            </dt>
+            <dd>
+              <p>
+            Whether or not to remove the background layer. This option is
+            checked by default. You can, of course, remove this layer (or
+            toggle its visibility) later in the
+            <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. Layers Dialog">Layers dialog</a>.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Pattern</span>
+            </dt>
+            <dd>
+              <p>
+            This option consists of a preview area, which will produce a popup
+            preview when you click on it and hold down the mouse button, and a
+            <span class="guibutton">Browse</span> button. The button will popup a
+            dialog where you can select patterns.
+          </p>
+              <p>
+            The default pattern is <span class="quote">“<span class="quote">Burlwood</span>”</span>. Apart from that
+            one, the plug-in author suggests the patterns
+            <span class="quote">“<span class="quote">Dried mud</span>”</span>, <span class="quote">“<span class="quote">3D Green</span>”</span>, and
+            <span class="quote">“<span class="quote">Slate</span>”</span>:
+          </p>
+              <div class="figure">
+                <a id="idp25656768"></a>
+                <p class="title">
+                  <strong>Figure 17.392. Suggested <span class="quote">“<span class="quote">Chip Away</span>”</span> patterns</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-mud.jpg" alt="Suggested Chip Away patterns" />
+                    <div class="caption">
+                      <p>Dried mud</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-3d.jpg" alt="Suggested Chip Away patterns" />
+                    <div class="caption">
+                      <p>3D Green</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-slate.jpg" alt="Suggested Chip Away patterns" />
+                    <div class="caption">
+                      <p>Slate</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3" title="16.9.4. Filter details">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp9379200"></a>16.9.4. Filter details</h4>
+            </div>
+          </div>
+        </div>
+        <div class="procedure">
+          <p>To achieve a chipping effect, the filter...</p>
+          <ol class="procedure" type="1">
+            <li class="step" title="Step 1">
+              <p>
+           ...creates a
+           <a class="link" href="gimp-channel-dialog.html#gimp-channel-selection-replace">selection from the
+           alpha channel</a> in a new layer,
+         </p>
+            </li>
+            <li class="step" title="Step 2">
+              <p>fills the selection with white,</p>
+            </li>
+            <li class="step" title="Step 3">
+              <p>
+           <a class="link" href="plug-in-spread.html" title="6.7. Spread">spreads</a> the pixels,
+         </p>
+            </li>
+            <li class="step" title="Step 4">
+              <p>
+           and applies a <a class="link" href="plug-in-gauss.html" title="2.3. Gaussian Blur">Gaussian blur</a> to
+           the layer.
+         </p>
+            </li>
+            <li class="step" title="Step 5">
+              <p>
+           Then it uses this layer as a <a class="link" href="plug-in-bump-map.html" title="12.2. Bump Map">Bump
+           map</a>, creating a 3D effect.
+         </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-chalk-logo-alpha.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-chalk-logo-alpha.html">16.8. Chalk</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html">16.10. Chrome</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

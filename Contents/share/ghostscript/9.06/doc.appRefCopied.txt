@@ -1,0 +1,14 @@
+'../share/ghostscript/9.06/doc'
+ '../share/ghostscript/9.06/doc'
+  copied for '../lib/libgs.9.06.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-ps'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 06:44:39 PDT 2014
+Also requested for './/libgs.9.06.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:11:56 PDT 2014

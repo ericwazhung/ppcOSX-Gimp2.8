@@ -1,0 +1,6 @@
+
+'/opt/local/var/cache/fontconfig</cachedir>' DNE. Requested by '..//etc/fonts/fonts.conf'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'

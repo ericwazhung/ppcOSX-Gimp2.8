@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>12.8. Paper Tile</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-map.html" title="12. Map Filters" />
+    <link rel="prev" href="plug-in-map-object.html" title="12.7. Map Object" />
+    <link rel="next" href="plug-in-small-tiles.html" title="12.9. Small Tiles" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">12.8. Paper Tile</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-map-object.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">12. Map Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-small-tiles.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="12.8. Paper Tile">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-papertile"></a>12.8. Paper Tile</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp15217584" class="indexterm"></a>
+      <a id="idp13796592" class="indexterm"></a>
+      <div class="sect3" title="12.8.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp15120976"></a>12.8.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp10254512"></a>
+          <p class="title">
+            <strong>Figure 17.266. <span class="quote">“<span class="quote">Papertile</span>”</span> filter example.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Papertile filter example." />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-taj-papertile.jpg" alt="Papertile filter example." />
+              <div class="caption">
+                <p>
+            Filter <span class="quote">“<span class="quote">Papertile</span>”</span> applied
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter cuts the image (active layer or selection) into several
+      pieces, with square form, and then slides them so that they, more or
+      less, overlap or move apart. They can go out image borders a little.
+    </p>
+      </div>
+      <div class="sect3" title="12.8.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp15183376"></a>12.8.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Map</span> → <span class="guimenuitem">Paper Tile</span>.
+    </p>
+      </div>
+      <div class="sect3" title="12.8.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp20399488"></a>12.8.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp21750784"></a>
+          <p class="title">
+            <strong>Figure 17.267. <span class="quote">“<span class="quote">Paper Tile</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/map/papertile.png" alt="Paper Tile filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Division</span>
+            </dt>
+            <dd>
+              <p>
+            <span class="guilabel">X</span>, <span class="guilabel">Y</span> and <span class="guilabel">
+            Size</span> parameters are linked, because filter starts
+            cutting image before it displaces pieces; so, piece size and
+            number of pieces in horizontal (X) and vertical (Y) directions
+            must be convenient to image size.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Movement</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Max (%)</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  This is the maximum displacement percentage against the side
+                  size of squares.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Wrap around</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  As tiles move, some can go out image borders. If this option
+                  is checked, what goes out on one side goes in on the
+                  opposite side.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Fractional Pixels</span>
+            </dt>
+            <dd>
+              <p>
+            Because of image cutting, original pixels can persist. There are
+            three ways treating them:
+          </p>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Background</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Remaining pixels will be replaced with the background type
+                  defined in the following section.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Ignore</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  <span class="guilabel">Background Type</span> option is not taken
+                  into account and remaining pixels are kept.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Force</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Remaining pixels will be cut also.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Background Type</span>
+            </dt>
+            <dd>
+              <p>
+            You can select the background type which will be used, if the
+            <span class="guilabel">Background</span> radio-button is checked, among
+            six options:
+          </p>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Transparent</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Background will be transparent.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Inverted image</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Background colors will be inverted (255-value in every color
+                  channel).
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Image</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Background colors will be unchanged. The original image is
+                  the background.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Foreground color</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Remaining pixels will be replaced by the Foreground color of
+                  Toolbox.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Background color</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  Remaining pixels will be replaced by the Background color of
+                  Toolbox.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Select here</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  When this radio-button is checked, clicking in the color
+                  dwell will open a Color Selector where you can select the
+                  color you want for background.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Centering</span>
+            </dt>
+            <dd>
+              <p>
+            If this option is checked, tiles will rather be gathered together
+            in the center of the image.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-map-object.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-map.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-small-tiles.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-map-object.html">12.7. Map Object</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-small-tiles.html">12.9. Small Tiles</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+
+'/opt/local/etc/X11/%T/%N%C%S' DNE. Requested by './/libXt.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/etc/X11/%T/%N%C%S' DNE. Requested by '../lib/libXt.6.dylib'
+  from './/libXt.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

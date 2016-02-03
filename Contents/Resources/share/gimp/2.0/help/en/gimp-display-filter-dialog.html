@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.8. Display Filters</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-view-menu.html" title="5. The “View” Menu" />
+    <link rel="prev" href="gimp-view-navigation.html" title="5.7. Navigation Window" />
+    <link rel="next" href="gimp-view-show-selection.html" title="5.9. Show Selection" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.8. Display Filters</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-view-navigation.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. The <span class="quote">“<span class="quote">View</span>”</span> Menu</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-view-show-selection.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="5.8. Display Filters">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-display-filter-dialog"></a>5.8. Display Filters</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp20982896" class="indexterm"></a>
+      <p>
+    This command shows a dialog window when executed. This window can be used
+    to manage the display filters and their options. Display filters are not
+    to be confused with the filters in the <span class="guimenu">filters</span>-menu.
+    Display filters do not alter the image data, but only one display of it.
+    You can imagine display filters like big panes before your screen. They
+    change your perception of the image. This can be useful for things like
+    soft proofing prints, controlling the color management but also simulation
+    of color deficient vision.
+  </p>
+      <div class="sect3" title="5.8.1. Activating the Command">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp16603440"></a>5.8.1. Activating the Command</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+        You can access this command from the image menubar through
+        <span class="guimenu">View</span> → <span class="guimenuitem">Display Filters…</span>.
+      </p>
+      </div>
+      <div class="sect3" title="5.8.2. Description of the “Display Filters” Dialog">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp20604480"></a>5.8.2. Description of the <span class="quote">“<span class="quote">Display Filters</span>”</span> Dialog</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp16900992"></a>
+          <p class="title">
+            <strong>Figure 16.44. 
+        The <span class="quote">“<span class="quote">Configure Color Display Filters</span>”</span> dialog
+      </strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters.png" alt="The Configure Color Display Filters dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This dialog has two small selectboxes. The left selectbox displays the
+      <span class="guilabel">Available Filters</span>. You can move a filter to the
+      right selectbox by selecting it and clicking on the
+      <span class="guibutton">right arrow</span> button. The
+      <span class="guilabel">Active Filters</span> window on the right displays
+      filters you have chosen and which will be applied if the adjacent box
+      is checked. You can move filters from the right selectbox to the left
+      selectbox by using the <span class="guibutton">left arrow</span> button. If you
+      select a filter by clicking on its name, its options are displayed
+      below the two selectboxes, in the
+      <span class="guilabel">Configure Selected Filter</span> area.
+    </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" type="disc">
+            <li class="listitem">
+              <p>
+          <span>Simulation of deficient vision</span>
+          (<a class="xref" href="gimp-display-filter-dialog.html#gimp-deficient-vision" title="5.8.3. Color Deficient Vision">Section 5.8.3, “Color Deficient Vision”</a>;
+          <a class="xref" href="gimp-display-filter-dialog.html#gimp-contrast-dialog" title="5.8.5. Contrast">Section 5.8.5, “Contrast”</a>)
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          <span>Color Management</span>
+          (<a class="xref" href="gimp-display-filter-dialog.html#gimp-display-filter-color-management" title="5.8.6. Color Management">Section 5.8.6, “Color Management”</a>;
+          <a class="xref" href="gimp-display-filter-dialog.html#gimp-color-proof" title="5.8.7. Color Proof">Section 5.8.7, “Color Proof”</a>)
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          <span>Others</span> (<a class="xref" href="gimp-display-filter-dialog.html#gimp-gamma-dialog" title="5.8.4. Gamma">Section 5.8.4, “Gamma”</a>)
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3" title="5.8.3. Color Deficient Vision">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-deficient-vision"></a>5.8.3. Color Deficient Vision</h4>
+            </div>
+          </div>
+        </div>
+        <a id="idp8130272" class="indexterm"></a>
+        <p>
+      The images you create, we hope, will be seen by many people on many
+      different systems. The image which looks so wonderful on your screen may
+      look somewhat different to people with sight deficiencies or on a screen
+      with different settings from yours. Some information might not even be
+      visible.
+    </p>
+        <div class="figure">
+          <a id="idp20064064"></a>
+          <p class="title">
+            <strong>Figure 16.45. 
+        Description of the <span class="quote">“<span class="quote">Color Deficient Vision</span>”</span> dialog
+      </strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters/color-deficient-vision.png" alt="Description of the Color Deficient Vision dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="sect4" title="5.8.3.1. Options">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp19811648"></a>5.8.3.1. Options</h5>
+              </div>
+            </div>
+          </div>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Color Deficiency Type</span>
+              </dt>
+              <dd>
+                <p>
+              In this drop-down menu you can select from among:
+            </p>
+                <div class="variablelist">
+                  <dl>
+                    <dt>
+                      <span class="term">
+                  Protanopia<sup>[<a id="idp14108144" href="#ftn.idp14108144" class="footnote">11</a>]</sup> (insensitivity to red)
+                </span>
+                    </dt>
+                    <dd>
+                      <p>
+                    Protanopia is a visual deficiency of the color red. It's
+                    the well-known daltonism (red-green color blindness).
+                    Daltonism occurs fairly frequently in the population.
+                  </p>
+                      <p>
+                    Protanopia is actually more complex than this; a person
+                    with this problem cannot see either red or green, although
+                    he is still sensitive to yellow and blue. In addition, he
+                    has a loss of luminance perception and the hues shift
+                    toward the short wavelengths.
+                  </p>
+                    </dd>
+                    <dt>
+                      <span class="term">Deuteranopia (insensivity to green)</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    With deuteranopia, the person has a deficiency in green
+                    vision. Deuteranopia is actually like protanopia, because
+                    the person has a loss of red and green perception, but he
+                    has no luminance loss or hue shift.
+                  </p>
+                    </dd>
+                    <dt>
+                      <span class="term">Tritanopia (insensitivity to blue)</span>
+                    </dt>
+                    <dd>
+                      <p>
+                    With tritanopia, the person is deficient in blue and
+                    yellow perception, although he is still sensitive to red
+                    and green. He lacks some perception of luminance, and the
+                    hues shift toward the long wavelengths.
+                  </p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4" title="5.8.3.2. Examples">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp15638208"></a>5.8.3.2. Examples</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp20105792"></a>
+            <p class="title">
+              <strong>Figure 16.46. Example of protanopia</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/protanopia-normal.png" alt="Example of protanopia" />
+                <div class="caption">
+                  <p>Original image</p>
+                </div>
+              </div>
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/protanopia-filtered.png" alt="Example of protanopia" />
+                <div class="caption">
+                  <p>
+              A red-blind person cannot see the red (255,0,0) text on a black
+              (0,0,0) background.
+            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="figure">
+            <a id="idp11103440"></a>
+            <p class="title">
+              <strong>Figure 16.47. 
+          Examples of the three types of vision deficiencies in one image
+        </strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/sight-defects_normal-view.png" alt="Examples of the three types of vision deficiencies in one image" />
+                <div class="caption">
+                  <p>Normal vision</p>
+                </div>
+              </div>
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/sight-defects_protanopia.png" alt="Examples of the three types of vision deficiencies in one image" />
+                <div class="caption">
+                  <p>Protanopia</p>
+                </div>
+              </div>
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/sight-defects_deuteranopia.png" alt="Examples of the three types of vision deficiencies in one image" />
+                <div class="caption">
+                  <p>
+              Deuteranopia; in deuteranopia, yellow is shifted toward red.
+            </p>
+                </div>
+              </div>
+              <div class="mediaobject">
+                <img src="images/menus/view/display-filters/sight-defects_tritanopia.png" alt="Examples of the three types of vision deficiencies in one image" />
+                <div class="caption">
+                  <p>
+              Tritanopia; in tritanopia, green is slightly represented in the
+              blue range.
+            </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+        </div>
+      </div>
+      <div class="sect3" title="5.8.4. Gamma">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-gamma-dialog"></a>5.8.4. Gamma</h4>
+            </div>
+          </div>
+        </div>
+        <a id="idp20513216" class="indexterm"></a>
+        <p>
+      </p>
+        <div class="figure">
+          <a id="idp20335072"></a>
+          <p class="title">
+            <strong>Figure 16.48. The <span class="quote">“<span class="quote">Gamma</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters/gamma.png" alt="The Gamma dialog" />
+            </div>
+          </div>
+        </div>
+        <p><br class="figure-break" />
+    </p>
+        <p>
+      The correspondence between electrical intensity and color brightness
+      is not exact and it depends upon the device (the camera, the scanner,
+      the monitor, etc.). <span class="quote">“<span class="quote">Gamma</span>”</span> is a coefficient used to
+      correct this correspondence. Your image must be visible in both dark
+      and bright areas, even if it is displayed on a monitor with too much
+      luminence or not enough. The <span class="quote">“<span class="quote">Gamma</span>”</span> Display Filter
+      allows you to get an idea of the appearance of your image under these
+      conditions.
+    </p>
+        <div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Tip]" src="images/tip.png" />
+              </td>
+              <th align="left">Tip</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        In case you want not only to change the gamma of the current display,
+        but the change the gamma within the image itself, you can find a
+        description in <a class="xref" href="gimp-tool-levels.html" title="5.7. Levels">Section 5.7, “Levels”</a>.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="5.8.5. Contrast">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-contrast-dialog"></a>5.8.5. Contrast</h4>
+            </div>
+          </div>
+        </div>
+        <a id="idp10919232" class="indexterm"></a>
+        <p>
+      </p>
+        <div class="figure">
+          <a id="idp16097424"></a>
+          <p class="title">
+            <strong>Figure 16.49. The <span class="quote">“<span class="quote">Contrast</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters/contrast.png" alt="The Contrast dialog" />
+            </div>
+          </div>
+        </div>
+        <p><br class="figure-break" />
+    </p>
+        <p>
+      Here, we are back in the medical domain.
+      <span class="quote">“<span class="quote">Contrast Sensitivity</span>”</span>
+      is the capacity of the visual system to distinguish slight differences
+      in contrast. Some people with cataracts (which means that the lens has
+      opaque crystals that scatter light over the retina) or retinal disease
+      (for instance, due to diabetes, which destroys the rods and cones) have
+      a deficiency in sensitivity to contrast: for example, they would have
+      difficulties distinguishing spots on a dress.
+    </p>
+        <p>
+      If you are interested in this subject, you can browse the Web for
+      <span class="quote">“<span class="quote">contrast sensitivity</span>”</span>.
+    </p>
+        <div class="sect4" title="5.8.5.1. Options">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp20085888"></a>5.8.5.1. Options</h5>
+              </div>
+            </div>
+          </div>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Contrast Cycles</span>
+              </dt>
+              <dd>
+                <p>
+              With the <span class="quote">“<span class="quote">Contrast</span>”</span>
+              Filter, you can see the image as if you were suffering from
+              cataracts. You may have to increase the contrast of the image so
+              that your grandmother can see it well. In most cases, only very
+              low values of the <span class="guilabel">Contrast Cycles</span>
+              parameter are of interest. Higher values create a side-effect
+              which doesn't interest us here: if you increase the luminosity
+              value above 255, the complementary color appears.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="sect3" title="5.8.6. Color Management">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-display-filter-color-management"></a>5.8.6. Color Management</h4>
+            </div>
+          </div>
+        </div>
+        <a id="idp16033184" class="indexterm"></a>
+        <div class="figure">
+          <a id="idp21087136"></a>
+          <p class="title">
+            <strong>Figure 16.50. The <span class="quote">“<span class="quote">Color Management</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters/color-management.png" alt="The Color Management dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter allows to enable the GIMP color management for each image
+      window. To learn more about the color management in GIMP, please read
+      <a class="xref" href="gimp-imaging-color-management.html#gimp-concepts-color-management" title="1. Color Management in GIMP">Section 1, “Color Management in GIMP”</a>.
+    </p>
+        <div class="sect4" title="5.8.6.1. Options">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp17350656"></a>5.8.6.1. Options</h5>
+              </div>
+            </div>
+          </div>
+          <p>
+        All the customizing for the color management in GIMP has to be done
+        in the GIMP preferences. You can find detailed information about
+        this in <a class="xref" href="gimp-pimping.html#gimp-prefs-color-management" title="1.14. Color Management">Section 1.14, “Color Management”</a>.
+      </p>
+        </div>
+      </div>
+      <div class="sect3" title="5.8.7. Color Proof">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-color-proof"></a>5.8.7. Color Proof</h4>
+            </div>
+          </div>
+        </div>
+        <a id="idp18970240" class="indexterm"></a>
+        <a id="idp20751872" class="indexterm"></a>
+        <p>
+      The various systems for reproducing colors cannot represent the
+      infinity of colors available. Even if there are many colors in
+      common between the various systems and nature, some of the colors
+      will not be the same. The <span class="quote">“<span class="quote">gamut</span>”</span> is the color range of
+      a system. <span class="emphasis"><em>Color Profiles</em></span> allow you to compensate
+      for these differences.
+    </p>
+        <p>
+      Before you print an image, it may be useful for you to see if you
+      will get the result you want by applying a profile. The <span class="quote">“<span class="quote">Color
+      Proof</span>”</span> filter shows you how your image will look after a color
+      profile has been applied.
+    </p>
+        <div class="figure">
+          <a id="idp9916784"></a>
+          <p class="title">
+            <strong>Figure 16.51. The <span class="quote">“<span class="quote">Color Proof</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/view/display-filters/color-proof.png" alt="The Color Proof dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="sect4" title="5.8.7.1. The “Color Proof” options">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp15026096"></a>5.8.7.1. The <span class="quote">“<span class="quote">Color Proof</span>”</span> options</h5>
+              </div>
+            </div>
+          </div>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Profile</span>
+              </dt>
+              <dd>
+                <p>
+              This option allows to select a color profile that is used to
+              simulate the color abilities of the printer. If the desired
+              profile is not shown in the list you might want to add it by
+              selecting a file. This can be done by selecting the last entry
+              of the list.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Intent</span>
+              </dt>
+              <dd>
+                <p>
+              With this option you can select the rendering intent, which is
+              the method used to determine how colors that can't be reproduced
+              by a device (<span class="quote">“<span class="quote">are out of gamut</span>”</span>) should be handled.
+              The different rendering intents are described in detail in the
+              glossary <a class="xref" href="glossary.html#glossary-rendering-intent" title="Rendering Intent">
+      <span>Rendering Intent</span>
+    </a>.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Black Point Compensation</span>
+              </dt>
+              <dd>
+                <p>
+              Black point compensation allows a better representaion of
+              dark colors of your image when printing.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="footnotes">
+        <br />
+        <hr width="100" align="left" />
+        <div class="footnote">
+          <p><sup>[<a id="ftn.idp14108144" href="#idp14108144" class="para">11</a>] </sup>
+                      Greek:
+                      <span class="foreignphrase"><em class="foreignphrase">proto</em></span>: first (color in
+                      the <a class="link" href="glossary.html#glossary-colormodel" title="Color model">RGB Color
+                      System</a>):
+                      <span class="foreignphrase"><em class="foreignphrase">an</em></span>: negation;
+                      <span class="foreignphrase"><em class="foreignphrase">op</em></span>: eye, vision.
+                    </p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-view-navigation.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-view-menu.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-view-show-selection.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-view-navigation.html">5.7. Navigation Window</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-view-show-selection.html">5.9. Show Selection</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

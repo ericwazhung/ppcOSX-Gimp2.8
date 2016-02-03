@@ -1,0 +1,15 @@
+'../lib/libdbus-glib-1.2.dylib'
+ '../lib/libdbus-glib-1.2.dylib'
+  copied for './/libdbus-glib-1.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:40:57 PDT 2014
+Also requested for '../lib/libdbus-glib-1.2.dylib'
+  from './/libdbus-glib-1.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:40:57 PDT 2014
+Also requested for './/libdbus-glib-1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:41:03 PDT 2014

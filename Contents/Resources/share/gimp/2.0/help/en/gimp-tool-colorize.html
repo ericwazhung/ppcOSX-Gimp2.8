@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.4. Colorize</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-tools-color.html" title="5. Color Tools" />
+    <link rel="prev" href="gimp-tool-hue-saturation.html" title="5.3. Hue-Saturation" />
+    <link rel="next" href="gimp-tool-brightness-contrast.html" title="5.5. Brightness-Contrast" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.4. Colorize</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-hue-saturation.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. Color Tools</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-brightness-contrast.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="5.4. Colorize">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-colorize"></a>5.4. Colorize</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp19117840" class="indexterm"></a>
+      <a id="idp14584656" class="indexterm"></a>
+      <a id="idp19176720" class="indexterm"></a>
+      <p>
+    The Colorize tool renders the active layer or selection into a greyscale
+    image seen through a colored glass. You can use it to give a
+    <span class="quote">“<span class="quote">Sepia</span>”</span> effect to your image. See
+    <a class="xref" href="glossary.html#glossary-colormodel" title="Color model">
+      <span>Color model</span>
+    </a> for Hue, Saturation, Luminosity.
+  </p>
+      <div class="sect3" title="5.4.1. Activating tool">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp14967920"></a>5.4.1. Activating tool</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can get to the Colorize tool in two ways:
+    </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" type="disc">
+            <li class="listitem">
+              <p>
+          In the image-menu through:
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Color Tools</span> → <span class="guimenuitem">Colorize</span>
+          or
+          <span class="guimenu">Colors</span> → <span class="guimenuitem">Colorize</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          or by clicking the tool icon:
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-colorize-22.png" />
+          </span>
+          in Toolbox, provided that you have installed color tools in Toolbox.
+          For this, please refer to <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. Toolbox">Section 1.7, “Toolbox”</a>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3" title="5.4.2. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp16375440"></a>5.4.2. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp11225664"></a>
+          <p class="title">
+            <strong>Figure 14.133. Colorize options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tools-colorize.png" alt="Colorize options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Presets</span>
+            </dt>
+            <dd>
+              <p>
+            You can save the color settings of your image by clicking the
+            <span class="guibutton">Add settings to favourites</span> button
+            <span class="guiicon">
+              <img src="images/toolbox/save-color-settings.png" />
+            </span>
+          </p>
+              <p>
+            The
+            <span class="guiicon">
+              <img src="images/toolbox/presets-menu-icon.png" />
+            </span>
+            button opens a menu:
+          </p>
+              <div class="figure">
+                <a id="idp18486944"></a>
+                <p class="title">
+                  <strong>Figure 14.134. Preset Menu</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/presets-menu.png" alt="Preset Menu" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>
+            which lets you <span class="guilabel">Import Settings from File</span> or
+            <span class="guilabel">Export Settings to File</span>,
+            and gives you access to the Manage Save Settings dialog:
+          </p>
+              <div class="figure">
+                <a id="idp11648352"></a>
+                <p class="title">
+                  <strong>Figure 14.135. Manage saved Settings Dialog</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/manage-saved-settings.png" alt="Manage saved Settings Dialog" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Select Color</span>
+            </dt>
+            <dd>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" type="disc">
+                  <li class="listitem">
+                    <p><span class="guilabel">Hue</span>:
+                The slider and the numeric text box allow you to select a hue
+                in the HSV color circle (0 - 360).
+              </p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="guilabel">Saturation</span>:
+                The slider and the input box allows you to select a
+                saturation: 0 through 100.
+              </p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="guilabel">Lightness</span> :
+                The slider and the text box allow you to select a value:
+                -100 (dark) through 100 (light).
+              </p>
+                  </li>
+                </ul>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            The Preview button makes all changes dynamically so that they can
+            be viewed immediately.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-hue-saturation.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-color.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-brightness-contrast.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-hue-saturation.html">5.3. Hue-Saturation</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-brightness-contrast.html">5.5. Brightness-Contrast</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

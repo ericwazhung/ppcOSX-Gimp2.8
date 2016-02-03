@@ -1,0 +1,12 @@
+
+'/opt/local/share/fonts/default/TrueType' DNE. Requested by '../lib/libgs.9.06.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-ps'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/share/fonts/default/TrueType' DNE. Requested by './/libgs.9.06.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

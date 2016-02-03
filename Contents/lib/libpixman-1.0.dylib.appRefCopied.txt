@@ -1,0 +1,42 @@
+'../lib/libpixman-1.0.dylib'
+ '../lib/libpixman-1.0.dylib'
+  copied for '../lib/libcairo.2.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:51:16 PDT 2014
+Also requested for '../lib/libpixman-1.0.dylib'
+  from '../lib/libcairo.2.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:51:19 PDT 2014
+Also requested for '../lib/libcairo-gobject.2.dylib'
+  from './/libcairo-gobject.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:52 PDT 2014
+Also requested for '../lib/libcairo-script-interpreter.2.dylib'
+  from './/libcairo-script-interpreter.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:57 PDT 2014
+Also requested for '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 05:16:28 PDT 2014
+Also requested for '../lib/librsvg-2.2.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-svg'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:51:00 PDT 2014
+Also requested for './/libpixman-1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:58 PDT 2014

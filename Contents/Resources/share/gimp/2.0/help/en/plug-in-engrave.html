@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.5. Engrave</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="prev" href="plug-in-emboss.html" title="4.4. Emboss" />
+    <link rel="next" href="script-fu-erase-rows.html" title="4.6. Erase Every Other Row" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.5. Engrave</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-emboss.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. Distort Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-erase-rows.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.5. Engrave">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-engrave"></a>4.5. Engrave</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp22070624" class="indexterm"></a>
+      <a id="idp8655056" class="indexterm"></a>
+      <div class="sect3" title="4.5.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21129888"></a>4.5.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp8868784"></a>
+          <p class="title">
+            <strong>Figure 17.41. Example for the <span class="quote">“<span class="quote">Engrave</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for the Engrave filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-engrave.png" alt="Example for the Engrave filter" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Engrave</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter produces an engraving effect: the image is turned black and
+      white and some horizontal lines of varying height are drawn depending
+      on the value of underlying pixels. The resulting effect reminds of
+      engravings found in coins and old book illustrations.
+    </p>
+        <div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="images/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        The <span class="quote">“<span class="quote">Engrave</span>”</span> filter operates only on floating selections
+        and layers with an alpha channel. If the active layer does not have an
+        alpha channel please <a class="link" href="gimp-layer-alpha-add.html" title="7.32. Add Alpha Channel">add
+        it</a> first.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="4.5.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21900256"></a>4.5.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Engrave</span>.
+    </p>
+      </div>
+      <div class="sect3" title="4.5.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21602400"></a>4.5.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp20333280"></a>
+          <p class="title">
+            <strong>Figure 17.42. <span class="quote">“<span class="quote">Engrave</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/engrave.png" alt="Engrave options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            The result of your settings will appear in the Preview without
+            affecting the image until you click on <span class="guibutton">OK</span>.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Height</span>
+            </dt>
+            <dd>
+              <p>
+            This option specifies the height of the engraving lines. The value
+            goes from 2 to 16.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Limit line width</span>
+            </dt>
+            <dd>
+              <p>
+            If this option is enabled thin lines are not drawn on contiguous
+            color areas. See the figure below for an example of this option
+            result.
+          </p>
+              <div class="figure">
+                <a id="idp15933632"></a>
+                <p class="title">
+                  <strong>Figure 17.43. Example result of Limit line width option</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/engrave_width_limit_original.png" alt="Example result of Limit line width option" />
+                    <div class="caption">
+                      <p>Original image</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/engrave_width_limit_yes.png" alt="Example result of Limit line width option" />
+                    <div class="caption">
+                      <p>Limit line width option enabled</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/engrave_width_limit_no.png" alt="Example result of Limit line width option" />
+                    <div class="caption">
+                      <p>Limit line width option disabled</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-emboss.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-erase-rows.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-emboss.html">4.4. Emboss</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-erase-rows.html">4.6. Erase Every Other Row</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.6. Supernova</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-light-and-shadow.html" title="5. Light and Shadow Filters" />
+    <link rel="prev" href="plug-in-sparkle.html" title="5.5. Sparkle" />
+    <link rel="next" href="script-fu-drop-shadow.html" title="5.7. Drop Shadow" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.6. Supernova</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-sparkle.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. Light and Shadow Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-drop-shadow.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="5.6. Supernova">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-nova"></a>5.6. Supernova</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp22333552" class="indexterm"></a>
+      <a id="idp16232224" class="indexterm"></a>
+      <div class="sect3" title="5.6.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp15194256"></a>5.6.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp21916832"></a>
+          <p class="title">
+            <strong>Figure 17.108. Applying example for the Supernova filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Applying example for the Supernova filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/light-taj-nova.jpg" alt="Applying example for the Supernova filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Supernova</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter creates a big star reminding a super-nova. It works with
+      RGB and GRAY images. Light effect decreases according to 1/r where r
+      is the distance from star center.
+    </p>
+      </div>
+      <div class="sect3" title="5.6.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp20829552"></a>5.6.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Light and Shadow</span> → <span class="guimenuitem">Supernova</span>.
+    </p>
+      </div>
+      <div class="sect3" title="5.6.3. Parameter Settings">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21046944"></a>5.6.3. Parameter Settings</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp20678544"></a>
+          <p class="title">
+            <strong>Figure 17.109. <span class="quote">“<span class="quote">Supernova</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/light-and-shadow/nova.png" alt="Supernova filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, parameter setting results are interactively displayed
+            in preview. Scroll bars allow you to move around the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Center of Nova</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term"><span class="guilabel">X</span>, </span>
+                    <span class="term">
+                      <span class="guilabel">Y</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  You can use input boxes to set horizontal (X) and vertical
+                  (Y) coordinates of SuperNova center. You can also click the
+                  SuperNova center in the <span class="emphasis"><em>preview</em></span> box.
+                </p>
+                    <div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                      <table border="0" summary="Tip">
+                        <tr>
+                          <td rowspan="2" align="center" valign="top" width="25">
+                            <img alt="[Tip]" src="images/tip.png" />
+                          </td>
+                          <th align="left">Tip</th>
+                        </tr>
+                        <tr>
+                          <td align="left" valign="top">
+                            <p>
+                    To center Supernova precisely, select
+                    <span class="quote">“<span class="quote">percent</span>”</span> option in the Unit dropdown list
+                    and fix X and Y to 50%.
+                  </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Show position</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>
+                  This option brings up a reticle in preview, centered on the
+                  SuperNova.
+                </p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Color</span>
+            </dt>
+            <dd>
+              <p>
+            When you click on the color swatch, you bring up the usual color
+            selector.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Radius</span>
+            </dt>
+            <dd>
+              <p>
+            This is radius of the SuperNova center (1-100). When you
+            increase the value, you increase the number of central white
+            pixels according to r*r (1, 4, 9...).
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Spikes</span>
+            </dt>
+            <dd>
+              <p>
+            This is number of rays (1-1024).  Each pixel in the nova center
+            emit one pixel wide rays. All these rays are more or less
+            superimposed resulting in this glittering effect you get when
+            you move this slider.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Random hue</span>
+            </dt>
+            <dd>
+              <p>
+            Color rays at random. (0-360) value seems to be a range in
+            HSV color circle.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-sparkle.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-light-and-shadow.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-drop-shadow.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-sparkle.html">5.5. Sparkle</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-drop-shadow.html">5.7. Drop Shadow</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

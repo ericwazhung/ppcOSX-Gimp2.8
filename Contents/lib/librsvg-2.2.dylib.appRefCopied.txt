@@ -1,0 +1,21 @@
+'../lib/librsvg-2.2.dylib'
+ '../lib/librsvg-2.2.dylib'
+  copied for '..//lib/gimp/2.0/plug-ins/file-svg'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 06:50:59 PDT 2014
+Also requested for '../lib/librsvg-2.2.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-svg'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 06:50:59 PDT 2014
+Also requested for './/librsvg-2.2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:22:48 PDT 2014

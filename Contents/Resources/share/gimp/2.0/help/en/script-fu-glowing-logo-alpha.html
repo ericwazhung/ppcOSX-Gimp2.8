@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.15. Glowing Hot</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. Alpha to Logo Filters" />
+    <link rel="prev" href="script-fu-glossy-logo-alpha.html" title="16.14. Glossy" />
+    <link rel="next" href="script-fu-gradient-bevel-logo-alpha.html" title="16.16. Gradient Bevel" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.15. Glowing Hot</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-glossy-logo-alpha.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. Alpha to Logo Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-gradient-bevel-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="16.15. Glowing Hot">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-glowing-logo-alpha"></a>16.15. Glowing Hot</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp24025968" class="indexterm"></a>
+      <a id="idp24116944" class="indexterm"></a>
+      <div class="sect3" title="16.15.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25409120"></a>16.15.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp24721936"></a>
+          <p class="title">
+            <strong>Figure 17.405. Example for the <span class="quote">“<span class="quote">Glowing Hot</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-glowing.jpg" alt="Example for the Glowing Hot filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Glowing Hot</span>”</span> filter</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/glowing-script-fu.jpg" alt="Example for the Glowing Hot filter" />
+              <div class="caption">
+                <p>The <span class="quote">“<span class="quote">Glowing Hot</span>”</span> logo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter adds a glowing hot metal effect to the alpha (that is to
+      these areas of the active layer defined by the non-transparent pixels).
+    </p>
+        <p>
+      The filter is derived from the <span class="quote">“<span class="quote">Glowing Hot</span>”</span> script
+      (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Glowing Hot</span> in the image window),
+      which creates a glowing text logo (see above).
+    </p>
+        <p>
+      The filter simulates a red-hot, a yellow-hot, and a white-hot area -
+      each color representing a different metal temperature -; the alpha's
+      outline shines through the glowing.
+    </p>
+        <div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Warning]" src="images/warning.png" />
+              </td>
+              <th align="left">Warning</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+    The image will always be resized to the active layer's size.
+  </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="16.15.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp23024960"></a>16.15.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Glowing Hot</span>.
+    </p>
+        <p>
+      The filter only works if the active layer has an alpha channel.
+      Otherwise, the menu entry is insensitive and grayed out.
+    </p>
+      </div>
+      <div class="sect3" title="16.15.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp24804416"></a>16.15.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp11673232"></a>
+          <p class="title">
+            <strong>Figure 17.406. <span class="quote">“<span class="quote">Glowing Hot</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/glowing-options.png" alt="Glowing Hot options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Effect size (pixels * 3)</span>
+            </dt>
+            <dd>
+              <p>
+            This is actually the font size option of the <span class="quote">“<span class="quote">Glowing
+            Hot</span>”</span> logo. The value is used to calculate the size of the
+            feathering border (cf <a class="xref" href="gimp-selection-feather.html" title="4.9. Feather">Section 4.9, “Feather”</a>)
+            before the alpha is filled with red, yellow, and white. These
+            feathered colors make the hot metal effect.
+          </p>
+              <div class="figure">
+                <a id="idp23546864"></a>
+                <p class="title">
+                  <strong>Figure 17.407. Effect size examples</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/glowing-effect-50.jpg" alt="Effect size examples" />
+                    <div class="caption">
+                      <p>Effect size 50</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/glowing-effect-350.jpg" alt="Effect size examples" />
+                    <div class="caption">
+                      <p>Effect size 350</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Background color</span>
+            </dt>
+            <dd>
+              <p>
+            This is the color used to fill the <span class="quote">“<span class="quote">Background</span>”</span>
+            layer; it defaults to black (7,0,20). Click on the button to open
+            a color selector, if you want to choose a different color.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3" title="16.15.4. Filter details">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp25375248"></a>16.15.4. Filter details</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      To create the glowing effect (red-hot, yellow-hot, and white-hot area),
+      the alpha is feathered and then filled with the respective color, from
+      red to white with decreasing feather sizes and color intensities in the
+      feathered area.
+    </p>
+        <p>
+      The illustration below shows the <span class="quote">“<span class="quote">hot metal</span>”</span> colors
+      and the width of the feathering border in percent of
+      <span class="quote">“<span class="quote">Effect size</span>”</span> (these are the values the filter
+      actually uses).
+    </p>
+        <div class="figure">
+          <a id="idp22237872"></a>
+          <p class="title">
+            <strong>Figure 17.408. Effect size</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/glowing-effectsize.png" alt="Effect size" />
+              <div class="caption">
+                <p>
+            Glowing hot metal colors and their relative feather sizes
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      In the example images you can see how the alpha's outline shines through
+      the glowing. This is achieved with a alpha filled with black as top
+      layer, where the <a class="link" href="gimp-concepts-layer-modes.html" title="2. Layer Modes">layer
+      mode</a> is set to <a class="link" href="gimp-concepts-layer-modes.html#layer-mode-overlay">overlay</a>.
+      Using a black overlay layer won't change pure white, but darkens light
+      colors at the alpha's edges so that the outline appears.
+    </p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-glossy-logo-alpha.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-gradient-bevel-logo-alpha.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-glossy-logo-alpha.html">16.14. Glossy</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-gradient-bevel-logo-alpha.html">16.16. Gradient Bevel</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

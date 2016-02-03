@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.12. Polar Coords</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-distort.html" title="4. Distort Filters" />
+    <link rel="prev" href="plug-in-pagecurl.html" title="4.11. Page Curl" />
+    <link rel="next" href="plug-in-ripple.html" title="4.13. Ripple" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.12. Polar Coords</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-pagecurl.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. Distort Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-ripple.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.12. Polar Coords">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-polar-coords"></a>4.12. Polar Coords</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp21546864" class="indexterm"></a>
+      <a id="idp11677520" class="indexterm"></a>
+      <div class="sect3" title="4.12.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp19804080"></a>4.12.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp22022176"></a>
+          <p class="title">
+            <strong>Figure 17.63. Example for Polar Coords filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for Polar Coords filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-polarcoords.jpg" alt="Example for Polar Coords filter" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Polar Coords</span>”</span> filter applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      It gives a circular or a rectangular representation of your image with
+      all the possible intermediates between both.
+    </p>
+      </div>
+      <div class="sect3" title="4.12.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp14654752"></a>4.12.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Polar Coords</span>.
+    </p>
+      </div>
+      <div class="sect3" title="4.12.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18300928"></a>4.12.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp15999712"></a>
+          <p class="title">
+            <strong>Figure 17.64. <span class="quote">“<span class="quote">Polar Coords</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/polarcoords.png" alt="Polar Coords filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            The result of your settings will appear in the Preview without
+            affecting the image until you click on <span class="guibutton">OK</span>.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Circle depth in percent</span>
+            </dt>
+            <dd>
+              <p>
+            Slider and input box allow you to set the "circularity" of the
+            transformation, from rectangle (0%) to circle (100%).
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Offset angle</span>
+            </dt>
+            <dd>
+              <p>
+            This option controls the angle the drawing will start from
+            (0 - 359°), and so turns it around the circle center.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Map backwards</span>
+            </dt>
+            <dd>
+              <p>
+            When this option is checked, the drawing will start from the
+            right instead of the left.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Map from top</span>
+            </dt>
+            <dd>
+              <p>
+            If unchecked, the mapping will put the bottom row in the middle
+            and the top row on the outside. If checked, it will be the
+            opposite.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">To polar</span>
+            </dt>
+            <dd>
+              <p>
+            If unchecked, the image will be circularly mapped into a rectangle
+            (odd effect). If checked, the image will be mapped into a circle.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3" title="4.12.4. Examples">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp7992560"></a>4.12.4. Examples</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp18457984"></a>
+          <p class="title">
+            <strong>Figure 17.65. With text</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/polcoords1.png" alt="With text" />
+              <div class="caption">
+                <p>
+            If you have just written the text, you must Flatten the
+            image before using the filter.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp22123984"></a>
+          <p class="title">
+            <strong>Figure 17.66. With two horizontal bars</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/polcoords2.png" alt="With two horizontal bars" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-pagecurl.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-ripple.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-pagecurl.html">4.11. Page Curl</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-ripple.html">4.13. Ripple</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

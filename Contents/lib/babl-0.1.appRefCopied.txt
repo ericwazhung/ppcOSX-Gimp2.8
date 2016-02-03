@@ -1,0 +1,15 @@
+'../lib/babl-0.1'
+ '../lib/babl-0.1'
+  copied for './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:36:12 PDT 2014
+Also requested for '../lib/libbabl-0.1.0.dylib'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:13 PDT 2014
+Also requested for './/libbabl-0.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:29 PDT 2014

@@ -1,0 +1,70 @@
+'../lib/libbabl-0.1.0.dylib'
+ '../lib/libbabl-0.1.0.dylib'
+  copied for './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:36:12 PDT 2014
+Also requested for '../lib/libbabl-0.1.0.dylib'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:13 PDT 2014
+Also requested for '..//lib/babl-0.1/CIE.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:16 PDT 2014
+Also requested for '..//lib/babl-0.1/cairo.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:17 PDT 2014
+Also requested for '..//lib/babl-0.1/fast-float.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:18 PDT 2014
+Also requested for '..//lib/babl-0.1/float.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:19 PDT 2014
+Also requested for '..//lib/babl-0.1/gegl-fixups.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:21 PDT 2014
+Also requested for '..//lib/babl-0.1/gggl-lies.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:22 PDT 2014
+Also requested for '..//lib/babl-0.1/gggl.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:23 PDT 2014
+Also requested for '..//lib/babl-0.1/gimp-8bit.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:24 PDT 2014
+Also requested for '..//lib/babl-0.1/naive-CMYK.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:26 PDT 2014
+Also requested for '..//lib/babl-0.1/sse-fixups.so'
+  from './/libbabl-0.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:27 PDT 2014
+Also requested for './/libbabl-0.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:36:29 PDT 2014
+Also requested for '../lib/libgegl-0.2.0.dylib'
+  from './/libgegl-0.2.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:42:53 PDT 2014

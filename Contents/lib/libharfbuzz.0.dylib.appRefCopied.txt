@@ -1,0 +1,33 @@
+'../lib/libharfbuzz.0.dylib'
+ '../lib/libharfbuzz.0.dylib'
+  copied for '../lib/libpangocairo-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:25:00 PDT 2014
+Also requested for '../lib/libharfbuzz.0.dylib'
+  from '../lib/libpangocairo-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:01 PDT 2014
+Also requested for '../lib/libpangoft2-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:15 PDT 2014
+Also requested for '..//lib/pango/1.8.0/modules/pango-basic-fc.so'
+  from '../lib/libpango-1.0.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:25:26 PDT 2014
+Also requested for './/libharfbuzz.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:20:01 PDT 2014
+Also requested for '../lib/libpangoxft-1.0.0.dylib'
+  from './/libpangoxft-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:52 PDT 2014

@@ -1,0 +1,46 @@
+# GTK+ Input Method Modules file
+# Automatically generated file, do not edit
+# Created by ../bin/gtk-query-immodules-2.0 from gtk+-2.24.20
+
+
+
+
+
+
+
+
+#
+"./im-am-et.so" 
+"am_et" "Amharic (EZ+)" "gtk20" "../Resources/share/locale" "am" 
+
+"./im-cedilla.so" 
+"cedilla" "Cedilla" "gtk20" "../Resources/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa" 
+
+"./im-cyrillic-translit.so" 
+"cyrillic_translit" "Cyrillic (Transliterated)" "gtk20" "../Resources/share/locale" "" 
+
+"./im-inuktitut.so" 
+"inuktitut" "Inuktitut (Transliterated)" "gtk20" "../Resources/share/locale" "iu" 
+
+"./im-ipa.so" 
+"ipa" "IPA" "gtk20" "../Resources/share/locale" "" 
+
+"./im-multipress.so" 
+"multipress" "Multipress" "gtk20" "" "" 
+
+"./im-quartz.so" 
+"quartz" "Mac OS X Quartz" "gtk20" "../Resources/share/locale" "ja:ko:zh:*" 
+
+"./im-thai.so" 
+"thai" "Thai-Lao" "gtk20" "../Resources/share/locale" "lo:th" 
+
+"./im-ti-er.so" 
+"ti_er" "Tigrigna-Eritrean (EZ+)" "gtk20" "../Resources/share/locale" "ti" 
+
+"./im-ti-et.so" 
+"ti_et" "Tigrigna-Ethiopian (EZ+)" "gtk20" "../Resources/share/locale" "ti" 
+
+"./im-viqr.so" 
+"viqr" "Vietnamese (VIQR)" "gtk20" "../Resources/share/locale" "vi" 
+
+

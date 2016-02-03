@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>6.2. HSV Noise</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-noise.html" title="6. Noise Filters" />
+    <link rel="prev" href="filters-noise.html" title="6. Noise Filters" />
+    <link rel="next" href="plug-in-randomize-hurl.html" title="6.3. Hurl" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">6.2. HSV Noise</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-noise.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">6. Noise Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-randomize-hurl.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="6.2. HSV Noise">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-hsv-noise"></a>6.2. HSV Noise</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp22421728" class="indexterm"></a>
+      <a id="idp8558976" class="indexterm"></a>
+      <div class="sect3" title="6.2.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp13704656"></a>6.2.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp17874144"></a>
+          <p class="title">
+            <strong>Figure 17.126. Example of applying the <span class="quote">“<span class="quote">HSV Noise</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example of applying the HSV Noise filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/noise/taj-hsv-noise.jpg" alt="Example of applying the HSV Noise filter" />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">HSV Noise</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      The HSV Noise filter creates noise in the active layer or selection by
+      using the Hue, Saturation, Value (luminosity) color model.
+    </p>
+      </div>
+      <div class="sect3" title="6.2.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21892112"></a>6.2.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Noise</span> → <span class="guimenuitem">HSV Noise</span>.
+    </p>
+      </div>
+      <div class="sect3" title="6.2.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21787808"></a>6.2.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp19380688"></a>
+          <p class="title">
+            <strong>Figure 17.127. <span class="quote">“<span class="quote">HSV Noise</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/noise/hsv-noise.png" alt="HSV Noise filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            This preview displays interactively changes before they are
+            applied to the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Holdness</span>
+            </dt>
+            <dd>
+              <p>
+            This slider (1 -8) controls how much the new pixel color value is
+            allowed to be applied compared to the existing color. A low
+            holdness will give an important hue variation. A high holdness
+            will give a weak variation.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Hue</span>
+            </dt>
+            <dd>
+              <p>
+            This slider changes the color of the pixels in a random pattern.
+            It selects an increasing available color range in the HSV color
+            circle starting from the original pixel color.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Saturation</span>
+            </dt>
+            <dd>
+              <p>
+            This slider increases saturation of scattered pixels.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Value</span>
+            </dt>
+            <dd>
+              <p>
+            This slider increases brightness of scattered pixels.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-noise.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-noise.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-randomize-hurl.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-noise.html">6. Noise Filters</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-randomize-hurl.html">6.3. Hurl</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

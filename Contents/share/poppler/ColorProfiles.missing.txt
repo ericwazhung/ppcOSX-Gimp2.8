@@ -1,0 +1,12 @@
+
+'/opt/local/share/poppler/ColorProfiles' DNE. Requested by '../lib/libpoppler.28.dylib'
+  from '..//lib/gimp/2.0/plug-ins/file-pdf-load'
+  from '../lib/libgimpbase-2.0.0.dylib'
+  from '../lib/libgimp-2.0.0.dylib'
+  from './/libgimp-2.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/share/poppler/ColorProfiles' DNE. Requested by './/libpoppler.28.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

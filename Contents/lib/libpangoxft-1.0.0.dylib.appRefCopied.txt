@@ -1,0 +1,15 @@
+'../lib/libpangoxft-1.0.0.dylib'
+ '../lib/libpangoxft-1.0.0.dylib'
+  copied for './/libpangoxft-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 07:21:52 PDT 2014
+Also requested for '../lib/libpangoxft-1.0.0.dylib'
+  from './/libpangoxft-1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:52 PDT 2014
+Also requested for './/libpangoxft-1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 07:21:55 PDT 2014

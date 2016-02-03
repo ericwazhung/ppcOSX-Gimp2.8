@@ -1,0 +1,15 @@
+'../lib/libgailutil.18.dylib'
+ '../lib/libgailutil.18.dylib'
+  copied for './/libgailutil.18.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:42:18 PDT 2014
+Also requested for '../lib/libgailutil.18.dylib'
+  from './/libgailutil.18.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:42:19 PDT 2014
+Also requested for './/libgailutil.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:42:23 PDT 2014

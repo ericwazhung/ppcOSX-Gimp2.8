@@ -1,0 +1,6 @@
+'../share/gtk-2.0/demo'
+ '../share/gtk-2.0/demo'
+  copied for './/gtk-demo'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:32:59 PDT 2014

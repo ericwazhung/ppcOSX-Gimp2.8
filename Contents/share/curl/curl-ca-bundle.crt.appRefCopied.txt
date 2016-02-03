@@ -1,0 +1,11 @@
+'../share/curl/curl-ca-bundle.crt'
+ '../share/curl/curl-ca-bundle.crt'
+  copied for './/libcurl.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:40:20 PDT 2014
+Also requested for '../lib/libcurl.4.dylib'
+  from './/libcurl.4.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:40:21 PDT 2014

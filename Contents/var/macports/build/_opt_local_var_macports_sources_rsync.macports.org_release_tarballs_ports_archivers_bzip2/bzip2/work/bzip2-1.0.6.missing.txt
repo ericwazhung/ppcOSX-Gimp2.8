@@ -1,0 +1,25 @@
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by '../lib/libbz2.1.0.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by './/libbz2.1.0.6.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by './/libbz2.1.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by './/libbz2.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by './/libbz2.a'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_archivers_bzip2/bzip2/work/bzip2-1.0.6' DNE. Requested by './/libbz2.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.10. Apply Lens</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-light-and-shadow.html" title="5. Light and Shadow Filters" />
+    <link rel="prev" href="script-fu-xach-effect.html" title="5.9. Xach-Effect" />
+    <link rel="next" href="plug-in-glasstile.html" title="5.11. Glass Tile" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.10. Apply Lens</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-xach-effect.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. Light and Shadow Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-glasstile.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="5.10. Apply Lens">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-applylens"></a>5.10. Apply Lens</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp13840016" class="indexterm"></a>
+      <a id="idp20379104" class="indexterm"></a>
+      <div class="sect3" title="5.10.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18646912"></a>5.10.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp17720992"></a>
+          <p class="title">
+            <strong>Figure 17.122. The same image, before and after applying lens effect.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="The same image, before and after applying lens effect." />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/glass-taj-apply-lens.jpg" alt="The same image, before and after applying lens effect." />
+              <div class="caption">
+                <p>Filter <span class="quote">“<span class="quote">Apply lens</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      After applying this filter, a part of the active layer is rendered as
+      through a spherical lens.
+    </p>
+      </div>
+      <div class="sect3" title="5.10.2. Activate the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18756496"></a>5.10.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter in the image window menu through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Light and Shadow</span> → <span class="guimenuitem">Apply Lens</span>
+    </p>
+      </div>
+      <div class="sect3" title="5.10.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp18113680"></a>5.10.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp20386784"></a>
+          <p class="title">
+            <strong>Figure 17.123. <span class="quote">“<span class="quote">Apply Lens</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/light-and-shadow/apply-lens.png" alt="Apply Lens filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            If checked, parameter setting results are interactively displayed
+            in preview. Scroll bars allow you to move around the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Keep original surroundings</span>
+            </dt>
+            <dd>
+              <p>The lens seems to be put on the active layer.</p>
+            </dd>
+            <dt>
+              <span class="term">Set surroundings to background color</span>
+            </dt>
+            <dd>
+              <p>
+            The part of the active layer outside the lens will have the
+            background color selected in the toolbox.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Make surroundings transparent</span>
+            </dt>
+            <dd>
+              <p>
+            The part of the active layer outside the lens will be transparent.
+            This option exists only if the active layer has an alpha channel.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Lens refraction index</span>
+            </dt>
+            <dd>
+              <p>Lens will be more or less convergent (1-100).</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-xach-effect.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-light-and-shadow.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-glasstile.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-xach-effect.html">5.9. Xach-Effect</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-glasstile.html">5.11. Glass Tile</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

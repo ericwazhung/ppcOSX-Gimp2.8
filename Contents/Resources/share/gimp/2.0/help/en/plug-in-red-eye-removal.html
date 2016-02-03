@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.7. Red Eye Removal</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-enhance.html" title="3. Enhance Filters" />
+    <link rel="prev" href="plug-in-nlfilt.html" title="3.6. NL Filter" />
+    <link rel="next" href="plug-in-sharpen.html" title="3.8. Sharpen" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.7. Red Eye Removal</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-nlfilt.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. Enhance Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-sharpen.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="3.7. Red Eye Removal">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-red-eye-removal"></a>3.7. Red Eye Removal</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp10816448" class="indexterm"></a>
+      <a id="idp19444864" class="indexterm"></a>
+      <div class="sect3" title="3.7.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp10933920"></a>3.7.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp13980832"></a>
+          <p class="title">
+            <strong>Figure 17.27. Example for the <span class="quote">“<span class="quote">Red Eye Removal</span>”</span> filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-red-eye-before.jpg" alt="Example for the Red Eye Removal filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-red-eye-after.jpg" alt="Example for the Red Eye Removal filter" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Red Eye Removal</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      The aim of this filter is - guess what - to remove red eyes from an
+      image. Before applying the <span class="quote">“<span class="quote">Red Eye Removal</span>”</span>
+      you must do a selection (lasso or elliptical) of the boundary of the
+      iris of the eye(s) having a red pupil. After only you can apply the
+      filter on this selection. If you don't make this selection, the filter
+      inform you that :
+      <span class="quote">“<span class="quote">Manually selecting the eyes may improve the results</span>”</span>.
+    </p>
+      </div>
+      <div class="sect3" title="3.7.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp10254096"></a>3.7.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Red Eye Removal</span>.
+    </p>
+      </div>
+      <div class="sect3" title="3.7.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp21237168"></a>3.7.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp15056352"></a>
+          <p class="title">
+            <strong>Figure 17.28. <span class="quote">“<span class="quote">Red Eye Removal</span>”</span> options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/red-eye-removal.png" alt="Red Eye Removal options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            If you check <span class="quote">“<span class="quote">Preview</span>”</span>
+            you can see the modifications in real-time in the preview
+            window. And you can choose the good value of threshold compared
+            with what you see, and then validate it.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Threshold</span>
+            </dt>
+            <dd>
+              <p>
+            If you move the cursor of threshold the amount of red color to
+            eliminate will vary.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-nlfilt.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-sharpen.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-nlfilt.html">3.6. NL Filter</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-sharpen.html">3.8. Sharpen</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

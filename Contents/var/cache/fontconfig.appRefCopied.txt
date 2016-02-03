@@ -1,0 +1,19 @@
+'../var/cache/fontconfig'
+ '../var/cache/fontconfig'
+  copied for '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:25:56 PDT 2014
+Also requested for './/libfontconfig.1.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:41:35 PDT 2014
+Also requested for './/libfontconfig.a'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:41:39 PDT 2014
+Also requested for './/libfontconfig.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:41:44 PDT 2014

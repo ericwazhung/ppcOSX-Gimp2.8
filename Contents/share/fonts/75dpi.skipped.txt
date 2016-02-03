@@ -1,0 +1,8 @@
+
+'/opt/local/share/fonts/75dpi', Requested by '..//var/cache/fontconfig/77dc97c710c18bfdf26ed458c2a686da-be32d4.cache-3'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh',
+  was skipped via user-option in /Users/meh/myexecs/appReferences2.sh
+  Most-likely, the necessary pieces have been copied-over via other callers...

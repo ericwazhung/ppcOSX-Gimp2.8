@@ -1,0 +1,47 @@
+'../etc/openssl'
+ '../etc/openssl'
+  copied for './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Sat Aug  9 04:38:21 PDT 2014
+('../etc/openssl/private' was) Also requested for './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:22 PDT 2014
+Also requested for './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:22 PDT 2014
+('../etc/openssl/certs' was) Also requested for './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:22 PDT 2014
+('../etc/openssl/cert.pem' was) Also requested for './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:22 PDT 2014
+Also requested for '../lib/libcrypto.1.0.0.dylib'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:23 PDT 2014
+('../etc/openssl/private' was) Also requested for '../lib/libcrypto.1.0.0.dylib'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:23 PDT 2014
+Also requested for '../lib/libcrypto.1.0.0.dylib'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:23 PDT 2014
+('../etc/openssl/certs' was) Also requested for '../lib/libcrypto.1.0.0.dylib'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:23 PDT 2014
+('../etc/openssl/cert.pem' was) Also requested for '../lib/libcrypto.1.0.0.dylib'
+  from './/libcrypto.1.0.0.dylib'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Sat Aug  9 04:38:23 PDT 2014

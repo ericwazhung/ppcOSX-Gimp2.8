@@ -1,0 +1,128 @@
+
+'/opt/local/lib'' DNE. Requested by './/libatk-1.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libbabl-0.1.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libcairo-gobject.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libcairo-script-interpreter.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libcairo.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libdbus-glib-1.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libfontconfig.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libfreetype.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgailutil.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgdk-quartz-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgdk_pixbuf-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgegl-0.2.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimp-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpbase-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpcolor-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpconfig-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpmath-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpmodule-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpthumb-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpui-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgimpwidgets-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgio-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libglib-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgmodule-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgobject-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgthread-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libgtk-quartz-2.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libintl.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libpango-1.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libpangocairo-1.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libpangoft2-1.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib'' DNE. Requested by './/libpangoxft-1.0.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

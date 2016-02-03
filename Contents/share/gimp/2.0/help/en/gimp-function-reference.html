@@ -1,0 +1,2800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Part III. Function Reference</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.76.1" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="prev" href="gimp-using-script-fu-tutorial-result.html" title="3.7. Your script and its working" />
+    <link rel="next" href="gimp-tools.html" title="Chapter 14. Tools" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Part III. Function Reference</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-script-fu-tutorial-result.html">
+              <img src="images/prev.png" alt="Prev" />
+            </a>
+          </td>
+          <th width="60%" align="center"> </th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tools.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="part" title="Part III. Function Reference">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="gimp-function-reference"></a>Part III. Function Reference</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>Table of Contents</strong>
+        </p>
+        <dl>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-tools.html">14. Tools</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools.html#gimp-toolbox">1. The Toolbox</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools.html#gimp-toolbox-introduction">1.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools.html#gimp-toolbox-icons">1.2. Tool Icons</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools.html#gimp-toolbox-areas">1.3. Color and Indicator Area</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools.html#gimp-tool-options-dialog">1.4. Tool Options</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-selection.html">2. Selection Tools</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-selection.html#gimp-tool-select">2.1. Common Features</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-rect-select.html">2.2. Rectangle Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-ellipse-select.html">2.3. Ellipse Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-free-select.html">2.4. Free Selection (Lasso)</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-fuzzy-select.html">2.5. Fuzzy selection (Magic wand)</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-by-color-select.html">2.6. Select By Color</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-iscissors.html">2.7. Intelligent Scissors</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-foreground-select.html">2.8. Foreground Select</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-paint.html">3. Paint Tools</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-paint.html#gimp-tool-brush">3.1. Common Features</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-brush.html">3.2. Brush Tools (Pencil, Paintbrush, Airbrush)</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-bucket-fill.html">3.3. Bucket Fill</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-blend.html">3.4. Blend</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-pencil.html">3.5. Pencil</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-paintbrush.html">3.6. Paintbrush</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-eraser.html">3.7. Eraser</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-airbrush.html">3.8. Airbrush</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-ink.html">3.9. Ink</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-clone.html">3.10. Clone</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-heal.html">3.11. Heal</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-perspective-clone.html">3.12. Perspective Clone</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-convolve.html">3.13. Blur/Sharpen</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-smudge.html">3.14. Smudge</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-dodge-burn.html">3.15. Dodge/Burn</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-transform.html">4. Transform Tools</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-transform.html#gimp-tool-transform">4.1. Common Features</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-align.html">4.2. Align</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-move.html">4.3. Move</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-crop.html">4.4. Crop</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-rotate.html">4.5. Rotate</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-scale.html">4.6. Scale</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-shear.html">4.7. Shear</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-perspective.html">4.8. Perspective</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-flip.html">4.9. Flip</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-color.html">5. Color Tools</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-color.html#gimp-tools-color-overview">5.1. Overview</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-color-balance.html">5.2. Color Balance</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-hue-saturation.html">5.3. Hue-Saturation</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-colorize.html">5.4. Colorize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-brightness-contrast.html">5.5. Brightness-Contrast</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-threshold.html">5.6. Threshold</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-levels.html">5.7. Levels</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-curves.html">5.8. Curves</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-posterize.html">5.9. Posterize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-desaturate.html">5.10. Desaturate</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-other.html">6. Other</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-other.html#gimp-tools-other-overview">6.1. Overview</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-path.html">6.2. Paths</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-color-picker.html">6.3. Color Picker</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-zoom.html">6.4. Zoom</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-measure.html">6.5. Measure</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-text.html">6.6. Text</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tool-gegl.html">6.7. GEGL Operation</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="dialogs.html">15. Dialogs</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="dialogs.html#gimp-dialogs-introduction">1. Dialog Introduction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-dialogs-structure.html">2. Image Structure Related Dialogs</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-dialogs-structure.html#gimp-layer-dialog">2.1. Layers Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-channel-dialog.html">2.2. Channels Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-path-dialog.html">2.3. Paths Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-indexed-palette-dialog.html">2.4. Colormap Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-histogram-dialog.html">2.5. Histogram dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-navigation-dialog.html">2.6. Navigation Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-undo-dialog.html">2.7. Undo History Dialog</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-dialogs-content.html">3. Image-content Related Dialogs</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-dialogs-content.html#gimp-color-dialog">3.1. FG/BG Color Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-brush-dialog.html">3.2. Brushes Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pattern-dialog.html">3.3. Patterns Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-gradient-dialog.html">3.4. Gradients Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-palette-dialog.html">3.5. Palettes Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tagging.html">3.6. Tagging</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-font-dialog.html">3.7. Fonts Dialog</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-dialogs-management.html">4. Image Management Related Dialogs</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-dialogs-management.html#gimp-buffer-dialog">4.1. Buffers Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-dialog.html">4.2. Images Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-document-dialog.html">4.3. Document History Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-template-dialog.html">4.4. Templates Dialog</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-dialogs-misc.html">5. Misc. Dialogs</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-dialogs-misc.html#gimp-presets-dialog">5.1. Tool Presets Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="tool-preset-editor.html">5.2. Tool Preset Editor</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-device-status-dialog.html">5.3. Device Status Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-errors-dialog.html">5.4. Error Console</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-save-dialog.html">5.5. Save File</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-export-dialog.html">5.6. Export File</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-sample-point-dialog.html">5.7. Sample Points Dialog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pointer-info-dialog.html">5.8. Pointer Dialog</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="menus.html">16. Menus</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="menus.html#gimp-menus-introduction">1. Introduction to Menus</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="menus.html#context-menus">1.1. Context Menus</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="menus.html#tear-off-menus">1.2. Tear-off menus</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="menus.html#tab-menus">1.3. Tab menus</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-file-menu.html">2. The <span class="quote">“<span class="quote">File</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-menu.html#gimp-file-introduction">2.1. Overview</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-new.html">2.2. New</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-create.html">2.3. Create</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-open.html">2.4. Open</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-open-as-layer.html">2.5. Open as Layers</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-open-location.html">2.6. Open Location</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-open-recent.html">2.7. Open Recent</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-save.html">2.8. Save</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-save-as.html">2.9. Save as</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-save-a-copy.html">2.10. Save a Copy</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-save-as-template.html">2.11. Save as Template</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-revert.html">2.12. Revert</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="file-print-gtk.html">2.13. Print</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-close.html">2.14. Close</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-close-all.html">2.15. Close all</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-quit.html">2.16. Quit</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-edit-menu.html">3. The <span class="quote">“<span class="quote">Edit</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-menu.html#gimp-edit-introduction">3.1. <span class="quote">“<span class="quote">Edit</span>”</span> Menu Entries</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-undo.html">3.2. Undo</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-redo.html">3.3. Redo</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-fade.html">3.4. Fade</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-undo-history.html">3.5. Undo History</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-cut.html">3.6. Cut</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-copy.html">3.7. Copy</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-copy-visible.html">3.8. Copy Visible</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-paste.html">3.9. Paste</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-paste-into.html">3.10. Paste Into</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-paste-as.html">3.11. Paste as</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-buffer-dialog.html">3.12. Buffer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-clear.html">3.13. Clear</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-fill-fg.html">3.14. Fill with FG Color</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-fill-bg.html">3.15. Fill with BG Color</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-edit-fill-pattern.html">3.16. Fill with Pattern</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-stroke.html">3.17. Stroke Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-path-stroke.html">3.18. Stroke Path</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-file-preferences.html">3.19. The <span class="quote">“<span class="quote">Preferences</span>”</span> Command</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-help-keyboard-shortcuts.html">3.20. Keyboard Shortcuts</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-module-dialog.html">3.21. Modules</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-unit-editor.html">3.22. Units</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-select-menu.html">4. The <span class="quote">“<span class="quote">Select</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-select-menu.html#idp20391696">4.1. Introduction to the <span class="quote">“<span class="quote">Select</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-all.html">4.2. Select All</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-none.html">4.3. None</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-invert.html">4.4. Invert</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-float.html">4.5. Float</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-by_color.html">4.6. By Color</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-path-selection-replace.html">4.7. From Path</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-dialog.html">4.8. Selection Editor</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-feather.html">4.9. Feather</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-sharpen.html">4.10. Sharpen</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-shrink.html">4.11. Shrink</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-grow.html">4.12. Grow</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-border.html">4.13. Border</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-distress-selection.html">4.14. Distort</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-selection-rounded-rectangle.html">4.15. Rounded Rectangle</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-quick-mask-toggle.html">4.16. Toggle QuickMask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-to-channel.html">4.17. Save to Channel</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-selection-to-path.html">4.18. To Path</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-view-menu.html">5. The <span class="quote">“<span class="quote">View</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-menu.html#gimp-view-introduction">5.1. Introduction to the <span class="quote">“<span class="quote">View</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-new.html">5.2. New View</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-dot-for-dot.html">5.3. Dot for Dot</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-zoom.html">5.4. Zoom</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-shrink-wrap.html">5.5. Shrink Wrap</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-fullscreen.html">5.6. Full Screen</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-navigation.html">5.7. Navigation Window</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-display-filter-dialog.html">5.8. Display Filters</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-selection.html">5.9. Show Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-layer-boundary.html">5.10. Show Layer Boundary</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-guides.html">5.11. Show Guides</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-grid.html">5.12. Show Grid</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-sample-points.html">5.13. Show Sample Points</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-snap-to-guides.html">5.14. Snap to Guides</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-snap-to-grid.html">5.15. Snap to Grid</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-snap-to-canvas.html">5.16. Snap to Canvas</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-snap-to-vectors.html">5.17. Snap to Active Path</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-padding-color.html">5.18. Padding Color</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-menubar.html">5.19. Show Menubar</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-rulers.html">5.20. Show Rulers</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-scrollbars.html">5.21. Show Scrollbars</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-view-show-statusbar.html">5.22. Show Statusbar</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-image-menu.html">6. The <span class="quote">“<span class="quote">Image</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-menu.html#gimp-image-menu-overview">6.1. Overview</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-duplicate.html">6.2. Duplicate</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-mode.html">6.3. Mode</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-convert-rgb.html">6.4. RGB mode</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-convert-grayscale.html">6.5. Grayscale mode</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-convert-indexed.html">6.6. Indexed mode</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-transform.html">6.7. Transform</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-flip-horizontal.html">6.8. Flip Horizontally; Flip Vertically</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-rotate-90.html">6.9. Rotation</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-guillotine.html">6.10. Guillotine</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-resize.html">6.11. Canvas Size</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-resize-to-layers.html">6.12. Fit Canvas to Layers</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-resize-to-selection.html">6.13. Fit Canvas to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-print-size.html">6.14. Print Size</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-scale.html">6.15. Scale Image</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-crop.html">6.16. Crop to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-autocrop.html">6.17. Autocrop Image</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-zealouscrop.html">6.18. Zealous Crop</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-merge-layers.html">6.19. Merge Visible Layers</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-flatten.html">6.20. Flatten Image</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-align-layers.html">6.21. Align Visible Layers</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-guides.html">6.22. Guides</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-guide-new.html">6.23. New Guide</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-guide-new-percent.html">6.24. New Guide (by Percent)</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-guides-from-selection.html">6.25. New Guides from Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-guides-remove.html">6.26. Remove all guides</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-configure-grid.html">6.27. Configure Grid</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-properties.html">6.28. Image Properties</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-layer-menu.html">7. The <span class="quote">“<span class="quote">Layer</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-menu.html#gimp-layer-introduction">7.1. Introduction to the <span class="quote">“<span class="quote">Layer</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-new.html">7.2. New Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-new-from-visible.html">7.3. New From Visible</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-duplicate.html">7.4. Duplicate layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-anchor.html">7.5. Anchor layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-merge-down.html">7.6. Merge Down</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-delete.html">7.7. Delete Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-text-commands.html">7.8. The Text Commands of the Layer Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-text-discard.html">7.9. Discard Text Information</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-stack-menu.html">7.10. <span class="quote">“<span class="quote">Stack</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-previous.html">7.11. Select Previous Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-next.html">7.12. Select Next Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-top.html">7.13. Select Top Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-bottom.html">7.14. Select Bottom Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-raise.html">7.15. Raise Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-lower.html">7.16. Lower Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-raise-to-top.html">7.17. Layer to Top</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-lower-to-bottom.html">7.18. Layer to Bottom</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-reverse-layers.html">7.19. The <span class="quote">“<span class="quote">Reverse Layer Order</span>”</span> command</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-menu.html">7.20. The <span class="quote">“<span class="quote">Mask</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-add.html">7.21. Add Layer Mask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-apply.html">7.22. 
+    Apply Layer Mask
+  </a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-delete.html">7.23. Delete Layer Mask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-show.html">7.24. Show Layer Mask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-edit.html">7.25. Edit Layer Mask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-disable.html">7.26. Disable Layer Mask</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-selection-replace.html">7.27. Mask to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-selection-add.html">7.28. Add Layer Mask to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-selection-subtract.html">7.29. Subtract Layer Mask from Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-mask-selection-intersect.html">7.30. Intersect Layer Mask with Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-transparency-menu.html">7.31. 
+    The <span class="quote">“<span class="quote">Transparency</span>”</span> Submenu of the <span class="quote">“<span class="quote">Layer</span>”</span> menu
+  </a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-add.html">7.32. Add Alpha Channel</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-remove.html">7.33. Remove Alpha Channel</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-color-to-alpha.html">7.34. Color to Alpha</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-semi-flatten.html">7.35. Semi-flatten</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-threshold-alpha.html">7.36. Threshold Alpha</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-selection-replace.html">7.37. Alpha to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-selection-add.html">7.38. Add Alpha channel to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-selection-subtract.html">7.39. Subtract from Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-alpha-selection-intersect.html">7.40. Intersect Alpha channel with Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-transform-menu.html">7.41. The <span class="quote">“<span class="quote">Transform</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-flip-horizontal.html">7.42. Flip Horizontally</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-flip-vertical.html">7.43. Flip Vertically</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-rotate-90.html">7.44. Rotate 90° clockwise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-rotate-270.html">7.45. Rotate 90° counter-clockwise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-rotate-180.html">7.46. Rotate 180°</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-rotate-arbitrary.html">7.47. Arbitrary Rotation</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-offset.html">7.48. Offset</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-resize.html">7.49. Layer Boundary Size</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-resize-to-image.html">7.50. Layer to Image Size</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-scale.html">7.51. Scale Layer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-crop.html">7.52. Crop to Selection</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-autocrop-layer.html">7.53. Autocrop Layer</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-colors-menu.html">8. The <span class="quote">“<span class="quote">Colors</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-menu.html#gimp-colors-introduction">8.1. Introduction to the <span class="quote">“<span class="quote">Colors</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-tools-menu.html">8.2. Colors Tools</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-invert.html">8.3. Invert</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-vinvert.html">8.4. Value Invert</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-config-use-gegl.html">8.5. Use GEGL</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-auto-menu.html">8.6. The <span class="quote">“<span class="quote">Auto</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-equalize.html">8.7. Equalize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-layer-white-balance.html">8.8. White Balance</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-color-enhance.html">8.9. Color Enhance</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-normalize.html">8.10. Normalize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-c-astretch.html">8.11. Stretch Contrast</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-autostretch-hsv.html">8.12. Stretch HSV</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-components-menu.html">8.13. The <span class="quote">“<span class="quote">Components</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-colors-channel-mixer.html">8.14. Channel Mixer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-compose.html">8.15. Compose</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-decompose-registered.html">8.16. 
+    
+    <span>Decompose</span>
+  </a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-recompose.html">8.17. Recompose</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-map-menu.html">8.18. The <span class="quote">“<span class="quote">Map</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-colormap-remap.html">8.19. Rearrange Colormap</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-set-cmap.html">8.20. Set Colormap</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-alienmap2.html">8.21. Alien Map</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-exchange.html">8.22. Color Exchange</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-gradmap.html">8.23. Gradient Map</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-palettemap.html">8.24. Palette Map</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-rotate-colormap.html">8.25. Rotate Colors</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sample-colorize.html">8.26. Sample Colorize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-info-menu.html">8.27. The <span class="quote">“<span class="quote">Info</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-info-histogram.html">8.28. Histogram</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-borderaverage.html">8.29. Border Average</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-ccanalyze.html">8.30. Colorcube Analysis</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-smooth-palette.html">8.31. Smooth Palette</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-colors-filters.html">8.32. The Color Filters</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-colorify.html">8.33. Colorify</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-colortoalpha.html">8.34. Color to Alpha</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-filter-pack.html">8.35. Filter Pack</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-hot.html">8.36. Hot</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-max-rgb.html">8.37. Max RGB</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-retinex.html">8.38. Retinex</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-menu.html">9. The <span class="quote">“<span class="quote">Tools</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tools-menu.html#gimp-tools-menu-introduction">9.1. Introduction to the <span class="quote">“<span class="quote">Tools</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-filters-menu.html">10. The <span class="quote">“<span class="quote">Filters</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filters-menu.html#gimp-menu-filters-introduction">10.1. Introduction to the <span class="quote">“<span class="quote">Filters</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filter-repeat.html">10.2. Repeat Last</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filter-reshow.html">10.3. Re-show Last</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filter-reset-all.html">10.4. Reset All Filters</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filters-python-fu.html">10.5. The <span class="quote">“<span class="quote">Python-Fu</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-filters-script-fu.html">10.6. The <span class="quote">“<span class="quote">Script-Fu</span>”</span> Submenu</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-windows-menu.html">11. The <span class="quote">“<span class="quote">Windows</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-windows-menu.html#gimp-windows-introduction">11.1. <span class="quote">“<span class="quote">Windows</span>”</span> Menu Entries</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-windows-open-recent-dock.html">11.2. The <span class="quote">“<span class="quote">Recently Closed Docks</span>”</span> submenu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-windows-show-dock.html">11.3. The <span class="quote">“<span class="quote">Dockable Dialogs</span>”</span> submenu</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-help-menu.html">12. The <span class="quote">“<span class="quote">Help</span>”</span> Menu</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-help-menu.html#gimp-help-introduction">12.1. Introduction to the <span class="quote">“<span class="quote">Help</span>”</span> Menu</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-help.html">12.2. Help</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-help-context.html">12.3. Context Help</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-tips-dialog.html">12.4. Tip of the Day</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-about-dialog.html">12.5. About</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-plug-in-details.html">12.6. Plug-In Browser</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-dbbrowser.html">12.7. The Procedure Browser</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-help-online.html">12.8. GIMP online</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="filters.html">17. Filters</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="filters.html#filter-introduction">1. Introduction</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters.html#idp14575568">1.1. Preview</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-blur.html">2. Blur Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-blur.html#filters-blur-introduction">2.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-blur.html">2.2. Blur</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-gauss.html">2.3. Gaussian Blur</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sel-gauss.html">2.4. Selective Gaussian Blur</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-mblur.html">2.5. Motion Blur</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-pixelize.html">2.6. Pixelise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-tile-blur.html">2.7. Tileable Blur</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-enhance.html">3. Enhance Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-enhance.html#filters-enhance-introduction">3.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-antialias.html">3.2. Antialias</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-deinterlace.html">3.3. Deinterlace</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-despeckle.html">3.4. Despeckle</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-destripe.html">3.5. Destripe</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-nlfilt.html">3.6. NL Filter</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-red-eye-removal.html">3.7. Red Eye Removal</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sharpen.html">3.8. Sharpen</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-unsharp-mask.html">3.9. Unsharp Mask</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-distort.html">4. Distort Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-distort.html#filters-distort-introduction">4.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-blinds.html">4.2. Blinds</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-curve-bend.html">4.3. Curve Bend</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-emboss.html">4.4. Emboss</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-engrave.html">4.5. Engrave</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-erase-rows.html">4.6. Erase Every Other Row</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-iwarp.html">4.7. IWarp</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-lens-distortion.html">4.8. Lens Distortion</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-mosaic.html">4.9. Mosaic</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-newsprint.html">4.10. Newsprint</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-pagecurl.html">4.11. Page Curl</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-polar-coords.html">4.12. Polar Coords</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-ripple.html">4.13. Ripple</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-shift.html">4.14. Shift</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-vpropagate.html">4.15. Value Propagate</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-video.html">4.16. Video</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-waves.html">4.17. Waves</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-whirl-pinch.html">4.18. Whirl and Pinch</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-wind.html">4.19. Wind</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-light-and-shadow.html">5. Light and Shadow Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-light-and-shadow.html#filters-light-and-shadow-introduction">5.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-gflare.html">5.2. Gradient Flare</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-flarefx.html">5.3. Lens Flare</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-lighting.html">5.4. Lighting Effects</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sparkle.html">5.5. Sparkle</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-nova.html">5.6. Supernova</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-drop-shadow.html">5.7. Drop Shadow</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-perspective-shadow.html">5.8. Perspective</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-xach-effect.html">5.9. Xach-Effect</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-applylens.html">5.10. Apply Lens</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-glasstile.html">5.11. Glass Tile</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-noise.html">6. Noise Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-noise.html#filters-noise-introduction">6.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-hsv-noise.html">6.2. HSV Noise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-randomize-hurl.html">6.3. Hurl</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-randomize-pick.html">6.4. Pick</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-rgb-noise.html">6.5. RGB Noise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-randomize-slur.html">6.6. Slur</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-spread.html">6.7. Spread</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-edge.html">7. Edge-Detect Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-edge.html#filters-edges-introduction">7.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-dog.html">7.2. Difference of Gaussians</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-edge.html">7.3. Edge</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-laplace.html">7.4. Laplace</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-neon.html">7.5. Neon</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sobel.html">7.6. Sobel</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-generic.html">8. Generic Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-generic.html#filters-generic-introduction">8.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-convmatrix.html">8.2. Convolution Matrix</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-dilate.html">8.3. Dilate</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-erode.html">8.4. Erode</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-combine.html">9. Combine Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-combine.html#filters-combine-introduction">9.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-depth-merge.html">9.2. Depth Merge</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-film.html">9.3. Film</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-artistic.html">10. Artistic Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-artistic.html#filters-artistic-introduction">10.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-apply-canvas.html">10.2. Apply Canvas</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-cartoon.html">10.3. Cartoon</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-clothify.html">10.4. Clothify</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-cubism.html">10.5. Cubism</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-gimpressionist.html">10.6. GIMPressionist</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-oilify.html">10.7. Oilify</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-photocopy.html">10.8. Photocopy</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-predator.html">10.9. Predator</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-softglow.html">10.10. Softglow</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-lic.html">10.11. Van Gogh (LIC)</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-weave.html">10.12. Weave</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-decor.html">11. Decor Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-decor.html#filters-decor-introduction">11.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-add-bevel.html">11.2. Add Bevel</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-addborder.html">11.3. Add Border</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-coffee-stain.html">11.4. Coffee Stain</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-fuzzy-border.html">11.5. Fuzzy Border</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-old-photo.html">11.6. Old Photo</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-round-corners.html">11.7. Round Corners</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-slide.html">11.8. Slide</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-carve-it.html">11.9. Stencil Carve</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-sota-chrome-it.html">11.10. Stencil Chrome</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-map.html">12. Map Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-map.html#filters-map-introduction">12.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-bump-map.html">12.2. Bump Map</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-displace.html">12.3. Displace</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-fractal-trace.html">12.4. Fractal Trace</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-illusion.html">12.5. Illusion</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-make-seamless.html">12.6. Make Seamless</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-map-object.html">12.7. Map Object</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-papertile.html">12.8. Paper Tile</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-small-tiles.html">12.9. Small Tiles</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-tile.html">12.10. Tile</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-warp.html">12.11. Warp</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-render.html">13. Rendering Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-render.html#filters-render-introduction">13.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-difference-clouds.html">13.2. Difference Clouds</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="python-fu-foggify.html">13.3. Fog</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-plasma.html">13.4. Plasma</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-solid-noise.html">13.5. Solid Noise</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-flame.html">13.6. Flame</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-ifscompose.html">13.7. IFS Fractal</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-checkerboard.html">13.8. Checkerboard</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-cml-explorer.html">13.9. CML Explorer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-diffraction.html">13.10. Diffraction Patterns</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-grid.html">13.11. Grid</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-jigsaw.html">13.12. Jigsaw</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-maze.html">13.13. Maze</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-qbist.html">13.14. Qbist</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-sinus.html">13.15. Sinus</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-circuit.html">13.16. Circuit</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-fractalexplorer.html">13.17. Fractal Explorer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-gfig.html">13.18. Gfig</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-lava.html">13.19. Lava</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-line-nova.html">13.20. Line Nova</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-spheredesigner.html">13.21. Sphere Designer</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-spyrogimp.html">13.22. Spyrogimp</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-web.html">14.  Web Filters </a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-web.html#filters-web-introduction">14.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-imagemap.html">14.2. ImageMap</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-semiflatten.html">14.3. Semi-Flatten</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="python-fu-slice.html">14.4. Slice</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-animation.html">15. Animation Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-animation.html#filters-animation-introduction">15.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-blend-anim.html">15.2. Blend</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-burn-in-anim.html">15.3. Burn-In</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-ripply-anim.html">15.4. Rippling</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-spinning-globe.html">15.5. Spinning Globe</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-waves-anim.html">15.6. Waves</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-optimize.html">15.7. Optimize</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="plug-in-animationplay.html">15.8. Playback</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="filters-alpha-to-logo.html">16. Alpha to Logo Filters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="filters-alpha-to-logo.html#filters-alpha-to-logo-introduction">16.1. Introduction</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-3d-outline-logo-alpha.html">16.2. 3D Outline</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-alien-glow-logo-alpha.html">16.3. Alien Glow</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-alien-neon-logo-alpha.html">16.4. Alien Neon</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-basic-logo-alpha.html">16.5. Basic I &amp; II</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-blended-logo-alpha.html">16.6. Blended</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-bovinated-logo-alpha.html">16.7. Bovination</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-chalk-logo-alpha.html">16.8. Chalk</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-chip-away-logo-alpha.html">16.9. Chip Away</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-chrome-logo-alpha.html">16.10. Chrome</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-comic-logo-alpha.html">16.11. Comic Book</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-cool-metal-logo-alpha.html">16.12. Cool Metal</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-frosty-logo-alpha.html">16.13. Frosty</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-glossy-logo-alpha.html">16.14. Glossy</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-glowing-logo-alpha.html">16.15. Glowing Hot</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-gradient-bevel-logo-alpha.html">16.16. Gradient Bevel</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-neon-logo-alpha.html">16.17. Neon</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-t-o-p-logo-alpha.html">16.18. Particle Trace</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="script-fu-textured-logo-alpha.html">16.19. Textured</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="reference">
+              <a href="key-reference.html">I. Keys and Mouse Reference</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-help.html">Help</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Help</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-tools.html">Tools</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for the <span class="guimenuitem">Tools</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-file.html">File</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for the <span class="guimenuitem">File</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-dialogs.html">Dialogs</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Dockable Dialogs</span> submenu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-view.html">View</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">View</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-edit.html">Edit</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Edit</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-layer.html">Layer</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Layer</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-select.html">Select</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Select</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-filters.html">Filters</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for <span class="guimenuitem">Filters</span> menu
+      </span>
+              </dt>
+              <dt>
+                <span class="refentrytitle">
+                  <a href="key-reference-zoom.html">Zoom tool</a>
+                </span>
+                <span class="refpurpose"> — 
+        Key reference for the <span class="guimenuitem">Zoom tool</span> submenu
+      </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-result.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tools.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-result.html">3.7. Your script and its working</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tools.html">Chapter 14. Tools</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

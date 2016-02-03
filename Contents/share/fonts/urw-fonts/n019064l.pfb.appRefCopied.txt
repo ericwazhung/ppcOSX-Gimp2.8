@@ -1,0 +1,14 @@
+'../share/fonts/urw-fonts/n019064l.pfb'
+ '../share/fonts/urw-fonts/n019064l.pfb'
+  copied for '..//var/cache/fontconfig/4bb6f1e3c6ab0a9ec27c28a1e484f90b-be32d4.cache-3'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:29:29 PDT 2014
+Also requested for '..//var/cache/fontconfig/4bb6f1e3c6ab0a9ec27c28a1e484f90b-be32d4.cache-4'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:29:53 PDT 2014

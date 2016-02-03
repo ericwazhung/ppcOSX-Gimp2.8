@@ -1,0 +1,4 @@
+
+'/opt/local/lib/gtk-2.0/2.10.0/engines'' DNE. Requested by './/libpixmap.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'

@@ -1,0 +1,14 @@
+'../share/fonts/misc/8x13.pcf.gz'
+ '../share/fonts/misc/8x13.pcf.gz'
+  copied for '..//var/cache/fontconfig/3992021e537544ea55aa8ac3c6bb24cf-be32d4.cache-3'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+  at Wed Aug  6 04:28:33 PDT 2014
+Also requested for '..//var/cache/fontconfig/3992021e537544ea55aa8ac3c6bb24cf-be32d4.cache-4'
+  from '../lib/libfontconfig.1.dylib'
+  from '../lib/libgtk-quartz-2.0.0.dylib'
+  from 'libgtk-quartz-2.0.0.dylib'
+  from '/Users/meh/myexecs/appReferences2.sh'
+ at Wed Aug  6 04:29:11 PDT 2014

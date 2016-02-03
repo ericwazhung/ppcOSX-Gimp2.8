@@ -1,0 +1,44 @@
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-am-et.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-cedilla.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-cyrillic-translit.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-inuktitut.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-ipa.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-multipress.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-quartz.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-thai.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-ti-er.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-ti-et.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
+
+'/opt/local/lib/gtk-2.0/2.10.0/immodules'' DNE. Requested by './/im-viqr.la'
+  from './'
+  from '/Users/meh/myexecs/appReferences2.sh'
